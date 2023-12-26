@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="376dp"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:contentDescription="bg_logo"
+        android:src="@drawable/title" />
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/bg_logo"-->
+<!--        android:layout_width="181dp"-->
+<!--        android:layout_height="175dp"-->
+<!--        android:layout_gravity="bottom|center"-->
+<!--        android:layout_marginBottom="-30dp"-->
+<!--        android:contentDescription="bg_logo"-->
+<!--        android:src="@drawable/bg_logo" />-->
+<!--    </RelativeLayout>-->
+</FrameLayout>

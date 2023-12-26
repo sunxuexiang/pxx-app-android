@@ -1,0 +1,21 @@
+{
+  "GrouponCateListResponse": {
+    "grouponCateVOList": [
+      {
+        "defaultCate": 0,
+        "grouponCateId": "officia",
+        "grouponCateName": "ipsum Duis consequat"
+      },
+      {
+        "defaultCate": 1,
+        "grouponCateId": "laborum tempor",
+        "grouponCateName": "quis"
+      },
+      {
+        "defaultCate": 0,
+        "grouponCateId": "incididunt in",
+        "grouponCateName": "proident"
+      }
+    ]
+  }
+}

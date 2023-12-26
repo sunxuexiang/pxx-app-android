@@ -1,0 +1,76 @@
+{
+  "CustomerGoodsEvaluatePraiseAddResponse": {
+    "customerGoodsEvaluatePraiseVO": {
+      "createTime": "1987-03-17T07:02:43.015Z",
+      "customerId": "in consectetur exercitation",
+      "goodsEvaluateId": "dolore consectetur aute",
+      "id": "consequat deserunt"
+    }
+  },
+  "CustomerGoodsEvaluatePraiseModifyResponse": {
+    "customerGoodsEvaluatePraiseVO": {
+      "createTime": "1949-11-27T12:18:29.134Z",
+      "customerId": "commodo",
+      "goodsEvaluateId": "cillum aliqua Du",
+      "id": "anim"
+    }
+  },
+  "CustomerGoodsEvaluatePraisePageResponse": {
+    "customerGoodsEvaluatePraiseVOPage": {
+      "content": [
+        {
+          "createTime": "1944-03-15T02:17:48.314Z",
+          "customerId": "adipis",
+          "goodsEvaluateId": "ut ipsum amet",
+          "id": "sed"
+        },
+        {
+          "createTime": "1963-08-21T09:02:34.441Z",
+          "customerId": "pariatur sit nulla Lorem amet",
+          "goodsEvaluateId": "eiusmod commodo sit fugiat ut",
+          "id": "anim eiusmod aliqua exercitation"
+        },
+        {
+          "createTime": "1998-09-29T19:10:36.397Z",
+          "customerId": "ad Exce",
+          "goodsEvaluateId": "laborum occaecat",
+          "id": "et minim qui"
+        },
+        {
+          "createTime": "1967-05-22T12:41:28.275Z",
+          "customerId": "ut",
+          "goodsEvaluateId": "sunt Ut",
+          "id": "eu"
+        },
+        {
+          "createTime": "1974-06-05T15:54:42.688Z",
+          "customerId": "enim nulla ad reprehenderit minim",
+          "goodsEvaluateId": "in",
+          "id": "dolore enim"
+        }
+      ],
+      "empty": false,
+      "first": false,
+      "last": false,
+      "number": 60545039,
+      "numberOfElements": -90478798,
+      "size": 88870410,
+      "sort": {
+        "empty": false,
+        "sorted": false,
+        "unsorted": false
+      },
+      "total": -12041721,
+      "totalElements": 16691690,
+      "totalPages": 48140003
+    }
+  },
+  "CustomerGoodsEvaluatePraiseByIdResponse": {
+    "customerGoodsEvaluatePraiseVO": {
+      "createTime": "2012-11-16T09:07:12.252Z",
+      "customerId": "nostrud cillum in",
+      "goodsEvaluateId": "ea",
+      "id": "culpa"
+    }
+  }
+}

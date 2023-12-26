@@ -1,0 +1,10 @@
+{
+  "ThirdLoginSendCodeResponse": {
+    "isRegister": true
+  },
+  "LinkedAccountFlagsQueryResponse": {
+    "headimgurl": "ad aute incididunt nulla",
+    "nickname": "ipsum elit in ut",
+    "wxFlag": true
+  }
+}

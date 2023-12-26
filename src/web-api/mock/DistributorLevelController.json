@@ -1,0 +1,19 @@
+{
+  "DistributorLevelByCustomerIdResponse": {
+    "distributorLevelVO": {
+      "commissionRate": 21256664.691552356,
+      "distributorLevelId": "Excepteur laborum ea incididunt",
+      "distributorLevelName": "ex in qui",
+      "inviteFlag": 1,
+      "inviteThreshold": -26330646,
+      "percentageRate": 65512121.18138471,
+      "recordFlag": 1,
+      "recordThreshold": 23175487.484040096,
+      "salesFlag": 1,
+      "salesThreshold": -82622824.98004669,
+      "sort": -26231003,
+      "updatePerson": "ut adipisicing labore",
+      "updateTime": "1950-07-21T21:44:40.159Z"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "DistributorGoodsInfoAddResponse": {
+    "customerId": "fugiat in nulla voluptat",
+    "goodsInfoId": "eu amet dolor sed ea",
+    "id": "exercitation in eu"
+  },
+  "DistributorGoodsInfoCountsResponse": {
+    "counts": 9255441
+  },
+  "DistributorGoodsInfoDeleteResponse": {
+    "result": 94300903
+  }
+}

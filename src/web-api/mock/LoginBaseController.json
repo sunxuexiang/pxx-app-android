@@ -1,0 +1,203 @@
+{
+  "noneName": {},
+  "RegisterResponse": {
+    "openFlag": 1,
+    "registerLimitType": 1
+  },
+  "LoginResponse": {
+    "accountName": "eiusmod reprehenderit dolore occaecat mollit",
+    "checkState": 72755000,
+    "couponResponse": {
+      "couponList": [
+        {
+          "couponDesc": "cupidatat in do aute ut",
+          "couponId": "esse culpa no",
+          "couponName": "irure cillum Lorem eu",
+          "couponType": 0,
+          "denomination": -41886270.6644489,
+          "effectiveDays": 37505518,
+          "endTime": "1977-06-21T12:32:19.685Z",
+          "fullBuyPrice": -27003396.822083563,
+          "fullBuyType": 1,
+          "platformFlag": 1,
+          "rangeDayType": 0,
+          "scopeType": 1,
+          "startTime": "1955-05-16T21:52:18.43Z",
+          "storeId": 10418389,
+          "totalCount": -79253801
+        },
+        {
+          "couponDesc": "minim labore aute",
+          "couponId": "exercitation Excepteu",
+          "couponName": "velit cillum nulla laborum ea",
+          "couponType": 2,
+          "denomination": -65335712.61535758,
+          "effectiveDays": 18382686,
+          "endTime": "1954-05-27T00:08:39.856Z",
+          "fullBuyPrice": -38186211.56150357,
+          "fullBuyType": 1,
+          "platformFlag": 0,
+          "rangeDayType": 0,
+          "scopeType": 3,
+          "startTime": "1977-11-14T09:09:08.569Z",
+          "storeId": 23905519,
+          "totalCount": -92872487
+        },
+        {
+          "couponDesc": "esse proident labore sed",
+          "couponId": "id aute minim",
+          "couponName": "mollit dolore laborum Excepteur",
+          "couponType": 2,
+          "denomination": -48788911.91283112,
+          "effectiveDays": 65247872,
+          "endTime": "2006-12-22T09:22:45.375Z",
+          "fullBuyPrice": -65710813.00130377,
+          "fullBuyType": 1,
+          "platformFlag": 1,
+          "rangeDayType": 1,
+          "scopeType": 3,
+          "startTime": "1989-08-05T16:37:22.496Z",
+          "storeId": 11182706,
+          "totalCount": -11659356
+        },
+        {
+          "couponDesc": "est",
+          "couponId": "enim laboris minim est",
+          "couponName": "cupidatat ex veniam aliqua",
+          "couponType": 0,
+          "denomination": -6780174.569789082,
+          "effectiveDays": -38781754,
+          "endTime": "1970-10-31T13:04:46.444Z",
+          "fullBuyPrice": 95310882.63498661,
+          "fullBuyType": 1,
+          "platformFlag": 1,
+          "rangeDayType": 1,
+          "scopeType": 1,
+          "startTime": "1980-10-23T10:26:58.32Z",
+          "storeId": -95716563,
+          "totalCount": -65310965
+        },
+        {
+          "couponDesc": "sunt",
+          "couponId": "esse dolore in amet ea",
+          "couponName": "Excepteur mollit veniam aute magna",
+          "couponType": 0,
+          "denomination": 85284516.257523,
+          "effectiveDays": -87891759,
+          "endTime": "2001-10-01T16:21:55.855Z",
+          "fullBuyPrice": -20348113.285450026,
+          "fullBuyType": 1,
+          "platformFlag": 1,
+          "rangeDayType": 1,
+          "scopeType": 2,
+          "startTime": "1985-04-04T18:51:01.631Z",
+          "storeId": -74190294,
+          "totalCount": 40503063
+        }
+      ],
+      "desc": "enim",
+      "title": "proident officia ex"
+    },
+    "customerDetail": {
+      "areaId": -51320419,
+      "cityId": 48295318,
+      "contactName": "sed velit sint ut exercitation",
+      "contactPhone": "ex Lorem dolore culpa",
+      "createPerson": "in",
+      "createTime": "1997-09-27T04:13:27.064Z",
+      "customerAddress": "deserunt",
+      "customerDetailId": "eiusmod enim ea quis eu",
+      "customerId": "occaecat Duis ad aliqua dolor",
+      "customerName": "do Excepteur nostrud deserunt et",
+      "customerStatus": 1,
+      "customerVO": {
+        "checkState": 2,
+        "createPerson": "dolore ut",
+        "createTime": "1980-10-09T19:51:03.883Z",
+        "customerAccount": "dolor reprehenderit cupidatat",
+        "customerDetail": null,
+        "customerId": "officia amet",
+        "customerLevelId": 50583581,
+        "customerPassword": "dolor",
+        "customerPayPassword": "",
+        "customerSaltVal": "sint",
+        "customerType": 1,
+        "delFlag": 0,
+        "deletePerson": "ut ea quis irure",
+        "deleteTime": "2009-12-11T02:34:42.874Z",
+        "distributeChannel": {
+          "channelType": 1,
+          "inviteeId": "nulla in laborum officia est"
+        },
+        "growthValue": -13412689,
+        "headImg": "Ut",
+        "loginErrorCount": -90166229,
+        "loginIp": "aliqua do ea consectetur elit",
+        "loginLockTime": "2001-06-23T13:16:22.967Z",
+        "loginTime": "1989-10-24T12:44:45.694Z",
+        "payErrorTime": -54162875,
+        "payLockTime": "1949-03-18T10:07:04.887Z",
+        "pointsAvailable": -93582610,
+        "pointsUsed": -86641767,
+        "safeLevel": 92156484,
+        "signContinuousDays": -48649174,
+        "storeCustomerRelaListByAll": [
+          {
+            "companyInfoId": -95162862,
+            "customerId": "ea sed commodo sint dolore",
+            "customerType": 0,
+            "employeeId": "consequat enim elit incididun",
+            "id": "Ut",
+            "storeId": -59704801,
+            "storeLevelId": -32139683
+          },
+          {
+            "companyInfoId": 38536693,
+            "customerId": "dolore ut qui",
+            "customerType": 0,
+            "employeeId": "tempor",
+            "id": "sit ullamco pariatur",
+            "storeId": 99152115,
+            "storeLevelId": 92766006
+          },
+          {
+            "companyInfoId": 5055771,
+            "customerId": "in",
+            "customerType": 0,
+            "employeeId": "laboris non Ut magna aliqua",
+            "id": "voluptate anim in aliqua nostrud",
+            "storeId": -54108440,
+            "storeLevelId": -24704507
+          },
+          {
+            "companyInfoId": -17586983,
+            "customerId": "Ut dolor sed nisi ex",
+            "customerType": 0,
+            "employeeId": "amet ut est",
+            "id": "D",
+            "storeId": 40245450,
+            "storeLevelId": 68978681
+          }
+        ],
+        "updatePerson": "quis Ut",
+        "updateTime": "1956-07-26T03:43:58.473Z"
+      },
+      "delFlag": 0,
+      "deletePerson": "par",
+      "deleteTime": "1974-04-10T02:44:09.012Z",
+      "employeeId": "adipisicing esse non exercitation",
+      "forbidReason": "pariatur nostrud",
+      "isDistributor": 1,
+      "provinceId": 29307685,
+      "rejectReason": "enim dolor cupidatat fugiat ea",
+      "updatePerson": "occaecat sunt ea proident",
+      "updateTime": "1947-11-09T18:57:24.644Z"
+    },
+    "customerId": "adipisicing ut a",
+    "isLoginFlag": false,
+    "token": "mollit est culpa nulla"
+  },
+  "UserAuditResponse": {
+    "audit": true
+  }
+}

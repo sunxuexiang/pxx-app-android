@@ -1,0 +1,71 @@
+{
+  "noneName": "amet",
+  "PayGatewayConfigResponse": {
+    "account": "minim elit irure",
+    "apiKey": "consectetur",
+    "appId": "ut reprehenderit et consequat nisi",
+    "appId2": "nisi ad in tempor",
+    "bossBackUrl": "sint eiusmod",
+    "createTime": "1978-02-15T22:45:50.525Z",
+    "id": 72378080,
+    "openPlatformAccount": "commodo cillum est nulla conse",
+    "openPlatformApiKey": "Lorem nulla anim irure fugiat",
+    "openPlatformAppId": "fugiat Du",
+    "openPlatformSecret": "enim officia est aliquip non",
+    "payGateway": {
+      "config": {
+        "account": "consectetur pariatur occaecat Ut nulla",
+        "apiKey": "nulla labor",
+        "appId": "cillum in sint",
+        "appId2": "velit",
+        "bossBackUrl": "minim deserunt mollit in",
+        "createTime": "1952-11-06T04:06:04.029Z",
+        "id": 89337630,
+        "openPlatformAccount": "non in",
+        "openPlatformApiKey": "sit fugiat quis",
+        "openPlatformAppId": "ex m",
+        "openPlatformSecret": "Lorem sed",
+        "payGateway": null,
+        "pcBackUrl": "tempor",
+        "pcWebUrl": "ut cillum adipisicing incididunt ipsum",
+        "privateKey": "veniam tempor esse",
+        "publicKey": "id",
+        "secret": "irure est"
+      },
+      "createTime": "1965-03-28T10:06:38.909Z",
+      "id": -72258490,
+      "isOpen": 0,
+      "name": 64670998,
+      "payChannelItemList": [
+        {
+          "channel": "minim et qui",
+          "code": "",
+          "createTime": "1949-06-03T10:26:57.161Z",
+          "gateway": null,
+          "id": 23773753,
+          "isOpen": 1,
+          "name": "id ut officia culpa",
+          "terminal": 1
+        },
+        {
+          "channel": "dolor cupidatat elit",
+          "code": "esse aliqua irure",
+          "createTime": "1974-09-20T16:18:14.794Z",
+          "gateway": null,
+          "id": 50862104,
+          "isOpen": 0,
+          "name": "est eu sint non laboris",
+          "terminal": 1
+        },
+        null,
+        null
+      ],
+      "type": false
+    },
+    "pcBackUrl": "ex ea Duis in culpa",
+    "pcWebUrl": "in ad Ut",
+    "privateKey": "aliqua",
+    "publicKey": "proident eiusmod",
+    "secret": "labore sunt"
+  }
+}

@@ -1,0 +1,514 @@
+.freeLayoutBar{position:relative}.freeLayoutBar:not(.editing){overflow:hidden}.freeLayoutBar .element-box{position:absolute;left:0;top:0;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;height:100%;z-index:1}.freeLayoutBar .element-box.image{pointer-events:none}.freeLayoutBar .element-box.image .element-image{pointer-events:auto}.freeLayoutBar .draggable.text .drag-content{width:auto;height:auto}.freeLayoutBar .draggable.text .element-box{height:auto;font-family:PingFangSC-Regular,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif}.freeLayoutBar .draggable .element-box{position:static}.freeLayoutBar .draggable .element-box.active,.freeLayoutBar .draggable .element-box:hover{outline:1px dashed #ddd}.freeLayoutBar .element-wrapper{width:100%;height:100%}.freeLayoutBar .element-wrapper a{color:inherit}.freeLayoutBar .element{position:relative;z-index:1;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.freeLayoutBar .element-image{display:block;width:100%;height:100%}.freeLayoutBar .element-image img{width:100%;height:100%}.freeLayoutBar .element-shape,.freeLayoutBar .element-shape svg{display:block;width:100%;height:100%}.freeLayoutBar .element-shape svg{overflow:visible}.freeLayoutBar .element-text{word-wrap:break-word;height:100%;outline:none;cursor:move}.freeLayoutBar .element-text.active{color:text}.freeLayoutBar .bkg-layer{width:100%;height:100%;overflow:hidden;position:absolute;margin:0 auto;left:0;right:0;top:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.freeLayoutBar .bkg-layer>img{position:absolute;pointer-events:none}.freeLayoutBar .bkg-layer svg{width:100%;height:100%}.freeLayoutBar .history-button{width:36px;height:36px;border-radius:36px;color:#666;background:#fff;display:inline-block;font-family:editor-icon!important;margin-bottom:10px;-webkit-box-shadow:0 0 3px 0 #aaa;box-shadow:0 0 3px 0 #aaa;cursor:pointer}.freeLayoutBar .history-button:hover{background-color:#666;color:#fff}.freeLayoutBar .history-button:before{display:inline-block;position:relative;text-align:center;text-transform:none;font-weight:400;font-style:normal;font-variant:normal;line-height:36px;-webkit-font-smoothing:antialiased;font-size:20px}.freeLayoutBar .history-button.prev:before{content:"\E66B";display:block}.freeLayoutBar .history-button.next:before{content:"\E675";display:block}.freeLayoutBar .element-image.img-view {
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%; }
+
+.freeLayoutBar .img-filter {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 2px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0; }
+  .freeLayoutBar .img-filter:hover, .freeLayoutBar .img-filter.active {
+    border: 1px solid #5491de; }
+
+.freeLayoutBar .img-filter > div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.freeLayoutBar .img-filter-0 {
+  filter: none;
+  -webkit-filter: none; }
+
+.freeLayoutBar .img-filter-1 {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1); }
+
+.freeLayoutBar .img-filter-2 {
+  filter: blur(1.5px);
+  -webkit-filter: blur(1.5px); }
+
+.freeLayoutBar .img-filter-3 {
+  filter: sepia(1);
+  -webkit-filter: sepia(1); }
+
+.freeLayoutBar .img-filter-4 {
+  filter: hue-rotate(165deg);
+  -webkit-filter: hue-rotate(165deg); }
+
+.freeLayoutBar .img-filter-5 {
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2); }
+
+.freeLayoutBar .img-filter-6 {
+  filter: saturate(2.5);
+  -webkit-filter: saturate(2.5); }
+
+.freeLayoutBar .img-filter-7 {
+  filter: invert(1);
+  -webkit-filter: invert(1); }
+
+.img-crop-handler.polygon.poly-0 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-0.svg"); }
+
+.img-crop-handler-poly-0 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-0.svg"); }
+
+.img-crop-handler.polygon.poly-1 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-1.svg"); }
+
+.img-crop-handler-poly-1 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-1.svg"); }
+
+.img-view.cropped.poly-1 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-1.svg"); }
+
+.element-image.img-view.cropped.poly-1 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-1.svg"); }
+
+.img-crop-handler.polygon.poly-2 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-2.svg"); }
+
+.img-crop-handler-poly-2 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-2.svg"); }
+
+.img-view.cropped.poly-2 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-2.svg"); }
+
+.element-image.img-view.cropped.poly-2 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-2.svg"); }
+
+.img-crop-handler.polygon.poly-3 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-3.svg"); }
+
+.img-crop-handler-poly-3 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-3.svg"); }
+
+.img-view.cropped.poly-3 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-3.svg"); }
+
+.element-image.img-view.cropped.poly-3 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-3.svg"); }
+
+.img-crop-handler.polygon.poly-4 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-4.svg"); }
+
+.img-crop-handler-poly-4 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-4.svg"); }
+
+.img-view.cropped.poly-4 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-4.svg"); }
+
+.element-image.img-view.cropped.poly-4 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-4.svg"); }
+
+.img-crop-handler.polygon.poly-5 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-5.svg"); }
+
+.img-crop-handler-poly-5 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-5.svg"); }
+
+.img-view.cropped.poly-5 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-5.svg"); }
+
+.element-image.img-view.cropped.poly-5 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-5.svg"); }
+
+.img-crop-handler.polygon.poly-6 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-6.svg"); }
+
+.img-crop-handler-poly-6 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-6.svg"); }
+
+.img-view.cropped.poly-6 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-6.svg"); }
+
+.element-image.img-view.cropped.poly-6 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-6.svg"); }
+
+.img-crop-handler.polygon.poly-7 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-7.svg"); }
+
+.img-crop-handler-poly-7 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-7.svg"); }
+
+.img-view.cropped.poly-7 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-7.svg"); }
+
+.element-image.img-view.cropped.poly-7 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-7.svg"); }
+
+.img-crop-handler.polygon.poly-8 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-8.svg"); }
+
+.img-crop-handler-poly-8 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-8.svg"); }
+
+.img-view.cropped.poly-8 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-8.svg"); }
+
+.element-image.img-view.cropped.poly-8 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-8.svg"); }
+
+.img-crop-handler.polygon.poly-9 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-9.svg"); }
+
+.img-crop-handler-poly-9 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-9.svg"); }
+
+.img-view.cropped.poly-9 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-9.svg"); }
+
+.element-image.img-view.cropped.poly-9 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-9.svg"); }
+
+.img-crop-handler.polygon.poly-10 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-10.svg"); }
+
+.img-crop-handler-poly-10 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-10.svg"); }
+
+.img-view.cropped.poly-10 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-10.svg"); }
+
+.element-image.img-view.cropped.poly-10 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-10.svg"); }
+
+.img-crop-handler.polygon.poly-11 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-11.svg"); }
+
+.img-crop-handler-poly-11 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-11.svg"); }
+
+.img-view.cropped.poly-11 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-11.svg"); }
+
+.element-image.img-view.cropped.poly-11 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-11.svg"); }
+
+.img-crop-handler.polygon.poly-12 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-12.svg"); }
+
+.img-crop-handler-poly-12 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-12.svg"); }
+
+.img-view.cropped.poly-12 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-12.svg"); }
+
+.element-image.img-view.cropped.poly-12 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-12.svg"); }
+
+.img-crop-handler.polygon.poly-13 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-13.svg"); }
+
+.img-crop-handler-poly-13 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-13.svg"); }
+
+.img-view.cropped.poly-13 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-13.svg"); }
+
+.element-image.img-view.cropped.poly-13 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-13.svg"); }
+
+.img-crop-handler.polygon.poly-14 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-14.svg"); }
+
+.img-crop-handler-poly-14 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-14.svg"); }
+
+.img-view.cropped.poly-14 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-14.svg"); }
+
+.element-image.img-view.cropped.poly-14 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-14.svg"); }
+
+.img-crop-handler.polygon.poly-15 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-15.svg"); }
+
+.img-crop-handler-poly-15 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-15.svg"); }
+
+.img-view.cropped.poly-15 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-15.svg"); }
+
+.element-image.img-view.cropped.poly-15 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-15.svg"); }
+
+.img-crop-handler.polygon.poly-16 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-16.svg"); }
+
+.img-crop-handler-poly-16 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-16.svg"); }
+
+.img-view.cropped.poly-16 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-16.svg"); }
+
+.element-image.img-view.cropped.poly-16 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-16.svg"); }
+
+.img-crop-handler.polygon.poly-17 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-17.svg"); }
+
+.img-crop-handler-poly-17 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-17.svg"); }
+
+.img-view.cropped.poly-17 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-17.svg"); }
+
+.element-image.img-view.cropped.poly-17 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-17.svg"); }
+
+.img-crop-handler.polygon.poly-18 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-18.svg"); }
+
+.img-crop-handler-poly-18 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-18.svg"); }
+
+.img-view.cropped.poly-18 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-18.svg"); }
+
+.element-image.img-view.cropped.poly-18 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-18.svg"); }
+
+.img-crop-handler.polygon.poly-19 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-19.svg"); }
+
+.img-crop-handler-poly-19 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-19.svg"); }
+
+.img-view.cropped.poly-19 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-19.svg"); }
+
+.element-image.img-view.cropped.poly-19 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-19.svg"); }
+
+.img-crop-handler.polygon.poly-20 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-20.svg"); }
+
+.img-crop-handler-poly-20 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-20.svg"); }
+
+.img-view.cropped.poly-20 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-20.svg"); }
+
+.element-image.img-view.cropped.poly-20 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-20.svg"); }
+
+.img-crop-handler.polygon.poly-21 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-21.svg"); }
+
+.img-crop-handler-poly-21 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-21.svg"); }
+
+.img-view.cropped.poly-21 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-21.svg"); }
+
+.element-image.img-view.cropped.poly-21 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-21.svg"); }
+
+.img-crop-handler.polygon.poly-22 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-22.svg"); }
+
+.img-crop-handler-poly-22 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-22.svg"); }
+
+.img-view.cropped.poly-22 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-22.svg"); }
+
+.element-image.img-view.cropped.poly-22 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-22.svg"); }
+
+.img-crop-handler.polygon.poly-23 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-23.svg"); }
+
+.img-crop-handler-poly-23 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-23.svg"); }
+
+.img-view.cropped.poly-23 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-23.svg"); }
+
+.element-image.img-view.cropped.poly-23 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-23.svg"); }
+
+.img-crop-handler.polygon.poly-24 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-24.svg"); }
+
+.img-crop-handler-poly-24 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-24.svg"); }
+
+.img-view.cropped.poly-24 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-24.svg"); }
+
+.element-image.img-view.cropped.poly-24 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-24.svg"); }
+
+.img-crop-handler.polygon.poly-25 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-25.svg"); }
+
+.img-crop-handler-poly-25 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-25.svg"); }
+
+.img-view.cropped.poly-25 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-25.svg"); }
+
+.element-image.img-view.cropped.poly-25 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-25.svg"); }
+
+.img-crop-handler.polygon.poly-26 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-26.svg"); }
+
+.img-crop-handler-poly-26 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-26.svg"); }
+
+.img-view.cropped.poly-26 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-26.svg"); }
+
+.element-image.img-view.cropped.poly-26 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-26.svg"); }
+
+.img-crop-handler.polygon.poly-27 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-27.svg"); }
+
+.img-crop-handler-poly-27 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-27.svg"); }
+
+.img-view.cropped.poly-27 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-27.svg"); }
+
+.element-image.img-view.cropped.poly-27 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-27.svg"); }
+
+.img-crop-handler.polygon.poly-28 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-28.svg"); }
+
+.img-crop-handler-poly-28 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-28.svg"); }
+
+.img-view.cropped.poly-28 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-28.svg"); }
+
+.element-image.img-view.cropped.poly-28 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-28.svg"); }
+
+.img-crop-handler.polygon.poly-29 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-29.svg"); }
+
+.img-crop-handler-poly-29 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-29.svg"); }
+
+.img-view.cropped.poly-29 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-29.svg"); }
+
+.element-image.img-view.cropped.poly-29 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-29.svg"); }
+
+.img-crop-handler.polygon.poly-30 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-30.svg"); }
+
+.img-crop-handler-poly-30 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-30.svg"); }
+
+.img-view.cropped.poly-30 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-30.svg"); }
+
+.element-image.img-view.cropped.poly-30 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-30.svg"); }
+
+.img-crop-handler.polygon.poly-31 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-31.svg"); }
+
+.img-crop-handler-poly-31 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-31.svg"); }
+
+.img-view.cropped.poly-31 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-31.svg"); }
+
+.element-image.img-view.cropped.poly-31 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-31.svg"); }
+
+.img-crop-handler.polygon.poly-32 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-32.svg"); }
+
+.img-crop-handler-poly-32 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-32.svg"); }
+
+.img-view.cropped.poly-32 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-32.svg"); }
+
+.element-image.img-view.cropped.poly-32 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-32.svg"); }
+
+.img-crop-handler.polygon.poly-33 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-33.svg"); }
+
+.img-crop-handler-poly-33 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-33.svg"); }
+
+.img-view.cropped.poly-33 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-33.svg"); }
+
+.element-image.img-view.cropped.poly-33 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-33.svg"); }
+
+.img-crop-handler.polygon.poly-34 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-34.svg"); }
+
+.img-crop-handler-poly-34 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-34.svg"); }
+
+.img-view.cropped.poly-34 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-34.svg"); }
+
+.element-image.img-view.cropped.poly-34 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-34.svg"); }
+
+.img-crop-handler.polygon.poly-35 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-35.svg"); }
+
+.img-crop-handler-poly-35 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-35.svg"); }
+
+.img-view.cropped.poly-35 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-35.svg"); }
+
+.element-image.img-view.cropped.poly-35 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-35.svg"); }
+
+.img-crop-handler.polygon.poly-36 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-36.svg"); }
+
+.img-crop-handler-poly-36 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-36.svg"); }
+
+.img-view.cropped.poly-36 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-36.svg"); }
+
+.element-image.img-view.cropped.poly-36 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-36.svg"); }
+
+.img-crop-handler.polygon.poly-37 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-37.svg"); }
+
+.img-crop-handler-poly-37 {
+  background-image: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-37.svg"); }
+
+.img-view.cropped.poly-37 > .inner {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-37.svg"); }
+
+.element-image.img-view.cropped.poly-37 {
+  -webkit-mask-box-image-source: url("https://qianmi-web.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-wechat/statics/freelayout/mask-shape/shape-37.svg"); }

@@ -1,0 +1,175 @@
+'use strict';
+
+import React, { Component } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default class Time extends Component {
+  static defaultProps = {
+    timeOffset: 0,
+    overHandler: () => {},
+    timeStyle: {},
+    colonStyle: {},
+    timeClock: {},
+    time: {},
+    timeDaysStyle: {},
+    hideSeconds: true, //隐藏秒
+    parame: {},
+    //倒计时结束的处理
+    endHandle: () => {},
+    //时间文本样式
+    timeTextStyle: {},
+    //前缀文字
+    label: '',
+    //前缀文字样式
+    labelText: {},
+    //是否展示剩余天数
+    showTimeDays: false,
+    //当前路由名称
+    timerName: 'default',
+    showTimeDayStyle: {}
+  };
+
+  state = {
+    //默认倒计时时间，正整数，单位：秒
+    timeOffset: this.props.timeOffset
+  };
+
+  constructor(props) {
+    super(props);
+  }
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    if (nextProps.timeOffset != this.props.timeOffset) {
+      this.setState({
+        timeOffset: nextProps.timeOffset
+      });
+    }
+  }
+
+  componentDidMount() {
+    this._doCount();
+  }
+
+  componentWillUnmount() {
+    if (this.timer) {
+      clearInterval(this.timer);
+    }
+  }
+
+  render() {
+    return this.state.timeOffset >= 0 ? (
+      <View {...this.props}>
+        {!!this.props.label && (
+          <Text allowFontScaling={false} style={this.props.labelText}>
+            {this.props.label}
+          </Text>
+        )}
+        {this._timeFormat(this.state.timeOffset)}
+      </View>
+    ) : null;
+  }
+
+  _timeFormat = (timeOffset) => {
+    const day = Math.floor(timeOffset / (24 * 3600));
+    const hour = Math.floor((timeOffset / 60 / 60) % 24);
+    const min = Math.floor((timeOffset / 60) % 60);
+    const second = timeOffset % 60;
+    let trueDay = day < 10 ? '0' + day : day;
+    let trueHour = hour < 10 ? '0' + hour : hour;
+    let truemin = min < 10 ? '0' + min : min;
+    let trueSec = second < 10 ? '0' + second : second;
+    if (
+      trueDay == '00' &&
+      trueHour == '00' &&
+      truemin == '00' &&
+      trueSec == '00'
+    ) {
+      //执行定时器timerName与当前页面名称一致的倒计时方法
+      if (
+        this.props.endHandle &&
+        this.props.timerName == window.currentRouteName
+      ) {
+        this.props.endHandle();
+      }
+    }
+    return (
+      <View
+        allowFontScaling={false}
+      >
+        {this.props.showTimeDays && trueDay != '00' ? (
+          <View style={styles.box}>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{trueDay}</Text>
+            </View>
+            <Text style={styles.dot}>天:</Text>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{trueHour}</Text>
+            </View>
+            <Text style={styles.dot}>:</Text>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{truemin}</Text>
+            </View>
+            <Text style={styles.dot}>:</Text>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{trueSec}</Text>
+            </View>
+          </View>
+        ) : (
+          <View style={styles.box}>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{trueHour}</Text>
+            </View>
+            <Text style={styles.dot}>:</Text>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{truemin}</Text>
+            </View>
+            <Text style={styles.dot}>:</Text>
+            <View style={[styles.border,this.props.showTimeDayStyle]}>
+              <Text style={styles.timeText}>{trueSec}</Text>
+            </View>
+          </View>
+        )}
+      </View>
+    );
+  };
+
+  /**
+   * 计时器倒计时
+   */
+  _doCount = () => {
+    //将定时器统一赋给window全局对象，便于清除
+    this.timer = setInterval(() => {
+      if (this.state.timeOffset <= 1) {
+        clearInterval(this.timer);
+        this.props.overHandler();
+      }
+      this.setState({
+        timeOffset: this.state.timeOffset - 1
+      });
+    }, 1000);
+  };
+}
+
+const styles = StyleSheet.create({
+  timeText: {
+    color: '#fff',
+    fontSize: 12,
+    fontWeight: 'bold'
+  },
+  box: {
+    flexDirection: 'row'
+  },
+  border: {
+    borderWidth: 1,
+    backgroundColor: 'rgba(0,0,0,0.8)',
+    paddingHorizontal: 5,
+    paddingVertical: 3,
+    borderRadius: 2,
+    flexDirection: 'row',
+    // marginLeft:10
+  },
+  dot: {
+    color:'rgba(0,0,0,0.8)',
+    marginHorizontal:4
+  }
+});

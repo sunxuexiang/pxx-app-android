@@ -1,0 +1,76 @@
+{
+  "GoodsBrandVOArray": [
+    {
+      "brandId": -98030088,
+      "brandName": "dolor culpa occaecat quis",
+      "createTime": "2001-06-18T23:29:47.166Z",
+      "delFlag": 1,
+      "logo": "velit eiusmod dolor fugiat",
+      "nickName": "nisi consequat dolor sunt",
+      "pinYin": "exercitation ut",
+      "spinYin": "pariatur sit Ut cupidatat eiusmod",
+      "storeId": 78325055,
+      "updateTime": "2002-08-03T02:15:13.71Z"
+    },
+    {
+      "brandId": 99531029,
+      "brandName": "sed cupidatat officia d",
+      "createTime": "1990-03-07T14:38:05.404Z",
+      "delFlag": 1,
+      "logo": "dolor do ullamco fugiat",
+      "nickName": "anim est do commodo",
+      "pinYin": "in est anim consequat Duis",
+      "spinYin": "id magn",
+      "storeId": 52826414,
+      "updateTime": "2016-05-29T00:17:33.924Z"
+    },
+    {
+      "brandId": 80100833,
+      "brandName": "nostrud qui aliquip veniam",
+      "createTime": "1992-12-24T00:37:48.869Z",
+      "delFlag": 0,
+      "logo": "veniam",
+      "nickName": "nulla ut aliquip esse elit",
+      "pinYin": "pariatur minim veniam anim dolor",
+      "spinYin": "anim labore nulla tempor laboris",
+      "storeId": -89788303,
+      "updateTime": "1963-09-24T06:34:21.595Z"
+    },
+    {
+      "brandId": -88769486,
+      "brandName": "dolore",
+      "createTime": "1973-08-12T00:35:44.254Z",
+      "delFlag": 1,
+      "logo": "exercitation cupidatat",
+      "nickName": "mollit ullamco sit Lorem",
+      "pinYin": "culpa cupidatat",
+      "spinYin": "id eu",
+      "storeId": -1965966,
+      "updateTime": "1947-10-04T05:33:20.706Z"
+    },
+    {
+      "brandId": 79021812,
+      "brandName": "proident",
+      "createTime": "1940-12-05T17:19:09.791Z",
+      "delFlag": 1,
+      "logo": "a",
+      "nickName": "non exercitation est ut",
+      "pinYin": "esse",
+      "spinYin": "incididunt ad eiusmod culpa",
+      "storeId": 44181278,
+      "updateTime": "1939-08-10T01:02:10.128Z"
+    }
+  ],
+  "GoodsBrandByIdResponse": {
+    "brandId": -24053705,
+    "brandName": "laboris sed esse ea anim",
+    "createTime": "2004-05-28T01:22:08.873Z",
+    "delFlag": 1,
+    "logo": "esse amet incididunt irure ",
+    "nickName": "Excepteur eu eiusm",
+    "pinYin": "labore fugiat p",
+    "spinYin": "sed cillum",
+    "storeId": -73440077,
+    "updateTime": "1987-10-19T09:40:13.889Z"
+  }
+}

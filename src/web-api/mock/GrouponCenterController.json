@@ -1,0 +1,77 @@
+{
+  "GrouponCenterListResponse": {
+    "grouponCenterVOList": {
+      "content": [
+        {
+          "alreadyGrouponNum": -98210161,
+          "goodsId": "pariatur dolore sint",
+          "goodsImg": "tempor labore",
+          "goodsInfoId": "dolore",
+          "goodsName": "incididunt",
+          "grouponActivityId": "ad enim",
+          "grouponNum": 87306913,
+          "grouponPrice": 16757366.339137599,
+          "marketPrice": 36016964.39546162
+        },
+        {
+          "alreadyGrouponNum": -71893983,
+          "goodsId": "reprehenderit",
+          "goodsImg": "mollit enim consectetur ad",
+          "goodsInfoId": "commodo ut",
+          "goodsName": "elit nulla",
+          "grouponActivityId": "Excepteur cupidatat dolore pariatur",
+          "grouponNum": -80819490,
+          "grouponPrice": 70874767.66903773,
+          "marketPrice": 96612546.0248859
+        },
+        {
+          "alreadyGrouponNum": 33772471,
+          "goodsId": "enim aliquip aliqua voluptate tempor",
+          "goodsImg": "eu pariatur",
+          "goodsInfoId": "eiusmod sint",
+          "goodsName": "voluptate fugiat nisi ut",
+          "grouponActivityId": "ipsum",
+          "grouponNum": 62896046,
+          "grouponPrice": 27835421.32883139,
+          "marketPrice": -69197703.37417153
+        },
+        {
+          "alreadyGrouponNum": 86552538,
+          "goodsId": "laborum do",
+          "goodsImg": "aliqua dolore ut exercitation",
+          "goodsInfoId": "ea veniam",
+          "goodsName": "ut ",
+          "grouponActivityId": "cillum",
+          "grouponNum": -24785387,
+          "grouponPrice": 18860297.26039417,
+          "marketPrice": 15122508.653198004
+        },
+        {
+          "alreadyGrouponNum": -26998274,
+          "goodsId": "dolore ex sint ipsum id",
+          "goodsImg": "dolor",
+          "goodsInfoId": "dolore ea qui elit",
+          "goodsName": "in nostrud consequat",
+          "grouponActivityId": "officia",
+          "grouponNum": -49357320,
+          "grouponPrice": -23713034.88558638,
+          "marketPrice": -43992331.69164774
+        }
+      ],
+      "empty": false,
+      "first": true,
+      "last": false,
+      "number": -21988424,
+      "numberOfElements": 60753677,
+      "size": -1189913,
+      "sort": {
+        "empty": true,
+        "sorted": true,
+        "unsorted": false
+      },
+      "total": -92064254,
+      "totalElements": -11721519,
+      "totalPages": -33406218
+    }
+  }
+}

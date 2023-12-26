@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "paths": {
+      "@/typings": ["./typings"],
+      "api": ["./src/web-api"],
+      "@/redux/*": ["./src/redux/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/wmkit": ["./wmkit"],
+      "@/wmkit/biz": ["./wmkit/biz"],
+      "@/wmkit/styles": ["./wmkit/styles"]
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js"]
+}

@@ -1,0 +1,94 @@
+{
+  "AppMessagePageResponse": {
+    "appMessageVOPage": {
+      "content": [
+        {
+          "appMessageId": "fugiat proident quis",
+          "content": "esse",
+          "customerId": "dolore",
+          "imgUrl": "pa",
+          "isRead": 1,
+          "joinId": 46279269,
+          "messageType": 0,
+          "messageTypeDetail": 3,
+          "routeName": "pariatur",
+          "routeParam": "sit aliquip",
+          "sendTime": "2000-12-13T19:58:42.066Z",
+          "title": "ei"
+        },
+        {
+          "appMessageId": "elit",
+          "content": "in anim",
+          "customerId": "aliquip",
+          "imgUrl": "aute Lorem amet",
+          "isRead": 0,
+          "joinId": 22520918,
+          "messageType": 0,
+          "messageTypeDetail": 0,
+          "routeName": "en",
+          "routeParam": "ea nostrud exercitation",
+          "sendTime": "1944-12-11T15:55:19.157Z",
+          "title": "commodo cillum dolore in exercitation"
+        },
+        {
+          "appMessageId": "anim",
+          "content": "aliqua",
+          "customerId": "in sunt",
+          "imgUrl": "veniam eu",
+          "isRead": 1,
+          "joinId": 24855049,
+          "messageType": 1,
+          "messageTypeDetail": 1,
+          "routeName": "in ut ipsum",
+          "routeParam": "et consequat",
+          "sendTime": "1957-07-16T10:46:26.779Z",
+          "title": "cupidatat elit"
+        },
+        {
+          "appMessageId": "aute non tempor",
+          "content": "deserunt",
+          "customerId": "cillum fugiat Duis",
+          "imgUrl": "anim",
+          "isRead": 0,
+          "joinId": 56553116,
+          "messageType": 0,
+          "messageTypeDetail": 1,
+          "routeName": "in eiusm",
+          "routeParam": "exerc",
+          "sendTime": "2016-08-05T05:04:11.202Z",
+          "title": "nostrud ullamco"
+        },
+        {
+          "appMessageId": "voluptat",
+          "content": "",
+          "customerId": "id sunt non enim ullamco",
+          "imgUrl": "magna labore nostrud adipisicing",
+          "isRead": 1,
+          "joinId": -37928844,
+          "messageType": 1,
+          "messageTypeDetail": 1,
+          "routeName": "nulla voluptate in cupidatat nisi",
+          "routeParam": "irure deserunt aliqua",
+          "sendTime": "1999-10-24T15:00:32.228Z",
+          "title": "dolor"
+        }
+      ],
+      "empty": true,
+      "first": true,
+      "last": false,
+      "number": -33266515,
+      "numberOfElements": 52156831,
+      "size": 48670475,
+      "sort": {
+        "empty": false,
+        "sorted": false,
+        "unsorted": true
+      },
+      "total": 95683140,
+      "totalElements": 4171375,
+      "totalPages": -37863878
+    },
+    "noticeNum": 72183063,
+    "preferentialNum": 36323223
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "StoreLevelByCustomerIdAndStoreIdResponse": {
+    "customerName": "ea nostrud",
+    "storeLevelVO": {
+      "amountConditions": 58590957.42912057,
+      "createPerson": "cupidatat anim nulla sit cillum",
+      "createTime": "1996-12-04T18:21:13.378Z",
+      "delFlag": 570324,
+      "deletePerson": "ad laborum tempor aute exercitation",
+      "deleteTime": "1942-05-05T14:06:48.579Z",
+      "discountRate": -51078549.90060918,
+      "levelName": "ea in id quis",
+      "orderConditions": -12594005,
+      "storeId": -83654267,
+      "storeLevelId": -44444053,
+      "updatePerson": "reprehenderit Lorem in",
+      "updateTime": "1979-09-02T18:30:28.933Z"
+    },
+    "totalAmount": -31596588.410714194,
+    "totalOrder": -45837325
+  },
+  "StoreLevelListResponse": {
+    "storeLevelVOList": [
+      {
+        "amountConditions": 78661293.94341505,
+        "createPerson": "nostrud dolore elit",
+        "createTime": "1973-11-18T07:50:34.828Z",
+        "delFlag": -93382512,
+        "deletePerson": "culpa eiusmod minim magna",
+        "deleteTime": "2016-12-17T23:58:48.028Z",
+        "discountRate": -77177562.15123783,
+        "levelName": "proident ea",
+        "orderConditions": 37654611,
+        "storeId": 51828949,
+        "storeLevelId": -89587932,
+        "updatePerson": "dolor fugiat pariatur cupidatat nisi",
+        "updateTime": "2019-05-23T21:56:58.426Z"
+      },
+      {
+        "amountConditions": 28265124.605183706,
+        "createPerson": "et consectetur dolore deserunt aliquip",
+        "createTime": "1959-03-20T12:22:39.085Z",
+        "delFlag": 68964136,
+        "deletePerson": "id aliqua esse",
+        "deleteTime": "2007-05-07T06:59:13.984Z",
+        "discountRate": -37133562.13330301,
+        "levelName": "aliquip est la",
+        "orderConditions": 79358150,
+        "storeId": -53931288,
+        "storeLevelId": -75706031,
+        "updatePerson": "laboris occaecat fugiat sunt dolore",
+        "updateTime": "1964-03-13T21:12:11.92Z"
+      },
+      {
+        "amountConditions": -97604801.50030446,
+        "createPerson": "nulla pariatur veniam dolor est",
+        "createTime": "2001-07-14T12:55:42.2Z",
+        "delFlag": -33800991,
+        "deletePerson": "ipsum in ut",
+        "deleteTime": "1980-07-22T15:47:31.197Z",
+        "discountRate": -65029446.297962144,
+        "levelName": "voluptate officia dolor ut reprehenderit",
+        "orderConditions": -87000464,
+        "storeId": -57616928,
+        "storeLevelId": -75290572,
+        "updatePerson": "incididunt quis",
+        "updateTime": "1982-06-02T02:06:22.762Z"
+      },
+      {
+        "amountConditions": -19510136.651234105,
+        "createPerson": "sunt Ut",
+        "createTime": "2000-06-04T19:08:19.428Z",
+        "delFlag": 35635655,
+        "deletePerson": "ut",
+        "deleteTime": "1983-04-27T00:16:48.35Z",
+        "discountRate": -96311748.12681365,
+        "levelName": "ipsum veniam esse aliqua id",
+        "orderConditions": -70179602,
+        "storeId": 86674749,
+        "storeLevelId": 79561752,
+        "updatePerson": "exercitation ",
+        "updateTime": "1988-07-10T16:34:30.937Z"
+      },
+      {
+        "amountConditions": 25575281.803120032,
+        "createPerson": "dolore laboris deserunt cillum",
+        "createTime": "1966-08-15T14:30:09.926Z",
+        "delFlag": 4368110,
+        "deletePerson": "dolore tempor dolor ea ad",
+        "deleteTime": "1974-11-23T00:02:57.838Z",
+        "discountRate": 80507942.0908156,
+        "levelName": "consequat",
+        "orderConditions": 14214726,
+        "storeId": 91810196,
+        "storeLevelId": -96288558,
+        "updatePerson": "dolor aliquip officia sit ex",
+        "updateTime": "1980-09-22T02:43:40.376Z"
+      }
+    ]
+  }
+}

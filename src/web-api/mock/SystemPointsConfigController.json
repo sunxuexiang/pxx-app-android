@@ -1,0 +1,18 @@
+{
+  "SystemPointsConfigQueryResponse": {
+    "createTime": "1969-10-15T08:44:50.143Z",
+    "delFlag": 0,
+    "maxDeductionRate": -66445658.67402403,
+    "overPointsAvailable": -54324837,
+    "pointsConfigId": "velit aliqua in et mollit",
+    "pointsExpireDay": 55539420,
+    "pointsExpireMonth": 32849894,
+    "pointsWorth": 93001549,
+    "remark": "labore",
+    "status": 0,
+    "updateTime": "2016-09-10T07:37:55.97Z"
+  },
+  "BossGoodsEvaluateResponse": {
+    "evaluate": true
+  }
+}

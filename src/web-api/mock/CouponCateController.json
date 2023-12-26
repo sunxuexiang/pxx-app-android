@@ -1,0 +1,29 @@
+{
+  "CouponCateVOArray": [
+    {
+      "couponCateId": "ullamco",
+      "couponCateName": "consequat dolore",
+      "onlyPlatformFlag": 0
+    },
+    {
+      "couponCateId": "enim commodo",
+      "couponCateName": "velit sed sint deserunt",
+      "onlyPlatformFlag": 1
+    },
+    {
+      "couponCateId": "sint Duis dolore",
+      "couponCateName": "commodo",
+      "onlyPlatformFlag": 1
+    },
+    {
+      "couponCateId": "aliquip velit commodo",
+      "couponCateName": "tempor officia",
+      "onlyPlatformFlag": 1
+    },
+    {
+      "couponCateId": "pariatur in consectetur nulla ut",
+      "couponCateName": "cupidatat",
+      "onlyPlatformFlag": 0
+    }
+  ]
+}

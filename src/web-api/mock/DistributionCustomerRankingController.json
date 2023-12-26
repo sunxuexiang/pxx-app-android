@@ -1,0 +1,72 @@
+{
+  "DistributionCustomerRankingResponse": {
+    "distributionCustomerRankingVO": {
+      "commission": 4851056.486949101,
+      "customerId": "ad in id irure fugiat",
+      "id": "r",
+      "img": "et ipsum",
+      "inviteAvailableCount": 61179932,
+      "inviteCount": -73094166,
+      "name": "laborum ut ex deserunt",
+      "ranking": "aliquip dolore Ut",
+      "saleAmount": -52703244.1028958
+    },
+    "rankingVOList": [
+      {
+        "commission": -27009202.55922869,
+        "customerId": "non officia consectetur anim",
+        "id": "eiusmod enim dolor culpa eli",
+        "img": "ea nulla quis aliqua labore",
+        "inviteAvailableCount": 59479072,
+        "inviteCount": 78659062,
+        "name": "id",
+        "ranking": "fugiat",
+        "saleAmount": -96079138.15075938
+      },
+      {
+        "commission": -2457318.377335012,
+        "customerId": "tempor culpa minim est",
+        "id": "aliqua Excepteur in",
+        "img": "",
+        "inviteAvailableCount": -58663830,
+        "inviteCount": 66811561,
+        "name": "occa",
+        "ranking": "sunt",
+        "saleAmount": -30688523.40960589
+      },
+      {
+        "commission": -7836077.108728781,
+        "customerId": "eu",
+        "id": "magna Ut laborum cillum",
+        "img": "qui quis sunt enim magna",
+        "inviteAvailableCount": -49271080,
+        "inviteCount": 66956724,
+        "name": "officia non est sint pariatur",
+        "ranking": "cillum sint mollit",
+        "saleAmount": 21338057.40104577
+      },
+      {
+        "commission": -68337017.6007183,
+        "customerId": "reprehenderit non enim cupidatat esse",
+        "id": "dolore aute",
+        "img": "eiusmod labore",
+        "inviteAvailableCount": 26863664,
+        "inviteCount": -40641063,
+        "name": "fugiat amet sed",
+        "ranking": "nulla Duis laboris consequat",
+        "saleAmount": 31013101.11374876
+      },
+      {
+        "commission": -13678273.227314413,
+        "customerId": "velit",
+        "id": "exercitation ut",
+        "img": "veniam reprehenderit labore consequat",
+        "inviteAvailableCount": 95517040,
+        "inviteCount": -12485169,
+        "name": "in dolore Duis et",
+        "ranking": "officia occaecat irure id",
+        "saleAmount": 7109834.661413565
+      }
+    ]
+  }
+}

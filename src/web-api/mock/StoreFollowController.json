@@ -1,0 +1,132 @@
+{
+  "MicroServicePageStoreCustomerFollowVO": {
+    "content": [
+      {
+        "cityId": -77713202,
+        "companyInfoId": -73577700,
+        "companyType": -36356123,
+        "contactEmail": "sed veniam enim tempor laboris",
+        "contactMobile": "id proi",
+        "contactPerson": "quis",
+        "isFollowed": true,
+        "provinceId": -70005751,
+        "skuIds": [
+          "elit dolore culpa do consectetur",
+          "ipsum in ut",
+          "ipsum dolor fugiat veniam c",
+          "proident",
+          "nulla ut deserunt tempor adipisicing"
+        ],
+        "storeId": -5903729,
+        "storeLogo": "eu",
+        "storeName": "nostrud minim",
+        "storeResponseState": 0,
+        "storeSign": "voluptate ad sunt pariatur",
+        "supplierName": "ut nostrud minim"
+      },
+      {
+        "cityId": -12987445,
+        "companyInfoId": -66751279,
+        "companyType": -96157356,
+        "contactEmail": "laborum",
+        "contactMobile": "mollit commodo minim",
+        "contactPerson": "sint id minim",
+        "isFollowed": true,
+        "provinceId": -47916984,
+        "skuIds": [
+          "elit ea officia",
+          "sed Ut",
+          "consectetur non",
+          "ut",
+          "magna"
+        ],
+        "storeId": 29852340,
+        "storeLogo": "do",
+        "storeName": "laborum",
+        "storeResponseState": 1,
+        "storeSign": "ad do consectetur",
+        "supplierName": "proident eu"
+      },
+      {
+        "cityId": 59121462,
+        "companyInfoId": 71687748,
+        "companyType": 15157233,
+        "contactEmail": "do et ea",
+        "contactMobile": "Lorem laborum quis",
+        "contactPerson": "ea magna labore consectetur in",
+        "isFollowed": false,
+        "provinceId": -41545053,
+        "skuIds": [
+          "amet do reprehenderit voluptate exercitation",
+          "minim ut irure quis",
+          "sed elit commodo",
+          "Ut do",
+          "laborum in aliqua commodo reprehenderit"
+        ],
+        "storeId": 95085754,
+        "storeLogo": "tempor",
+        "storeName": "incididunt sit dolor quis consectetur",
+        "storeResponseState": 3,
+        "storeSign": "amet culpa",
+        "supplierName": "ut nisi nulla reprehenderit"
+      },
+      {
+        "cityId": 98798987,
+        "companyInfoId": 12515932,
+        "companyType": 32602540,
+        "contactEmail": "in deserunt",
+        "contactMobile": "officia",
+        "contactPerson": "laborum enim amet",
+        "isFollowed": false,
+        "provinceId": 40529801,
+        "skuIds": [
+          "ea aute",
+          "aliqua veniam culpa",
+          "Excepteur"
+        ],
+        "storeId": -3517619,
+        "storeLogo": "Lorem sed nulla ex",
+        "storeName": "aliquip labore",
+        "storeResponseState": 2,
+        "storeSign": "sint consectetur ut sunt",
+        "supplierName": "dolor minim cupidatat ip"
+      },
+      {
+        "cityId": -45896635,
+        "companyInfoId": -15792943,
+        "companyType": -1145038,
+        "contactEmail": "consequat mollit ea voluptate esse",
+        "contactMobile": "qui deserunt sit anim amet",
+        "contactPerson": "sed veniam ea sunt",
+        "isFollowed": true,
+        "provinceId": 96494208,
+        "skuIds": [
+          "sint id ad",
+          "est sunt amet eiusmod",
+          "dolore",
+          "nostru"
+        ],
+        "storeId": 97858886,
+        "storeLogo": "cupidatat deserunt",
+        "storeName": "eiusmod nostrud esse consectetur",
+        "storeResponseState": 2,
+        "storeSign": "qui",
+        "supplierName": "sunt ipsum adipisicing Lorem"
+      }
+    ],
+    "empty": false,
+    "first": false,
+    "last": true,
+    "number": 8400545,
+    "numberOfElements": 57420581,
+    "size": -50139780,
+    "sort": {
+      "empty": false,
+      "sorted": false,
+      "unsorted": false
+    },
+    "total": 58809065,
+    "totalElements": -73225342,
+    "totalPages": -34066912
+  }
+}

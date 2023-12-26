@@ -1,0 +1,10 @@
+<script>
+  document.addEventListener("message", function (msg) {
+    // 接收rn post过来的字符串，这里只有一个用处，接收魔方首页的配置信息，然后页面跳转走
+    if (msg.data != 'none' && msg.data != '\"none\"') { // 非none时保存首页配置
+      localStorage.mainPageConfig = msg.data;
+    }
+    document.getElementById('loader').click();
+  });
+</script>
+<a id="loader" href="#"></a>

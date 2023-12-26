@@ -1,0 +1,88 @@
+{
+  "CustomerPointsExpireResponse": {
+    "customerId": "Lorem",
+    "pointsExpireDate": "1982-10-25",
+    "pointsExpireStatus": 1,
+    "willExpirePoints": -98988367
+  },
+  "CustomerPointsDetailPageResponse": {
+    "customerPointsDetailVOPage": {
+      "content": [
+        {
+          "content": "quis",
+          "customerAccount": "laboris consequat ex magna",
+          "customerId": "proident et",
+          "customerName": "aute occaecat cillum enim incididunt",
+          "id": 13246340,
+          "opTime": "1978-01-05T23:49:07.103Z",
+          "points": 5378663,
+          "pointsAvailable": 81380251,
+          "serviceType": "4",
+          "type": "1"
+        },
+        {
+          "content": "dolor et minim nisi",
+          "customerAccount": "esse laborum",
+          "customerId": "in anim amet velit adipisicing",
+          "customerName": "aute",
+          "id": 76149057,
+          "opTime": "1942-08-12T06:01:12.462Z",
+          "points": -66986364,
+          "pointsAvailable": 33068850,
+          "serviceType": "18",
+          "type": "0"
+        },
+        {
+          "content": "velit",
+          "customerAccount": "sit cillum adipisicing in",
+          "customerId": "deserunt Duis",
+          "customerName": "veniam",
+          "id": 9039027,
+          "opTime": "1993-06-19T03:31:55.765Z",
+          "points": -20675567,
+          "pointsAvailable": 85044397,
+          "serviceType": "17",
+          "type": "0"
+        },
+        {
+          "content": "minim Excepteur amet in tempor",
+          "customerAccount": "cupidatat ad pariatur incididunt velit",
+          "customerId": "nulla velit id",
+          "customerName": "pariatur nostrud officia pro",
+          "id": 85521682,
+          "opTime": "1998-11-30T07:14:05.83Z",
+          "points": 93988882,
+          "pointsAvailable": 85323918,
+          "serviceType": "4",
+          "type": "1"
+        },
+        {
+          "content": "proident aliquip",
+          "customerAccount": "fugi",
+          "customerId": "dolor consectetur",
+          "customerName": "aute deserunt occaecat dolor",
+          "id": 53707492,
+          "opTime": "1962-10-08T01:44:52.296Z",
+          "points": 49609742,
+          "pointsAvailable": -3947014,
+          "serviceType": "2",
+          "type": "1"
+        }
+      ],
+      "empty": true,
+      "first": true,
+      "last": true,
+      "number": 23051768,
+      "numberOfElements": 39229215,
+      "size": 62939206,
+      "sort": {
+        "empty": false,
+        "sorted": true,
+        "unsorted": false
+      },
+      "total": 56013726,
+      "totalElements": 19100647,
+      "totalPages": -85799709
+    }
+  }
+}

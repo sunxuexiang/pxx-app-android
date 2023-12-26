@@ -1,0 +1,7 @@
+img.lazyload {
+  opacity: 0;
+}
+img.ImgComp {
+  width: 100%;
+  object-fit: contain;
+}

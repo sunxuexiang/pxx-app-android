@@ -1,0 +1,26 @@
+{
+  "RefundOrderResponse": {
+    "actualReturnPoints": -62084963,
+    "actualReturnPrice": -92849249.20927837,
+    "comment": "d",
+    "createTime": "2010-08-20T16:27:06.656Z",
+    "customerAccountName": "irure",
+    "customerId": "culpa",
+    "customerName": "magna mollit",
+    "offlineAccountId": -94292621,
+    "payChannel": "fugiat occaecat minim cillum",
+    "payChannelId": 83432785,
+    "payType": "0",
+    "refundBillCode": "enim Lorem consequat eu elit",
+    "refundBillTime": "1965-02-24T02:16:30.137Z",
+    "refundId": "Ut cillum sunt",
+    "refundStatus": 1,
+    "refuseReason": "nostrud proid",
+    "returnAccount": 46077427,
+    "returnAccountName": "officia nulla dol",
+    "returnOrderCode": "commodo",
+    "returnPoints": -44771158,
+    "returnPrice": 62971982.16030043,
+    "supplierName": "consectetur laborum"
+  }
+}

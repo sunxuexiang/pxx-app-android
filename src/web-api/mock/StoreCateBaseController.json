@@ -1,0 +1,462 @@
+{
+  "StoreCateResponseVOArray": [
+    {
+      "cateGrade": 41746195,
+      "cateName": "aute exercitation",
+      "cateParentId": -7301445,
+      "catePath": "ipsum ea exercitation",
+      "delFlag": 1,
+      "isDefault": 1,
+      "sort": -57446323,
+      "storeCateId": -6333111,
+      "storeCateList": [
+        {
+          "cateGrade": 87304097,
+          "cateImg": "pariatur tempor",
+          "cateName": "eiusmod laboris proid",
+          "cateParentId": -69762584,
+          "catePath": "ea veniam",
+          "createTime": "2006-01-28T17:01:09.459Z",
+          "delFlag": 0,
+          "isDefault": 0,
+          "pinYin": "ut",
+          "sort": -39555704,
+          "spinYin": "velit",
+          "storeCateId": -33588598,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": 71999551,
+          "updateTime": "2017-08-26T13:25:47.98Z"
+        },
+        {
+          "cateGrade": 69934797,
+          "cateImg": "nisi cillum",
+          "cateName": "veniam nulla",
+          "cateParentId": 52418014,
+          "catePath": "eiusmod sint",
+          "createTime": "2016-06-05T10:48:37.719Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "sint irure culpa",
+          "sort": 94989578,
+          "spinYin": "sed sint ex tempor",
+          "storeCateId": -85981615,
+          "storeCateList": [
+            null,
+            null,
+            null
+          ],
+          "storeId": -86085098,
+          "updateTime": "1955-08-20T12:21:58.748Z"
+        },
+        {
+          "cateGrade": -76985698,
+          "cateImg": "Duis incididunt",
+          "cateName": "commodo sint incididunt",
+          "cateParentId": 80560906,
+          "catePath": "exercitation in ullamco",
+          "createTime": "2015-06-27T04:05:56.19Z",
+          "delFlag": 0,
+          "isDefault": 1,
+          "pinYin": "culpa incididunt in aute",
+          "sort": -22221913,
+          "spinYin": "mollit commodo esse pariatur dolore",
+          "storeCateId": -79554643,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": 85993638,
+          "updateTime": "1996-09-05T19:47:35.791Z"
+        },
+        {
+          "cateGrade": -54430803,
+          "cateImg": "et ex ipsum",
+          "cateName": "officia",
+          "cateParentId": -96827971,
+          "catePath": "Lorem cupidatat",
+          "createTime": "1949-11-24T15:37:44.253Z",
+          "delFlag": 0,
+          "isDefault": 1,
+          "pinYin": "eiusmod pariatur",
+          "sort": 46248575,
+          "spinYin": "ad dolor voluptate irure",
+          "storeCateId": -38593334,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -26569333,
+          "updateTime": "1986-10-20T03:27:30.941Z"
+        },
+        {
+          "cateGrade": 15045326,
+          "cateImg": "magna in esse ad occaecat",
+          "cateName": "ex aliquip deserunt",
+          "cateParentId": 67256687,
+          "catePath": "dolore",
+          "createTime": "1964-02-23T06:21:55.587Z",
+          "delFlag": 0,
+          "isDefault": 1,
+          "pinYin": "sunt anim",
+          "sort": -89340992,
+          "spinYin": "elit aliqua exercitation in officia",
+          "storeCateId": 50299257,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -78399841,
+          "updateTime": "1996-01-22T16:37:45.81Z"
+        }
+      ],
+      "storeId": -16754793
+    },
+    {
+      "cateGrade": 14705768,
+      "cateName": "irure sint ipsum",
+      "cateParentId": -23918815,
+      "catePath": "non sed vol",
+      "delFlag": 0,
+      "isDefault": 1,
+      "sort": -77319981,
+      "storeCateId": -91730046,
+      "storeCateList": [
+        {
+          "cateGrade": -91806327,
+          "cateImg": "culpa ipsum pariatur",
+          "cateName": "culpa",
+          "cateParentId": 48947176,
+          "catePath": "magna fugiat enim ipsum",
+          "createTime": "1957-10-13T01:50:47.067Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "adipisicing commodo",
+          "sort": 85144020,
+          "spinYin": "culpa non aliquip ut id",
+          "storeCateId": -46765105,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -93705482,
+          "updateTime": "1956-12-13T14:02:07.998Z"
+        },
+        {
+          "cateGrade": 39775430,
+          "cateImg": "dolore sunt",
+          "cateName": "veniam Duis est consectetur",
+          "cateParentId": 15582491,
+          "catePath": "do Excepteur velit",
+          "createTime": "2006-07-18T15:55:53.271Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "Duis",
+          "sort": 94718050,
+          "spinYin": "laboris dolor elit",
+          "storeCateId": -11480588,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": 51181010,
+          "updateTime": "1965-09-01T06:30:37.368Z"
+        },
+        {
+          "cateGrade": 85291764,
+          "cateImg": "quis velit ani",
+          "cateName": "id anim sit",
+          "cateParentId": 53888288,
+          "catePath": "in sunt ut anim",
+          "createTime": "2014-05-10T17:31:54.149Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "Duis in",
+          "sort": -20677121,
+          "spinYin": "Lorem",
+          "storeCateId": 15526971,
+          "storeCateList": [
+            null
+          ],
+          "storeId": -83757333,
+          "updateTime": "1968-04-21T13:03:21.784Z"
+        },
+        {
+          "cateGrade": -99388302,
+          "cateImg": "incididunt",
+          "cateName": "ad non adipisicing",
+          "cateParentId": 27368244,
+          "catePath": "cillum nisi",
+          "createTime": "1973-06-26T07:37:29.154Z",
+          "delFlag": 0,
+          "isDefault": 1,
+          "pinYin": "fugiat incididunt",
+          "sort": -61394782,
+          "spinYin": "ullamco Lorem eiusmod ipsum cupidatat",
+          "storeCateId": 86704622,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -98983479,
+          "updateTime": "2018-04-08T01:54:04.861Z"
+        },
+        {
+          "cateGrade": 54270204,
+          "cateImg": "eiusmod consequat ea",
+          "cateName": "ex",
+          "cateParentId": 36402906,
+          "catePath": "laboris aliquip",
+          "createTime": "1960-08-09T16:13:34.216Z",
+          "delFlag": 0,
+          "isDefault": 0,
+          "pinYin": "commodo nostrud consequat consectetur",
+          "sort": -45344170,
+          "spinYin": "ipsum consectetur",
+          "storeCateId": 68931067,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": 68541187,
+          "updateTime": "2011-01-30T00:51:48.869Z"
+        }
+      ],
+      "storeId": 51793670
+    },
+    {
+      "cateGrade": -88527099,
+      "cateName": "eiusmod cillum dolor",
+      "cateParentId": 76481423,
+      "catePath": "nisi qui",
+      "delFlag": 0,
+      "isDefault": 1,
+      "sort": -90917642,
+      "storeCateId": 51293585,
+      "storeCateList": [
+        {
+          "cateGrade": -14027464,
+          "cateImg": "sit veniam et",
+          "cateName": "aute deserunt sed",
+          "cateParentId": 77655662,
+          "catePath": "sint",
+          "createTime": "1985-09-24T22:02:18.314Z",
+          "delFlag": 1,
+          "isDefault": 0,
+          "pinYin": "aute Excepteur Duis elit cillum",
+          "sort": 93731561,
+          "spinYin": "labore enim et",
+          "storeCateId": -38645660,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -61809765,
+          "updateTime": "2012-07-05T04:07:32.708Z"
+        },
+        {
+          "cateGrade": 58795804,
+          "cateImg": "in",
+          "cateName": "minim veniam laborum ipsum eu",
+          "cateParentId": 42289236,
+          "catePath": "Lorem Ut voluptate laboris",
+          "createTime": "1974-09-30T15:50:15.415Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "veniam tempor aliquip",
+          "sort": -52531421,
+          "spinYin": "sunt o",
+          "storeCateId": 42673981,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -55534851,
+          "updateTime": "2016-11-26T12:07:36.213Z"
+        },
+        {
+          "cateGrade": 63341699,
+          "cateImg": "eu ",
+          "cateName": "sint veniam proident Duis in",
+          "cateParentId": -62013246,
+          "catePath": "fugiat ut",
+          "createTime": "2002-07-13T03:55:56.921Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "amet magna anim aliqua fugiat",
+          "sort": 8755673,
+          "spinYin": "dolore quis",
+          "storeCateId": -59745114,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -84896077,
+          "updateTime": "1989-03-21T07:57:01.164Z"
+        },
+        {
+          "cateGrade": -56582076,
+          "cateImg": "consequat pariatur quis irure",
+          "cateName": "minim proident Lorem velit ipsum",
+          "cateParentId": -64285183,
+          "catePath": "dolor cillum sit nulla dolore",
+          "createTime": "2014-06-03T11:03:36.199Z",
+          "delFlag": 0,
+          "isDefault": 0,
+          "pinYin": "fugiat dolor pariatur est",
+          "sort": 94114356,
+          "spinYin": "ut sed nisi irure fugiat",
+          "storeCateId": -75970582,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": 14021036,
+          "updateTime": "1971-02-01T22:41:06.922Z"
+        },
+        {
+          "cateGrade": -42070696,
+          "cateImg": "consequat esse",
+          "cateName": "Excepteur labore",
+          "cateParentId": -33479621,
+          "catePath": "ad commodo",
+          "createTime": "1966-01-25T08:08:39.278Z",
+          "delFlag": 0,
+          "isDefault": 1,
+          "pinYin": "do",
+          "sort": -53274400,
+          "spinYin": "laboris incididunt cu",
+          "storeCateId": 13140877,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": -39836945,
+          "updateTime": "2016-03-13T00:40:59.497Z"
+        }
+      ],
+      "storeId": 1954602
+    },
+    {
+      "cateGrade": -27082005,
+      "cateName": "in Ut aliquip cupidatat",
+      "cateParentId": 39836426,
+      "catePath": "deserunt pariatur",
+      "delFlag": 0,
+      "isDefault": 1,
+      "sort": 79267551,
+      "storeCateId": -51972345,
+      "storeCateList": [
+        {
+          "cateGrade": 65026672,
+          "cateImg": "mollit in sint",
+          "cateName": "nulla ex incididunt tempor",
+          "cateParentId": 5154944,
+          "catePath": "qui non reprehenderit tempor Excepteur",
+          "createTime": "1965-07-02T16:06:26.388Z",
+          "delFlag": 1,
+          "isDefault": 1,
+          "pinYin": "enim in dolor",
+          "sort": 28592906,
+          "spinYin": "ea ut non",
+          "storeCateId": -31820570,
+          "storeCateList": [
+            null
+          ],
+          "storeId": 33840949,
+          "updateTime": "1987-07-08T08:05:55.658Z"
+        },
+        {
+          "cateGrade": -46969435,
+          "cateImg": "aliquip dolore",
+          "cateName": "dolore labore Ut laboris commodo",
+          "cateParentId": -34045878,
+          "catePath": "aute",
+          "createTime": "1952-10-27T07:21:21.723Z",
+          "delFlag": 0,
+          "isDefault": 0,
+          "pinYin": "officia ut ad laborum culpa",
+          "sort": -47364998,
+          "spinYin": "exercitation ipsum consequat ex tempor",
+          "storeCateId": -58131208,
+          "storeCateList": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "storeId": 47411643,
+          "updateTime": "2001-06-03T17:42:52.026Z"
+        }
+      ],
+      "storeId": 59537657
+    },
+    {
+      "cateGrade": 1379978,
+      "cateName": "magna est fugiat",
+      "cateParentId": -37865733,
+      "catePath": "nisi ex",
+      "delFlag": 0,
+      "isDefault": 0,
+      "sort": 65254100,
+      "storeCateId": -92190517,
+      "storeCateList": [
+        {
+          "cateGrade": -10248033,
+          "cateImg": "sunt cupidatat et occaecat",
+          "cateName": "laborum ut sit ex",
+          "cateParentId": 23758165,
+          "catePath": "dolor exercitation laborum ullamco",
+          "createTime": "1947-10-23T13:05:14.167Z",
+          "delFlag": 0,
+          "isDefault": 1,
+          "pinYin": "nostrud ",
+          "sort": -62836245,
+          "spinYin": "minim et aliquip aute pariatur",
+          "storeCateId": 28317964,
+          "storeCateList": [
+            null,
+            null
+          ],
+          "storeId": 6785717,
+          "updateTime": "2010-03-18T16:33:23.33Z"
+        }
+      ],
+      "storeId": 50019095
+    }
+  ]
+}

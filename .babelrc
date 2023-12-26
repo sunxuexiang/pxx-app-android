@@ -1,0 +1,59 @@
+{
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-remove-console"
+      ]
+    }
+  },
+  "plugins": [
+    "transform-rn-react-dom",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    // [
+    //   "import",
+    //   {
+    //     "libraryName": "antd-mobile",
+    //     "style": "true"
+    //   }
+    // ],
+    [
+      "import",
+      {
+        "libraryName": "@ant-design/react-native"
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": [
+          "."
+        ],
+        "alias": {
+          "@/redux": [
+            "./src/redux"
+          ],
+          "@/typings": [
+            "./typings"
+          ],
+          "api": [
+            "./src/web-api"
+          ],
+          "@/pages": [
+            "./src/pages"
+          ],
+          "styles": [
+            "./wmkit/styles"
+          ],
+          "@/wmkit": [
+            "./wmkit"
+          ]
+        }
+      }
+    ],
+  ]
+}

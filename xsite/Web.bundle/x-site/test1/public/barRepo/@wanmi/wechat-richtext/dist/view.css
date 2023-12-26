@@ -1,0 +1,280 @@
+/*******************富文本容器css start*************************/
+.custom-container-richtext {
+  padding: 10px 15px 0 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  overflow: hidden;
+  text-align: left;
+  word-wrap: break-word;
+  position: relative;
+}
+.custom-container-richtext h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: bold;
+}
+.custom-container-richtext h2 {
+  font-size: 1.5em;
+  margin: 0.75em 0;
+  font-weight: bold;
+}
+.custom-container-richtext h3 {
+  font-size: 1.17em;
+  margin: 0.83em 0;
+  font-weight: bold;
+}
+.custom-container-richtext h4 {
+  font-size: 1.12em;
+  margin: 1.12em 0;
+  font-weight: bold;
+}
+.custom-container-richtext h5 {
+  font-size: 0.83em;
+  margin: 1.5em 0;
+  font-weight: bold;
+}
+.custom-container-richtext h6 {
+  font-size: 0.75em;
+  margin: 1.67em 0;
+  font-weight: bold;
+}
+.custom-container-richtext ol {
+  list-style-type: decimal;
+  padding-left: 0;
+  width: auto;
+  margin: 0;
+}
+.custom-container-richtext ol li {
+  clear: both;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style-type: decimal;
+}
+.custom-container-richtext ol li img {
+  vertical-align: bottom;
+}
+.custom-container-richtext ul {
+  list-style-type: disc;
+  padding-left: 0;
+  margin: 0;
+}
+.custom-container-richtext ul li {
+  clear: both;
+  list-style-type: disc;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.custom-container-richtext ul li img {
+  vertical-align: bottom;
+}
+.custom-container-richtext img {
+  background: none;
+  max-width: 100% !important;
+  min-height: 1px;
+  width: auto !important;
+  vertical-align: middle;
+}
+.custom-container-richtext .list-paddingleft-1 {
+  padding-left: 0;
+}
+.custom-container-richtext .list-paddingleft-2 {
+  padding-left: 30px;
+}
+.custom-container-richtext .list-paddingleft-3 {
+  padding-left: 60px;
+}
+.custom-container-richtext .pagebreak {
+  display: block;
+  clear: both !important;
+  cursor: default !important;
+  width: 100% !important;
+  margin: 0;
+}
+.custom-container-richtext pre {
+  margin: 0.5em 0;
+  padding: 0.4em 0.6em;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+.custom-container-richtext .selectTdClass {
+  background-color: #edf5fa !important;
+}
+.custom-container-richtext table.noBorderTable td,
+.custom-container-richtext table.noBorderTable th,
+.custom-container-richtext table.noBorderTable caption {
+  border: 1px dashed #ddd !important;
+}
+.custom-container-richtext table {
+  margin: 0 auto 10px auto;
+  border-collapse: collapse;
+  display: table;
+  width: auto !important;
+}
+.custom-container-richtext td,
+.custom-container-richtext th {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+.custom-container-richtext caption {
+  border: 1px dashed #ddd;
+  border-bottom: 0;
+  padding: 3px;
+  text-align: center;
+}
+.custom-container-richtext th {
+  border-top: 1px solid #bbb;
+  background-color: #f7f7f7;
+}
+.custom-container-richtext table tr.firstRow th {
+  border-top-width: 2px;
+}
+.custom-container-richtext .ue-table-interlace-color-single {
+  background-color: #fcfcfc;
+}
+.custom-container-richtext .ue-table-interlace-color-double {
+  background-color: #f7faff;
+}
+.custom-container-richtext td p {
+  margin: 0;
+  padding: 0;
+}
+.custom-container-richtext img + br {
+  display: block;
+  padding: 4px 0;
+  content: ' ';
+}
+.custom-container-richtext a {
+  color: #07d;
+}
+.custom-container-richtext blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 18px;
+  border-left: 5px solid #eee;
+}
+.custom-container-richtext em,
+.custom-container-richtext i {
+  font-style: italic;
+}
+.custom-container-richtext strong,
+.custom-container-richtext b {
+  font-weight: bold;
+}
+.custom-container-richtext .bottom-floating-banner {
+  position: fixed !important;
+  bottom: 0;
+}
+.custom-container-richtext-fullscreen {
+  padding: 0 !important;
+  margin-top: 0 !important;
+}
+/*******************富文本容器css end*************************/
+.weixin_article_demo1_title {
+  width: 100%;
+  background-color: #fff;
+}
+.weixin_article_demo1_title .weixin_article_demo1_maintitle {
+  width: 6.8rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+  line-height: 0.6rem;
+  color: #000;
+  text-align: center;
+  font-size: 0.4rem;
+}
+.weixin_article_demo1_title .weixin_article_demo1_time {
+  width: 6.8rem;
+  height: 0.3rem;
+  margin: 0 auto;
+  line-height: 0.3rem;
+  color: #aeaeae;
+  text-align: center;
+}
+.weixin_article_demo1_title .weixin_article_demo1_content {
+  width: 6.8rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  margin-top: 0.34rem;
+  text-align: left;
+  color: #000;
+  font-size: 0.3rem;
+}
+.weixin-article-edit-control-group {
+  margin-bottom: 10px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+.weixin-article-edit-control-group .pull-left {
+  float: left;
+}
+.weixin-article-edit-control-group .pull-left .control-label {
+  margin-top: 5px;
+  float: left;
+  text-align: right;
+  line-height: 18px;
+  width: 87px;
+  font-size: 14px;
+}
+.weixin-article-edit-control-group .pull-left .input-append {
+  font-size: 0;
+  white-space: nowrap;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  bottom: 0;
+}
+.weixin-article-edit-control-group .pull-left .input-append input:first-child {
+  height: 20px;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  background: #fff;
+  position: relative;
+  border-radius: 4px 0 0 4px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+.weixin-article-edit-control-group .pull-left .input-append .span1 {
+  width: 60px;
+}
+.weixin-article-edit-control-group .pull-left .input-append .js-reset-bg {
+  height: 20px;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 12px;
+  margin-left: -1px;
+  vertical-align: top;
+  padding: 4px 12px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  display: inline-block;
+  text-align: center;
+  line-height: 15px;
+}
+.weixin-article-edit-control-group .pull-right .control-label {
+  float: left;
+  width: 87px;
+  text-align: right;
+}
+.weixin-article-edit-control-group .pull-right .checkbox {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  padding-top: 5px;
+  float: left;
+}
+.weixin-article-edit-control-group .pull-right .checkbox input {
+  margin-top: 0;
+  vertical-align: middle;
+  bottom: 0;
+  display: inline-block;
+}

@@ -1,0 +1,132 @@
+{
+  "CustomerSignRecordAddResponse": {
+    "customerSignRecordVO": {
+      "customerId": "ullamco",
+      "delFlag": 1,
+      "signRecord": "1991-03-23T12:59:19.358Z",
+      "signRecordId": "Ut incididunt commodo amet"
+    }
+  },
+  "CustomerSignRecordInitInfoResponse": {
+    "customerVO": {
+      "checkState": 2,
+      "createPerson": "quis est tempor aute",
+      "createTime": "1983-08-12T06:14:48.173Z",
+      "customerAccount": "quis velit ad sunt qui",
+      "customerDetail": null,
+      "customerId": "eiusmod qui culpa anim pariatur",
+      "customerLevelId": 73977374,
+      "customerPassword": "cillum do dolore",
+      "customerPayPassword": "qui ",
+      "customerSaltVal": "laborum ut",
+      "customerType": 1,
+      "delFlag": 1,
+      "deletePerson": "fugiat",
+      "deleteTime": "1946-12-23T07:11:07.924Z",
+      "distributeChannel": {
+        "channelType": 1,
+        "inviteeId": "nulla quis sit"
+      },
+      "growthValue": 68510486,
+      "headImg": "mollit aute",
+      "loginErrorCount": -690918,
+      "loginIp": "Duis",
+      "loginLockTime": "2013-06-29T07:21:59.869Z",
+      "loginTime": "2012-01-27T09:18:57.871Z",
+      "payErrorTime": 44181830,
+      "payLockTime": "1957-09-14T11:03:49.256Z",
+      "pointsAvailable": -99882126,
+      "pointsUsed": 23577258,
+      "safeLevel": -37392318,
+      "signContinuousDays": -24799410,
+      "storeCustomerRelaListByAll": [
+        {
+          "companyInfoId": 97148502,
+          "customerId": "consequat mollit aliqua elit magna",
+          "customerType": 0,
+          "employeeId": "irure dolor in aliquip",
+          "id": "nulla cupidatat eu",
+          "storeId": -96576868,
+          "storeLevelId": -11166351
+        },
+        {
+          "companyInfoId": -51684495,
+          "customerId": "occaecat",
+          "customerType": 0,
+          "employeeId": "exercitation id est mollit occaecat",
+          "id": "laboris sed",
+          "storeId": 52762878,
+          "storeLevelId": -93402192
+        },
+        {
+          "companyInfoId": -80001794,
+          "customerId": "magna dolor eiusmod",
+          "customerType": 1,
+          "employeeId": "Ut aliq",
+          "id": "dolor lab",
+          "storeId": 21825100,
+          "storeLevelId": 67598665
+        },
+        {
+          "companyInfoId": -6272438,
+          "customerId": "laboris pariatur eiusmod ut consequat",
+          "customerType": 1,
+          "employeeId": "ut Excepteur",
+          "id": "dolor do ex",
+          "storeId": -12730044,
+          "storeLevelId": -81945018
+        },
+        {
+          "companyInfoId": 41719395,
+          "customerId": "cillum voluptate Ut pariatur aliquip",
+          "customerType": 0,
+          "employeeId": "irure qui",
+          "id": "cillum in proident irure ut",
+          "storeId": 76692817,
+          "storeLevelId": 66138141
+        }
+      ],
+      "updatePerson": "elit Ut",
+      "updateTime": "1997-05-21T05:52:13.402Z"
+    },
+    "growthFlag": false,
+    "growthValue": 48681725,
+    "pointFlag": false,
+    "signFlag": false,
+    "signPoint": -38203851
+  },
+  "CustomerSignRecordListResponse": {
+    "customerSignRecordVOList": [
+      {
+        "customerId": "aliqu",
+        "delFlag": 1,
+        "signRecord": "2010-12-24T05:22:32.609Z",
+        "signRecordId": "minim pariatur"
+      },
+      {
+        "customerId": "sed adipisicing magna reprehenderit",
+        "delFlag": 0,
+        "signRecord": "1991-07-18T12:54:22.838Z",
+        "signRecordId": "adipisicing ut enim"
+      },
+      {
+        "customerId": "mollit",
+        "delFlag": 1,
+        "signRecord": "1998-04-18T09:07:55.526Z",
+        "signRecordId": "elit veniam Lorem anim quis"
+      },
+      {
+        "customerId": "sit non dolor",
+        "delFlag": 0,
+        "signRecord": "1972-08-05T03:16:52.269Z",
+        "signRecordId": "proident anim quis velit ut"
+      },
+      {
+        "customerId": "reprehenderit consectetur ut",
+        "delFlag": 1,
+        "signRecord": "1980-12-20T13:18:18.933Z",
+        "signRecordId": "ea aliqua"
+      }
+    ]
+  }
+}

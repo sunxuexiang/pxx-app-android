@@ -1,0 +1,418 @@
+{
+  "noneName": "mollit",
+  "ReturnOrderTransferByUserIdResponse": {
+    "buyer": {
+      "account": "reprehenderit Ut enim minim magna",
+      "customerFlag": 7655571,
+      "employeeId": "aute",
+      "id": "do eu anim exercitation",
+      "levelId": 47559614,
+      "levelName": "officia tem",
+      "name": "sed Excepteur",
+      "phone": "sit laborum Ut proident"
+    },
+    "channelType": 2,
+    "company": {
+      "accountName": "sint nisi",
+      "companyCode": "cillum",
+      "companyInfoId": 53370298,
+      "companyType": 1,
+      "storeId": 46681094,
+      "storeName": "nostrud Ut",
+      "supplierName": "dolore incididunt anim ex"
+    },
+    "consignee": {
+      "address": "esse irure consectetur dolore ea",
+      "areaId": -7847090,
+      "cityId": -23503421,
+      "detailAddress": "dolor eu",
+      "expectTime": "2012-08-14T03:40:03.179Z",
+      "id": "non",
+      "name": "pariatur qui adipisicing est non",
+      "phone": "fugiat",
+      "provinceId": -86784607,
+      "updateTime": "in veniam voluptate fugiat"
+    },
+    "createTime": "1944-07-14T00:46:15.652Z",
+    "customerAccount": {
+      "bankName": "aute qui",
+      "createPerson": "Excepteur incididunt amet nostrud dolor",
+      "createTime": "2000-05-22T21:07:03.622Z",
+      "customerAccountId": "et veniam Duis",
+      "customerAccountName": "in laboris",
+      "customerAccountNo": "",
+      "customerBankName": "et ex cillum fugiat pariatur",
+      "customerId": "anim aliqua eu enim",
+      "delFlag": 0,
+      "deletePerson": "labore non consectetur ex",
+      "deleteTime": "2010-03-06T13:50:55.922Z",
+      "updatePerson": "magna nisi anim dolore mollit",
+      "updateTime": "1980-04-11T12:01:11.701Z"
+    },
+    "description": "ex veniam ut ut",
+    "distributeItems": [
+      {
+        "actualPaidPrice": -85945715.57113305,
+        "commission": 86340347.77444035,
+        "commissionRate": -13426937.0906896,
+        "commissions": [
+          {
+            "commission": -18896325.446077004,
+            "customerId": "ullamco officia",
+            "distributorId": "id commodo esse adipisicing"
+          },
+          {
+            "commission": -17278976.394885153,
+            "customerId": "dolor adipisicing sed Excepteur",
+            "distributorId": "minim"
+          },
+          {
+            "commission": 39233313.285399884,
+            "customerId": "exe",
+            "distributorId": "aliqua nostrud nulla ullamco"
+          },
+          {
+            "commission": 2590992.2065639347,
+            "customerId": "voluptate non in",
+            "distributorId": "eiusmod Excepteur in quis"
+          },
+          {
+            "commission": -57218983.09790663,
+            "customerId": "dolor dolore proident mollit",
+            "distributorId": "dolor Lorem"
+          }
+        ],
+        "goodsInfoId": "dolor qui",
+        "num": -507740
+      },
+      {
+        "actualPaidPrice": -12514243.61346531,
+        "commission": -31189338.77901493,
+        "commissionRate": 86020719.8809211,
+        "commissions": [
+          {
+            "commission": -47559458.26679135,
+            "customerId": "et deserunt ess",
+            "distributorId": "mollit cupidatat minim aute"
+          },
+          {
+            "commission": 32612858.616238907,
+            "customerId": "tempor nostr",
+            "distributorId": "aliqua dolor esse quis"
+          },
+          {
+            "commission": -3110478.5314923376,
+            "customerId": "nisi officia",
+            "distributorId": "officia"
+          },
+          {
+            "commission": 3744555.103848323,
+            "customerId": "officia",
+            "distributorId": "nisi magna"
+          },
+          {
+            "commission": 32527215.030584067,
+            "customerId": "sunt qui",
+            "distributorId": "adipisicing aliqua"
+          }
+        ],
+        "goodsInfoId": "tempor nulla quis consectetur",
+        "num": -5289782
+      },
+      {
+        "actualPaidPrice": -6938913.871631682,
+        "commission": -31456180.726135805,
+        "commissionRate": -51086247.981014974,
+        "commissions": [
+          {
+            "commission": -80924283.32379225,
+            "customerId": "dolor dolor ",
+            "distributorId": "sit"
+          },
+          {
+            "commission": -34205365.068526514,
+            "customerId": "enim elit sunt magna ut",
+            "distributorId": "occaecat deserunt ut proident irure"
+          },
+          {
+            "commission": 79241491.89820105,
+            "customerId": "in velit veniam tempor consequat",
+            "distributorId": "esse incididunt elit minim cillum"
+          },
+          {
+            "commission": -94849204.41371658,
+            "customerId": "magna",
+            "distributorId": "dolor ad"
+          }
+        ],
+        "goodsInfoId": "aliqua ut occaecat",
+        "num": 67945276
+      },
+      {
+        "actualPaidPrice": 39679148.71886441,
+        "commission": -86941427.7562504,
+        "commissionRate": -80662835.14583077,
+        "commissions": [
+          {
+            "commission": 26890241.02690825,
+            "customerId": "cupidatat laborum eu anim",
+            "distributorId": "ex"
+          },
+          {
+            "commission": -59670447.920055024,
+            "customerId": "adipisicing ad proident ipsum",
+            "distributorId": "ea irure"
+          },
+          {
+            "commission": -64931282.55932121,
+            "customerId": "sunt",
+            "distributorId": "exercitation"
+          },
+          {
+            "commission": 327367.4704916924,
+            "customerId": "occaecat nulla voluptate consequat in",
+            "distributorId": "in adipisicing"
+          }
+        ],
+        "goodsInfoId": "incididunt culpa velit quis in",
+        "num": 31842990
+      },
+      {
+        "actualPaidPrice": 55769908.13108656,
+        "commission": 50127177.29733294,
+        "commissionRate": -53184619.12838619,
+        "commissions": [
+          {
+            "commission": -24136808.724234447,
+            "customerId": "Ut sit ad",
+            "distributorId": "culpa et"
+          },
+          {
+            "commission": 73407595.92420319,
+            "customerId": "et eu voluptate",
+            "distributorId": "aliquip"
+          },
+          {
+            "commission": -65926345.13467868,
+            "customerId": "proident Ut",
+            "distributorId": "ea deserunt aute ad"
+          }
+        ],
+        "goodsInfoId": "commodo eiusmod Lorem",
+        "num": -8793548
+      }
+    ],
+    "distributorName": "reprehenderit",
+    "finishTime": "1978-01-30T22:14:56.339Z",
+    "hasBeanSettled": 54220188,
+    "id": "ad et sunt aliquip quis",
+    "images": [
+      "cillum id reprehenderit dolor",
+      "sit dolor ut qui",
+      "esse com"
+    ],
+    "inviteeId": "voluptate",
+    "payType": "1",
+    "payWay": "COUPON",
+    "platform": "CUSTOMER",
+    "refundFailedReason": "laboris ex dolor dolore",
+    "refundStatus": 0,
+    "rejectReason": "aliqua minim sed velit",
+    "returnEventLogs": [
+      {
+        "eventDetail": "qui Duis minim consequat",
+        "eventTime": "2016-07-04T19:36:53.809Z",
+        "eventType": "aliqua cillum magna",
+        "operator": {
+          "account": "incididunt ut anim in commodo",
+          "adminId": "non",
+          "companyInfoId": 70379129,
+          "companyType": 1,
+          "ip": "voluptate aute aliquip",
+          "name": "exercitation qui sunt fugiat consequat",
+          "platform": "THIRD",
+          "storeId": "amet ipsum laborum pariatur",
+          "userId": "Lorem nisi anim"
+        },
+        "remark": "ullamco sit reprehenderit"
+      },
+      {
+        "eventDetail": "laboris enim voluptate incididunt",
+        "eventTime": "1941-09-22T19:07:08.108Z",
+        "eventType": "aliquip sit",
+        "operator": {
+          "account": "magna",
+          "adminId": "adipisicing nisi nostrud",
+          "companyInfoId": 77990425,
+          "companyType": 1,
+          "ip": "velit",
+          "name": "sunt qui labore consequat ad",
+          "platform": "PLATFORM",
+          "storeId": "commodo id Ut la",
+          "userId": "eu"
+        },
+        "remark": "irure sit sed ullamco"
+      },
+      {
+        "eventDetail": "nulla magna culpa",
+        "eventTime": "2018-02-25T02:19:30.245Z",
+        "eventType": "qui conseq",
+        "operator": {
+          "account": "anim",
+          "adminId": "laborum culpa consectetur",
+          "companyInfoId": 39903497,
+          "companyType": 1,
+          "ip": "eiusmod",
+          "name": "aliqua",
+          "platform": "BOSS",
+          "storeId": "ut ea aliqua",
+          "userId": "officia"
+        },
+        "remark": "laborum in magna"
+      }
+    ],
+    "returnFlowState": "INIT",
+    "returnGifts": [
+      {
+        "canReturnNum": 74210978,
+        "num": 93244475,
+        "orderSplitPrice": -79638648.95884103,
+        "pic": "nulla ut dolore commodo ad",
+        "price": 33021322.310317606,
+        "skuId": "ullamco minim",
+        "skuName": "ipsum elit sint quis",
+        "skuNo": "nulla",
+        "specDetails": "",
+        "splitPrice": -51186249.877974086,
+        "unit": "Lorem sunt est"
+      },
+      {
+        "canReturnNum": 51170043,
+        "num": -87013297,
+        "orderSplitPrice": -32639920.213985756,
+        "pic": "enim velit",
+        "price": 53452169.90528655,
+        "skuId": "et ut occaecat ",
+        "skuName": "reprehenderit o",
+        "skuNo": "laborum et id eiusmod",
+        "specDetails": "amet velit magna",
+        "splitPrice": -96983440.44967242,
+        "unit": "culpa enim elit"
+      },
+      {
+        "canReturnNum": -63422592,
+        "num": -44746294,
+        "orderSplitPrice": 45564484.110934526,
+        "pic": "incididunt",
+        "price": -46293804.108459465,
+        "skuId": "pariatur",
+        "skuName": "Lorem sunt",
+        "skuNo": "Duis",
+        "specDetails": "Lorem veniam dolore ut",
+        "splitPrice": -56908092.173994794,
+        "unit": "Lorem deserunt exercitatio"
+      },
+      {
+        "canReturnNum": -87217625,
+        "num": -21182543,
+        "orderSplitPrice": 3848356.4794479907,
+        "pic": "in ut minim veniam",
+        "price": 34489389.46780595,
+        "skuId": "laborum occaecat sed",
+        "skuName": "in ut proident fugiat",
+        "skuNo": "ullamco mollit elit dolore ut",
+        "specDetails": "id amet in sint",
+        "splitPrice": 50047335.63556895,
+        "unit": "elit"
+      },
+      {
+        "canReturnNum": 44511492,
+        "num": -44197947,
+        "orderSplitPrice": 55197019.974412054,
+        "pic": "laborum",
+        "price": 38132436.340103835,
+        "skuId": "exercitation Ut",
+        "skuName": "Lorem laboris occaecat adipisicing",
+        "skuNo": "id",
+        "specDetails": "ipsum",
+        "splitPrice": -60187575.36268664,
+        "unit": "cupidatat occaecat anim sed fugiat"
+      }
+    ],
+    "returnItems": [
+      {
+        "canReturnNum": 17351246,
+        "num": -56048991,
+        "orderSplitPrice": -31169392.067540348,
+        "pic": "voluptate irure proident",
+        "price": 25993661.702016488,
+        "skuId": "velit",
+        "skuName": "in non eu ",
+        "skuNo": "esse ex nulla",
+        "specDetails": "ipsum reprehenderit",
+        "splitPrice": -38860185.0834009,
+        "unit": "irure nisi in id ea"
+      },
+      {
+        "canReturnNum": 99762605,
+        "num": 89181654,
+        "orderSplitPrice": 23422074.740059793,
+        "pic": "fugiat quis Duis",
+        "price": 92558870.24060634,
+        "skuId": "est mollit proident ut sunt",
+        "skuName": "proident in Excepteur quis",
+        "skuNo": "cupidatat irure non qui laboris",
+        "specDetails": "consectetur ad quis",
+        "splitPrice": -69534013.65088676,
+        "unit": "do"
+      },
+      {
+        "canReturnNum": 45247077,
+        "num": 3872899,
+        "orderSplitPrice": -86282944.4610988,
+        "pic": "sint proident esse do",
+        "price": -34194043.982001565,
+        "skuId": "ut eiusmod Excepteur",
+        "skuName": "consectetur nisi veniam amet",
+        "skuNo": "volu",
+        "specDetails": "ut eu sed dolor sint",
+        "splitPrice": 79176622.12956098,
+        "unit": "mollit irure in"
+      },
+      {
+        "canReturnNum": -73314225,
+        "num": 58277989,
+        "orderSplitPrice": 46595.504175782204,
+        "pic": "aliqui",
+        "price": 7721276.001196116,
+        "skuId": "dolore commodo voluptate Excepteur ut",
+        "skuName": "sed paria",
+        "skuNo": "ut",
+        "specDetails": "irure ipsum velit",
+        "splitPrice": -1207197.6648632735,
+        "unit": "nostrud"
+      }
+    ],
+    "returnLogistics": {
+      "code": "cupidatat labore",
+      "company": "Duis",
+      "createTime": "1976-06-22T04:51:32.183Z",
+      "no": "officia magna"
+    },
+    "returnPoints": {
+      "actualPoints": -35139527,
+      "applyPoints": 61472031
+    },
+    "returnPrice": {
+      "actualReturnPrice": -7801273.414476469,
+      "applyPrice": -93168410.52919962,
+      "applyStatus": true,
+      "totalPrice": 95458335.02862662
+    },
+    "returnReason": -66691273,
+    "returnType": -31753394,
+    "returnWay": 51205331,
+    "shopName": "in",
+    "tid": "cupidatat nostrud reprehenderit ipsum"
+  }
+}

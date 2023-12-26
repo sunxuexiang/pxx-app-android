@@ -1,0 +1,82 @@
+{
+  "CustomerLevelWithRightsByCustomerIdResponse": {
+    "createPerson": "cupidatat",
+    "createTime": "2001-08-31T02:50:52.448Z",
+    "customerGrowthValue": 46716337,
+    "customerLevelDiscount": 21299705.28013496,
+    "customerLevelId": -6433214,
+    "customerLevelName": "dolor",
+    "customerLevelRightsVOS": [
+      {
+        "activityId": "labore sint",
+        "delFlag": "1",
+        "rightsDescription": "ipsum sint",
+        "rightsId": -43822978,
+        "rightsLogo": "ea",
+        "rightsName": "ea de",
+        "rightsRule": "ex Ut esse incididunt in",
+        "rightsType": "1",
+        "sort": 86851351,
+        "status": -12438165
+      },
+      {
+        "activityId": "ea",
+        "delFlag": "1",
+        "rightsDescription": "in id dolor",
+        "rightsId": -38101812,
+        "rightsLogo": "sed in veniam",
+        "rightsName": "pariatur nisi id mollit",
+        "rightsRule": "in eiusmod",
+        "rightsType": "4",
+        "sort": 7249885,
+        "status": 2820574
+      },
+      {
+        "activityId": "qui ut esse",
+        "delFlag": "0",
+        "rightsDescription": "eu id nisi",
+        "rightsId": -22422705,
+        "rightsLogo": "exercitation commodo",
+        "rightsName": "nulla est magna",
+        "rightsRule": "in Lorem labore id",
+        "rightsType": "4",
+        "sort": 87463262,
+        "status": -33658704
+      },
+      {
+        "activityId": "incididunt quis proident",
+        "delFlag": "0",
+        "rightsDescription": "amet laborum",
+        "rightsId": -62777874,
+        "rightsLogo": "ad ven",
+        "rightsName": "ea id dolore",
+        "rightsRule": "consequat",
+        "rightsType": "4",
+        "sort": -9386007,
+        "status": 82140202
+      },
+      {
+        "activityId": "quis",
+        "delFlag": "0",
+        "rightsDescription": "id laboris dolore in irure",
+        "rightsId": -38593933,
+        "rightsLogo": "fugiat cupidatat in",
+        "rightsName": "officia",
+        "rightsRule": "minim cupidatat qui aliqua magna",
+        "rightsType": "1",
+        "sort": 11280933,
+        "status": 47229311
+      }
+    ],
+    "customerName": "aute commodo exercitation quis dolore",
+    "delFlag": 0,
+    "deletePerson": "culpa laboris dolore",
+    "deleteTime": "1956-06-06T02:15:19.881Z",
+    "growthValue": -26715751,
+    "headImg": "Lorem",
+    "isDefalt": 0,
+    "rankBadgeImg": "quis do dolor in magna",
+    "updatePerson": "quis eiusmod",
+    "updateTime": "1958-07-01T15:07:49.968Z"
+  }
+}

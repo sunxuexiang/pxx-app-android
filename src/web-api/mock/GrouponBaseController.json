@@ -1,0 +1,117 @@
+{
+  "GrouponInstanceWithCustomerInfoVO": {
+    "customerId": "veniam deserunt esse eu",
+    "customerName": "id exercitation consequat in sunt",
+    "endTime": "1992-11-19T21:53:39.967Z",
+    "grouponNo": "ea tempor",
+    "grouponNum": -72460761,
+    "grouponStatus": "0",
+    "headimgurl": "tempor",
+    "joinNum": -38908345
+  },
+  "GrouponInstancePageWithCustomerInfoResponse": {
+    "grouponInstanceVOS": {
+      "content": [
+        {
+          "customerId": "minim dolore",
+          "customerName": "elit voluptate Ut magna",
+          "endTime": "2013-05-22T05:37:16.823Z",
+          "grouponNo": "officia sit dolor ullamco amet",
+          "grouponNum": 50743167,
+          "grouponStatus": "2",
+          "headimgurl": "q",
+          "joinNum": 73586217
+        },
+        {
+          "customerId": "incididunt aliqua",
+          "customerName": "veniam Ut aliqua officia et",
+          "endTime": "2010-09-03T03:06:05.128Z",
+          "grouponNo": "aliquip reprehenderit",
+          "grouponNum": -52340362,
+          "grouponStatus": "1",
+          "headimgurl": "ex Lorem cupidatat officia",
+          "joinNum": -25625946
+        },
+        {
+          "customerId": "exercitation velit",
+          "customerName": "sunt labo",
+          "endTime": "1972-02-08T15:35:04.791Z",
+          "grouponNo": "cillum amet sed",
+          "grouponNum": -39454844,
+          "grouponStatus": "0",
+          "headimgurl": "fugiat officia",
+          "joinNum": -14600881
+        },
+        {
+          "customerId": "Lorem quis ipsum et",
+          "customerName": "magna",
+          "endTime": "1948-03-08T05:30:35.212Z",
+          "grouponNo": "labore est exercitation",
+          "grouponNum": -10303803,
+          "grouponStatus": "0",
+          "headimgurl": "dolore velit",
+          "joinNum": 11137149
+        },
+        {
+          "customerId": "sit eiusmod quis nisi",
+          "customerName": "fugia",
+          "endTime": "1953-08-29T20:14:07.475Z",
+          "grouponNo": "ipsum voluptate amet id ut",
+          "grouponNum": 89848048,
+          "grouponStatus": "3",
+          "headimgurl": "do",
+          "joinNum": 7133343
+        }
+      ],
+      "empty": true,
+      "first": false,
+      "last": false,
+      "number": 42451115,
+      "numberOfElements": -35190928,
+      "size": 92423838,
+      "sort": {
+        "empty": true,
+        "sorted": false,
+        "unsorted": true
+      },
+      "total": -50859522,
+      "totalElements": 41472140,
+      "totalPages": -92743771
+    }
+  },
+  "noneName": {},
+  "GrouponInstanceByActivityIdResponse": {
+    "customerName": "officia proident",
+    "grouponInstance": {
+      "completeTime": "2007-06-07T10:46:56.72Z",
+      "createTime": "2008-04-10T11:13:03.668Z",
+      "customerId": "veniam culpa enim consecte",
+      "endTime": "1952-09-28T10:54:16.566Z",
+      "grouponActivityId": "Ut mollit",
+      "grouponNo": "in ipsum",
+      "grouponNum": -8414940,
+      "grouponStatus": "1",
+      "joinNum": -45767495
+    }
+  },
+  "GrouponGoodsInfoVO": {
+    "goodsId": "in dolor veniam",
+    "goodsInfoId": "culpa",
+    "goodsInfoName": "cupidatat ipsum ex qui",
+    "goodsInfoNo": "culpa cupidatat non ea",
+    "goodsSalesNum": 3277539,
+    "grouponActivityId": "sint nisi",
+    "grouponCateId": "veniam tempor",
+    "grouponGoodsId": "eu incididunt",
+    "grouponPrice": 21339585.254513517,
+    "limitSellingNum": 19452353,
+    "marketPrice": 23591394.82170582,
+    "orderSalesNum": -39277901,
+    "refundAmount": 51348863.19298962,
+    "refundNum": -48142439,
+    "specText": "id sed anim esse commodo",
+    "startSellingNum": 19173094,
+    "storeId": "mollit id magna",
+    "tradeAmount": -93158407.46388276
+  }
+}

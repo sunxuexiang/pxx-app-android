@@ -1,0 +1,23 @@
+{
+  "GrouponOrderStatusGetByOrderIdResponse": {
+    "status": "6"
+  },
+  "GrouponActivityVO": {
+    "alreadyGrouponNum": -64878495,
+    "auditFailReason": "incididunt anim qui",
+    "autoGroupon": false,
+    "endTime": "1955-12-07T16:29:27.09Z",
+    "failGrouponNum": -62210278,
+    "freeDelivery": true,
+    "goodsId": "non dolore irure exercitation commodo",
+    "goodsName": "exercitation",
+    "grouponActivityId": "Ut labore ut sunt",
+    "grouponCateId": "in id do",
+    "grouponNum": -77730758,
+    "startTime": "1966-02-14T09:46:30.842Z",
+    "sticky": false,
+    "storeId": "Ut sit",
+    "storeName": "occaecat laborum aliqua deserunt",
+    "waitGrouponNum": 31485282
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "DistributorGoodsInfoAddResponse": {
+    "customerId": "esse ex nostrud incididunt",
+    "goodsInfoId": "commodo id",
+    "id": "dolor"
+  },
+  "DistributorGoodsInfoCountsResponse": {
+    "counts": 11741554
+  },
+  "DistributorGoodsInfoDeleteResponse": {
+    "result": -53100953
+  }
+}

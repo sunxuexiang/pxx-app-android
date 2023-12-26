@@ -1,0 +1,113 @@
+{
+  "PointsTradeCommitResultVO": {
+    "points": -5439401,
+    "tid": "officia magna ipsum"
+  },
+  "PointsTradeConfirmResponse": {
+    "pointsTradeConfirmItem": {
+      "supplier": {
+        "employeeId": "aliquip laborum labore",
+        "employeeName": "p",
+        "freightTemplateType": 1,
+        "isSelf": 44038117,
+        "storeId": 5469422,
+        "storeName": "consequat ut aute",
+        "supplierCode": "in sunt enim pariatur elit",
+        "supplierId": 47621485,
+        "supplierName": "id Ut ex est ullamco"
+      },
+      "tradeItem": {
+        "adminId": "quis pariatur ea",
+        "bn": "quis non occaecat aute sunt",
+        "brand": -4962098,
+        "canReturnNum": -16298534,
+        "cateId": 76323309,
+        "cateName": "ipsum minim est c",
+        "cateRate": -75422711.54966271,
+        "commissionRate": 10459925.016851202,
+        "cost": -60893098.38415993,
+        "couponSettlements": [
+          {
+            "couponCode": "dolore veniam",
+            "couponCodeId": "aliquip",
+            "couponType": 2,
+            "reducePrice": -20596563.84418957,
+            "splitPrice": 94415546.4810533
+          },
+          {
+            "couponCode": "culpa consequat minim exercitation",
+            "couponCodeId": "voluptate nisi et",
+            "couponType": 1,
+            "reducePrice": -73361484.1643487,
+            "splitPrice": 27607409.1264932
+          },
+          {
+            "couponCode": "occaecat",
+            "couponCodeId": "Ut ipsum non dolor",
+            "couponType": 1,
+            "reducePrice": 86279153.81105441,
+            "splitPrice": 12886137.063520312
+          },
+          {
+            "couponCode": "Duis n",
+            "couponCodeId": "amet laborum nulla reprehenderit",
+            "couponType": 2,
+            "reducePrice": -92542513.58453862,
+            "splitPrice": -52673214.557298124
+          }
+        ],
+        "deliverStatus": "SHIPPED",
+        "deliveredNum": -1727600,
+        "distributionCommission": -221087.2538639009,
+        "distributionGoodsAudit": 2,
+        "flashSaleGoodsId": -66845970,
+        "freightTempId": 13279803,
+        "goodsCubage": 93260200.20661443,
+        "goodsWeight": 91243075.08799574,
+        "isAccountStatus": 2,
+        "isFlashSaleGoods": false,
+        "levelPrice": 29373588.26506564,
+        "marketingIds": [
+          -22942371,
+          -7065517,
+          550022,
+          -70178624
+        ],
+        "marketingSettlements": [
+          {
+            "marketingType": "1",
+            "splitPrice": 49520060.26038113
+          },
+          {
+            "marketingType": "1",
+            "splitPrice": 48831971.516955525
+          },
+          {
+            "marketingType": "0",
+            "splitPrice": 30977889.38592112
+          }
+        ],
+        "num": -6373263,
+        "oid": "dolore sed commodo",
+        "originalPrice": 58347088.38168007,
+        "pic": "ut culpa",
+        "points": -24595322,
+        "pointsGoodsId": "mollit",
+        "pointsPrice": -26496543.578665793,
+        "price": -53386648.162613206,
+        "settlementPrice": 40636401.11227614,
+        "skuId": "eiusmod dolor dolore consectetur pariatur",
+        "skuName": "tempor",
+        "skuNo": "adipisic",
+        "specDetails": "mollit d",
+        "splitPrice": 622872.0684568137,
+        "spuId": "cillum sit esse Ut",
+        "spuName": "qui aliqua",
+        "storeId": 6665491,
+        "supplierCode": "dolore cupidatat id",
+        "unit": "qui aliqua sint"
+      }
+    },
+    "totalPoints": -52500190
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "ConfigVOArray": [
+    {
+      "configKey": "in aliqua incididunt",
+      "configName": "ad dolor amet aliq",
+      "configType": "Duis minim esse",
+      "context": "reprehenderit",
+      "createTime": "1984-11-19T17:29:34.658Z",
+      "delFlag": 0,
+      "id": -85480166,
+      "remark": "Ut ea sint consequat",
+      "status": -97197824,
+      "updateTime": "1947-11-02T06:30:18.307Z"
+    },
+    {
+      "configKey": "in",
+      "configName": "fugiat ad Ut consectetur veniam",
+      "configType": "esse",
+      "context": "tempor proident",
+      "createTime": "1953-04-06T11:04:53.063Z",
+      "delFlag": 1,
+      "id": -29900172,
+      "remark": "elit dolore",
+      "status": 67578631,
+      "updateTime": "1979-05-16T17:46:05.566Z"
+    },
+    {
+      "configKey": "dolore sit tempor in",
+      "configName": "ea deserunt cupidatat dolor",
+      "configType": "mollit ipsum",
+      "context": "dolor Lorem",
+      "createTime": "1961-10-05T17:32:48.113Z",
+      "delFlag": 1,
+      "id": 44622340,
+      "remark": "irure nisi e",
+      "status": -2932289,
+      "updateTime": "1982-07-10T05:58:26.108Z"
+    },
+    {
+      "configKey": "consequat nostrud",
+      "configName": "id",
+      "configType": "consectetur",
+      "context": "labore",
+      "createTime": "1964-01-22T06:05:16.016Z",
+      "delFlag": 1,
+      "id": -94298787,
+      "remark": "aliquip ut",
+      "status": 59184529,
+      "updateTime": "1977-08-24T10:46:35.582Z"
+    }
+  ]
+}

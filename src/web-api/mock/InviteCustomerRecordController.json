@@ -1,0 +1,101 @@
+{
+  "CountInviteCustomerResponse": {
+    "inviteNum": 16006082,
+    "myCustomerNum": -45236040,
+    "validInviteNum": 10086090
+  },
+  "DistributionSettingVO": {
+    "applyFlag": 0,
+    "applyType": 0,
+    "baseLimitType": 1,
+    "buyRecruitEnterImg": "sit velit dolore deserunt",
+    "commissionFlag": 1,
+    "commissionPriorityType": 0,
+    "commissionUnhookType": 2,
+    "distributorLevelDesc": "officia",
+    "distributorName": "commodo tempor reprehenderit ex",
+    "goodsAuditFlag": 1,
+    "inviteCount": 59700026,
+    "inviteDesc": "et est irure cillum",
+    "inviteEnterImg": "de",
+    "inviteFlag": 0,
+    "inviteImg": "in non",
+    "inviteRecruitEnterImg": "reprehenderit",
+    "inviteRecruitImg": "sint ",
+    "inviteShareImg": "occaecat",
+    "limitType": 0,
+    "openFlag": 1,
+    "performanceDesc": "nisi",
+    "recruitDesc": "dolore pariatur",
+    "recruitImg": "in officia",
+    "recruitShareImg": "dolor",
+    "registerLimitType": 1,
+    "rewardCash": -13047284.961516902,
+    "rewardCashCount": -21054501,
+    "rewardCashFlag": 1,
+    "rewardCashType": 1,
+    "rewardCouponCount": -14698586,
+    "rewardCouponFlag": 0,
+    "rewardLimitType": 1,
+    "shopName": "dolore Excepteur nos",
+    "shopOpenFlag": 1,
+    "shopShareImg": "laboris deserunt reprehenderit aute"
+  },
+  "Page": {
+    "content": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "empty": false,
+    "first": false,
+    "last": true,
+    "number": 33489067,
+    "numberOfElements": 4631557,
+    "pageable": {
+      "offset": -32317873,
+      "pageNumber": -14362801,
+      "pageSize": -26547885,
+      "paged": false,
+      "sort": {
+        "empty": false,
+        "sorted": false,
+        "unsorted": false
+      },
+      "unpaged": false
+    },
+    "size": -16595536,
+    "sort": {
+      "empty": false,
+      "sorted": false,
+      "unsorted": true
+    },
+    "totalElements": 42782107,
+    "totalPages": 96062096
+  },
+  "MicroServicePage": {
+    "content": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "empty": false,
+    "first": true,
+    "last": false,
+    "number": 83401684,
+    "numberOfElements": -79159592,
+    "size": -2925958,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": true
+    },
+    "total": -20820678,
+    "totalElements": 44498029,
+    "totalPages": -92261941
+  }
+}

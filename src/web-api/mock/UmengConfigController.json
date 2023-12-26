@@ -1,0 +1,32 @@
+{
+  "UmengTokenAddResponse": {
+    "umengTokenVO": {
+      "bindingTime": "1946-09-08T15:14:04.109Z",
+      "customerId": "nisi ut reprehenderit irure",
+      "devlceToken": "qui",
+      "id": -50256874,
+      "platform": 0
+    }
+  },
+  "PushCustomerEnableByIdResponse": {
+    "pushCustomerEnableVO": {
+      "accountAssets": 36958563,
+      "accountSecurity": 59820682,
+      "customerId": "amet incididunt",
+      "distribution": 82008534,
+      "enableStatus": 22344412,
+      "orderProgressRate": 30541452,
+      "returnOrderProgressRate": 3770884
+    }
+  },
+  "UmengPushConfigByIdResponse": {
+    "umengPushConfigVO": {
+      "androidKeyId": "do sint",
+      "androidKeySecret": "et officia",
+      "androidMsgSecret": "mi",
+      "id": 12952075,
+      "iosKeyId": "eu sit",
+      "iosKeySecret": "culpa"
+    }
+  }
+}

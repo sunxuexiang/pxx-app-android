@@ -1,0 +1,30 @@
+{
+  "DistributionSimSettingResponse": {
+    "distributionCustomerSimVO": {
+      "customerDetailId": "Lorem",
+      "customerId": "commodo amet id proident et",
+      "customerName": "officia ullamco sit",
+      "distributionId": "voluptate",
+      "distributorFlag": 0,
+      "distributorLevelDesc": "Lorem do ex",
+      "distributorLevelId": "proident",
+      "forbiddenFlag": 1
+    },
+    "distributionSettingSimVO": {
+      "applyFlag": 0,
+      "applyType": 0,
+      "buyRecruitEnterImg": "pariatur incididunt culpa minim ullamco",
+      "distributorLevelDesc": "irure enim do ipsum elit",
+      "distributorName": "fugiat",
+      "inviteEnterImg": "aliqua in",
+      "inviteFlag": 0,
+      "inviteRecruitEnterImg": "aliquip aute",
+      "inviteRecruitImg": "pariatur reprehenderit Ut deserunt aute",
+      "openFlag": 1,
+      "performanceDesc": "Lorem",
+      "shopName": "ips",
+      "shopOpenFlag": 0,
+      "shopShareImg": "do culpa eu"
+    }
+  }
+}

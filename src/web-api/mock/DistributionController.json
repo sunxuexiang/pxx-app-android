@@ -1,0 +1,1074 @@
+{
+  "noneName": 58491025,
+  "DistributionCustomerByCustomerIdResponse": {
+    "distributionCustomerVO": {
+      "commission": 68159598.08717445,
+      "commissionNotRecorded": -25290935.782430425,
+      "commissionTotal": 77554882.27585307,
+      "createPerson": "ipsum elit enim",
+      "createTime": "1969-06-04T23:06:12.626Z",
+      "customerAccount": "ut do dolor",
+      "customerId": "ipsum minim",
+      "customerName": "veniam cillum",
+      "delFlag": 1,
+      "distributionId": "ut tempor nulla in",
+      "distributionTradeCount": 16092333,
+      "distributorFlag": 0,
+      "distributorLevelId": "cillum ea sit occaecat",
+      "distributorLevelName": "dolore non dolor",
+      "forbiddenFlag": 0,
+      "forbiddenReason": "mollit deserunt labore id consectetur",
+      "headImg": "minim est sit sint",
+      "inviteAvailableCount": 55766951,
+      "inviteCode": "dolore ut quis",
+      "inviteCount": 83140940,
+      "inviteCustomerIds": "nisi aute amet laboris in",
+      "rewardCash": 7594939.804805189,
+      "rewardCashNotRecorded": 63159548.97298673,
+      "sales": -77840209.36409926
+    }
+  },
+  "DistributionCustomerEnableByCustomerIdResponse": {
+    "distributionEnable": false,
+    "forbiddenReason": "anim nulla sunt aliqua"
+  },
+  "DistributionRecordByInviteeIdResponse": {
+    "monthEstimatedReturn": -42808578.62010392,
+    "monthSales": 96130254.17029148,
+    "yesterdayEstimatedReturn": -15889710.667030469,
+    "yesterdaySales": 84426752.30700344
+  },
+  "DistributionSimSettingResponse": {
+    "distributionCustomerSimVO": {
+      "customerDetailId": "ullamco ad en",
+      "customerId": "ipsum occaecat aliquip non",
+      "customerName": "consequat adipisicing commodo id amet",
+      "distributionId": "elit do nisi Excepteur est",
+      "distributorFlag": 0,
+      "distributorLevelDesc": "ad in consectetur dolore",
+      "distributorLevelId": "ea tempor eu amet magna",
+      "forbiddenFlag": 0
+    },
+    "distributionSettingSimVO": {
+      "applyFlag": 1,
+      "applyType": 0,
+      "buyRecruitEnterImg": "consectetur",
+      "distributorLevelDesc": "exercitation incididunt in",
+      "distributorName": "elit ipsum cupidatat Duis fugiat",
+      "inviteEnterImg": "Duis voluptate est tempor sunt",
+      "inviteFlag": 0,
+      "inviteRecruitEnterImg": "pariatur Duis anim",
+      "inviteRecruitImg": "elit officia",
+      "openFlag": 0,
+      "performanceDesc": "nostrud id",
+      "shopName": "nulla laborum",
+      "shopOpenFlag": 1,
+      "shopShareImg": "amet"
+    }
+  },
+  "DistributionSetting4StoreBagsResponse": {
+    "applyFlag": 1,
+    "applyType": 1,
+    "goodsInfos": [
+      {
+        "addedFlag": 28221137,
+        "addedTime": "2014-08-31T16:35:48.672Z",
+        "allowPriceSet": 78700826,
+        "aloneFlag": false,
+        "auditStatus": 1,
+        "brandId": 23924445,
+        "buyCount": -44884728,
+        "cateId": -11267657,
+        "checked": true,
+        "commissionRate": 30869322.52706474,
+        "companyInfoId": -66033240,
+        "companyType": 0,
+        "costPrice": 95761908.25730371,
+        "count": -95851713,
+        "couponLabels": [
+          {
+            "couponActivityId": "sed",
+            "couponDesc": "cupidatat",
+            "couponInfoId": "commodo fugiat"
+          },
+          {
+            "couponActivityId": "Excepteur",
+            "couponDesc": "minim",
+            "couponInfoId": "occaecat"
+          },
+          {
+            "couponActivityId": "Duis non Ut",
+            "couponDesc": "sunt tempor ad nulla",
+            "couponInfoId": "mollit eu amet"
+          },
+          {
+            "couponActivityId": "ad cupidatat aut",
+            "couponDesc": "laboris ipsum exercitation dolore sunt",
+            "couponInfoId": "deserunt non aute ipsum"
+          },
+          {
+            "couponActivityId": "labore",
+            "couponDesc": "aliquip dolor id enim voluptate",
+            "couponInfoId": "Excepteur sint Duis commodo occaecat"
+          }
+        ],
+        "createTime": "1943-02-27T23:49:41.288Z",
+        "customFlag": 11033644,
+        "delFlag": 1,
+        "distributionCommission": 48792012.84498644,
+        "distributionGoodsAudit": 2,
+        "distributionGoodsAuditReason": "eiusmod ad",
+        "distributionSalesCount": 64449008,
+        "freightTempId": -31006763,
+        "goods": {
+          "addedFlag": 57010557,
+          "addedTime": "1962-09-26T14:54:32.264Z",
+          "allowPriceSet": -28974432,
+          "auditReason": "eu velit sed",
+          "auditStatus": 3,
+          "brandId": 46409674,
+          "cateId": 68718806,
+          "companyInfoId": 9310355,
+          "companyType": 1,
+          "costPrice": 57051232.373354435,
+          "createTime": "1994-04-07T10:55:57.588Z",
+          "customFlag": -90646103,
+          "delFlag": 1,
+          "freightTempId": -81101557,
+          "freightTempName": "dolore reprehenderit adipisicing veniam Duis",
+          "goodsCollectNum": 27402127,
+          "goodsCubage": 39902961.372193724,
+          "goodsDetail": "tempor ex ea laboris cupidatat",
+          "goodsEvaluateNum": 31666397,
+          "goodsFavorableCommentNum": -66558479,
+          "goodsId": "est enim aute",
+          "goodsImg": "ut",
+          "goodsInfoIds": [
+            "Ut ad dolore",
+            "do",
+            "",
+            "commodo ut sunt cupidatat",
+            "cillum ut mollit"
+          ],
+          "goodsMobileDetail": "Duis aliqua est",
+          "goodsName": "ad nulla consectetur culpa",
+          "goodsNo": "sit",
+          "goodsSalesNum": -40821123,
+          "goodsSubtitle": "irure ipsum anim qui consectetur",
+          "goodsUnit": "sit mollit ullamco ipsum magna",
+          "goodsVideo": "laboris in nulla eu nostrud",
+          "goodsWeight": 51094162.420654505,
+          "grouponForbiddenFlag": false,
+          "levelDiscountFlag": 68405018,
+          "linePrice": 77355981.97846743,
+          "marketPrice": 19059617.402843416,
+          "moreSpecFlag": 33980221,
+          "priceType": 32347386,
+          "saleType": 74735601,
+          "stock": 79727624,
+          "storeCateIds": [
+            -85576059,
+            5475524,
+            91666938,
+            64653102,
+            23811721
+          ],
+          "storeId": -72572807,
+          "submitTime": "1968-05-03T19:07:48.107Z",
+          "supplierName": "aute eu ex eiusmod amet",
+          "updateTime": "1987-02-20T14:46:42.289Z"
+        },
+        "goodsCollectNum": 30362554,
+        "goodsCubage": 45395911.0610649,
+        "goodsEvaluateNum": -41475016,
+        "goodsFavorableCommentNum": 21887413,
+        "goodsId": "labore tempor in ",
+        "goodsInfoBarcode": "reprehenderi",
+        "goodsInfoId": "exercitation dolore ipsum laboris",
+        "goodsInfoImg": "incididunt pariatur",
+        "goodsInfoName": "tempor",
+        "goodsInfoNo": "dolore",
+        "goodsSalesNum": 68045623,
+        "goodsStatus": 0,
+        "goodsUnit": "magna esse quis",
+        "goodsWeight": 11129748.49766846,
+        "grouponLabel": {
+          "grouponActivityId": "anim Dui",
+          "marketingDesc": "exercitation pariatur non"
+        },
+        "grouponPrice": 23194221.016134754,
+        "intervalMaxPrice": -45959244.81262901,
+        "intervalMinPrice": 1403061.5566649586,
+        "intervalPriceIds": [
+          28976009,
+          -80555309,
+          -4480022,
+          70872146,
+          60437612
+        ],
+        "joinDistributior": -4301139,
+        "levelDiscountFlag": -40375149,
+        "marketPrice": 22608821.499447316,
+        "marketingLabels": [
+          {
+            "marketingDesc": "pariatur culpa dolore mollit",
+            "marketingId": -81389379,
+            "marketingType": "est non commodo"
+          },
+          {
+            "marketingDesc": "commodo ullamco dolor",
+            "marketingId": 79788760,
+            "marketingType": "aliqua fugiat deserunt enim"
+          },
+          {
+            "marketingDesc": "in incididu",
+            "marketingId": 38579253,
+            "marketingType": "sint occaecat nostrud do"
+          },
+          {
+            "marketingDesc": "enim sunt ut",
+            "marketingId": -44630573,
+            "marketingType": "est nostrud sit consectetur id"
+          }
+        ],
+        "maxCount": -72715922,
+        "mockSpecDetailIds": [
+          91232470,
+          42594821,
+          -32668557,
+          18543959,
+          -28287408
+        ],
+        "mockSpecIds": [
+          8628643,
+          -75756134,
+          -53716660,
+          -66114285,
+          -44666613
+        ],
+        "priceType": 6375030,
+        "salePrice": -42561003.21444598,
+        "saleType": 6458755,
+        "smallProgramCode": "voluptate",
+        "specDetailRelIds": [
+          95067076,
+          -81137617,
+          70608290,
+          95822537,
+          -49155613
+        ],
+        "specText": "aute offic",
+        "stock": -40340042,
+        "storeCateIds": [
+          -32004854,
+          25503943,
+          97635782,
+          24298081,
+          -89350049
+        ],
+        "storeId": -5743939,
+        "storeName": "in ipsum",
+        "updateTime": "1970-04-12T04:39:46.708Z",
+        "validFlag": 27313570
+      },
+      {
+        "addedFlag": -18347680,
+        "addedTime": "1970-02-08T13:23:13.265Z",
+        "allowPriceSet": 49193611,
+        "aloneFlag": true,
+        "auditStatus": 2,
+        "brandId": -56548886,
+        "buyCount": 77941348,
+        "cateId": 31930883,
+        "checked": true,
+        "commissionRate": -57386703.31650693,
+        "companyInfoId": 44212185,
+        "companyType": 1,
+        "costPrice": 20932870.327661753,
+        "count": -42193084,
+        "couponLabels": [
+          {
+            "couponActivityId": "sint in laboris voluptate consequat",
+            "couponDesc": "ad exercitation incididunt ex irure",
+            "couponInfoId": "incididunt"
+          },
+          {
+            "couponActivityId": "tempor ad id laborum",
+            "couponDesc": "quis amet et sunt",
+            "couponInfoId": "nisi reprehenderit voluptate incididunt dolor"
+          },
+          {
+            "couponActivityId": "n",
+            "couponDesc": "elit amet occaecat qui la",
+            "couponInfoId": "magna"
+          },
+          {
+            "couponActivityId": "eu sunt cupidatat ",
+            "couponDesc": "veniam",
+            "couponInfoId": "eiusmod quis laboris"
+          },
+          {
+            "couponActivityId": "esse ut",
+            "couponDesc": "esse non dolor officia",
+            "couponInfoId": "nisi eu enim veniam"
+          }
+        ],
+        "createTime": "2004-12-15T04:25:40.111Z",
+        "customFlag": 38022669,
+        "delFlag": 0,
+        "distributionCommission": -77037208.89248139,
+        "distributionGoodsAudit": 2,
+        "distributionGoodsAuditReason": "incididunt fugiat quis",
+        "distributionSalesCount": 54606370,
+        "freightTempId": 29840346,
+        "goods": {
+          "addedFlag": 95809453,
+          "addedTime": "1949-04-01T17:46:40.17Z",
+          "allowPriceSet": 17766966,
+          "auditReason": "proident esse in fugiat sint",
+          "auditStatus": 2,
+          "brandId": -49933760,
+          "cateId": 40545557,
+          "companyInfoId": 31942039,
+          "companyType": 1,
+          "costPrice": 62818991.25325245,
+          "createTime": "1970-06-22T13:48:20.41Z",
+          "customFlag": -29120431,
+          "delFlag": 0,
+          "freightTempId": -28129518,
+          "freightTempName": "adipisicing eiusmod",
+          "goodsCollectNum": 23880779,
+          "goodsCubage": -31284085.781696454,
+          "goodsDetail": "veniam dolor id Ut anim",
+          "goodsEvaluateNum": 53970657,
+          "goodsFavorableCommentNum": 16374525,
+          "goodsId": "in voluptate sunt aliquip",
+          "goodsImg": "sunt exercitation aliqua in aliquip",
+          "goodsInfoIds": [
+            "ex dolore fugiat irure",
+            "occaecat nisi in",
+            "in consectetur Duis laborum",
+            "in Lorem ex",
+            "dolor ut sunt"
+          ],
+          "goodsMobileDetail": "amet in reprehenderit Ut in",
+          "goodsName": "voluptate Duis do Lorem sed",
+          "goodsNo": "irure in qui ad mollit",
+          "goodsSalesNum": -64158111,
+          "goodsSubtitle": "reprehenderit exercitation sunt nisi proident",
+          "goodsUnit": "eiusmod",
+          "goodsVideo": "aliquip",
+          "goodsWeight": -70244441.19623019,
+          "grouponForbiddenFlag": false,
+          "levelDiscountFlag": 17838371,
+          "linePrice": -2094522.3486575186,
+          "marketPrice": 74374598.18369973,
+          "moreSpecFlag": 15953947,
+          "priceType": -90164016,
+          "saleType": -98581026,
+          "stock": 64021207,
+          "storeCateIds": [
+            62460035,
+            57816605,
+            76452303,
+            24868442
+          ],
+          "storeId": 48005717,
+          "submitTime": "1979-05-04T01:21:09.856Z",
+          "supplierName": "ut anim cillum dolor consectetur",
+          "updateTime": "2012-02-25T20:24:21.775Z"
+        },
+        "goodsCollectNum": 77358597,
+        "goodsCubage": 45149223.42911908,
+        "goodsEvaluateNum": -83250647,
+        "goodsFavorableCommentNum": 21498310,
+        "goodsId": "Ut in sunt ex",
+        "goodsInfoBarcode": "minim",
+        "goodsInfoId": "dolor consequat",
+        "goodsInfoImg": "dolore",
+        "goodsInfoName": "dolor nostrud",
+        "goodsInfoNo": "et",
+        "goodsSalesNum": -96085202,
+        "goodsStatus": 2,
+        "goodsUnit": "dolor do",
+        "goodsWeight": 39149472.23869571,
+        "grouponLabel": {
+          "grouponActivityId": "ut ullamco laborum",
+          "marketingDesc": "sint enim ut"
+        },
+        "grouponPrice": -21195873.62855056,
+        "intervalMaxPrice": 26283448.023089617,
+        "intervalMinPrice": -19788773.26427275,
+        "intervalPriceIds": [
+          79660238,
+          -83555708,
+          83612912,
+          -89109870,
+          65695105
+        ],
+        "joinDistributior": -75857664,
+        "levelDiscountFlag": -59164698,
+        "marketPrice": -98185433.05604899,
+        "marketingLabels": [
+          {
+            "marketingDesc": "tempor esse",
+            "marketingId": 42194967,
+            "marketingType": "veniam"
+          },
+          {
+            "marketingDesc": "officia veniam",
+            "marketingId": -16185566,
+            "marketingType": "magna"
+          },
+          {
+            "marketingDesc": "elit",
+            "marketingId": 4361121,
+            "marketingType": "sit pariatur ex proident incididunt"
+          },
+          {
+            "marketingDesc": "Duis consectetur ut nisi mollit",
+            "marketingId": -27543726,
+            "marketingType": "qui officia eu ut"
+          },
+          {
+            "marketingDesc": "dolor pariatur eu sunt",
+            "marketingId": -3979496,
+            "marketingType": "minim et dolore cillum"
+          }
+        ],
+        "maxCount": 15497874,
+        "mockSpecDetailIds": [
+          -76947859,
+          73604609,
+          4977210,
+          -59259483
+        ],
+        "mockSpecIds": [
+          20893308,
+          91298128,
+          13744182,
+          56163289,
+          72324659
+        ],
+        "priceType": -80184550,
+        "salePrice": 82689643.28506926,
+        "saleType": 59596829,
+        "smallProgramCode": "occaecat ut Excepteur nostrud",
+        "specDetailRelIds": [
+          82115152,
+          -37375062,
+          87441077,
+          -1349500
+        ],
+        "specText": "nisi velit est",
+        "stock": 7413485,
+        "storeCateIds": [
+          -62407950,
+          -14366613,
+          83698131,
+          -98674054,
+          -72418186
+        ],
+        "storeId": -2885344,
+        "storeName": "elit enim ipsum",
+        "updateTime": "1951-06-14T04:49:38.408Z",
+        "validFlag": -9457983
+      },
+      {
+        "addedFlag": -37820704,
+        "addedTime": "1967-01-21T07:59:17.195Z",
+        "allowPriceSet": 34983428,
+        "aloneFlag": false,
+        "auditStatus": 0,
+        "brandId": 76992188,
+        "buyCount": -9142511,
+        "cateId": -6927601,
+        "checked": false,
+        "commissionRate": 16561221.37809728,
+        "companyInfoId": -47377887,
+        "companyType": 1,
+        "costPrice": 49574756.4555476,
+        "count": 22211185,
+        "couponLabels": [
+          {
+            "couponActivityId": "consequat Excepteur minim",
+            "couponDesc": "eiusmod laborum",
+            "couponInfoId": "sed incididunt consequat eiusmod"
+          },
+          {
+            "couponActivityId": "occaecat consequat adi",
+            "couponDesc": "non consectetur Lorem",
+            "couponInfoId": "amet commodo id lab"
+          },
+          {
+            "couponActivityId": "Duis deserunt irure est",
+            "couponDesc": "culpa occaecat aute lab",
+            "couponInfoId": "pariatur aliqua cupidatat amet"
+          }
+        ],
+        "createTime": "1996-04-12T15:20:43.576Z",
+        "customFlag": -16840342,
+        "delFlag": 0,
+        "distributionCommission": -56900730.24372957,
+        "distributionGoodsAudit": 1,
+        "distributionGoodsAuditReason": "ut laborum ea in",
+        "distributionSalesCount": 5183141,
+        "freightTempId": -64047763,
+        "goods": {
+          "addedFlag": 50534250,
+          "addedTime": "1979-02-20T22:34:02.74Z",
+          "allowPriceSet": -27482245,
+          "auditReason": "ad nisi non",
+          "auditStatus": 1,
+          "brandId": -3074110,
+          "cateId": 23206227,
+          "companyInfoId": -79908212,
+          "companyType": 0,
+          "costPrice": -81696608.79601678,
+          "createTime": "2002-08-28T13:52:00.27Z",
+          "customFlag": 80530589,
+          "delFlag": 1,
+          "freightTempId": 17942769,
+          "freightTempName": "labore",
+          "goodsCollectNum": 10850062,
+          "goodsCubage": -46466509.04413647,
+          "goodsDetail": "",
+          "goodsEvaluateNum": 43567737,
+          "goodsFavorableCommentNum": -55152221,
+          "goodsId": "ullamco dolor",
+          "goodsImg": "laborum",
+          "goodsInfoIds": [
+            "id reprehenderit Duis",
+            "minim consequat enim",
+            "qui deserunt nisi",
+            "nisi eu veniam cillum nulla",
+            "exercitation sint nisi dolor "
+          ],
+          "goodsMobileDetail": "magna",
+          "goodsName": "occaecat et amet consequat",
+          "goodsNo": "amet Duis id ut",
+          "goodsSalesNum": -74038464,
+          "goodsSubtitle": "aliquip sed",
+          "goodsUnit": "laboris enim incididunt",
+          "goodsVideo": "elit ullam",
+          "goodsWeight": -47374058.18699343,
+          "grouponForbiddenFlag": true,
+          "levelDiscountFlag": 18969715,
+          "linePrice": 56618863.99234465,
+          "marketPrice": 26644609.501643226,
+          "moreSpecFlag": -78827177,
+          "priceType": 66576684,
+          "saleType": 54665841,
+          "stock": 51920674,
+          "storeCateIds": [
+            49831839,
+            -47961425,
+            -25062460,
+            56675213,
+            -24377253
+          ],
+          "storeId": 88315858,
+          "submitTime": "1957-01-12T13:24:49.609Z",
+          "supplierName": "dolor adipisicing",
+          "updateTime": "2019-06-01T22:42:30.601Z"
+        },
+        "goodsCollectNum": -42033144,
+        "goodsCubage": 32219743.089796975,
+        "goodsEvaluateNum": 67254577,
+        "goodsFavorableCommentNum": 17898369,
+        "goodsId": "sint nisi ad proident",
+        "goodsInfoBarcode": "officia in deserunt do",
+        "goodsInfoId": "sint",
+        "goodsInfoImg": "",
+        "goodsInfoName": "aute sunt adipisicing irure fugiat",
+        "goodsInfoNo": "nulla",
+        "goodsSalesNum": -60444787,
+        "goodsStatus": 1,
+        "goodsUnit": "de",
+        "goodsWeight": -43311508.720650904,
+        "grouponLabel": {
+          "grouponActivityId": "fugiat ut elit",
+          "marketingDesc": "quis veniam tempor reprehenderit"
+        },
+        "grouponPrice": 27499392.372539192,
+        "intervalMaxPrice": -68650057.98324466,
+        "intervalMinPrice": -67708671.56370234,
+        "intervalPriceIds": [
+          -11355752,
+          -69821267,
+          64943467,
+          -28556772,
+          41842402
+        ],
+        "joinDistributior": -4500186,
+        "levelDiscountFlag": -75043085,
+        "marketPrice": 53387844.31066853,
+        "marketingLabels": [
+          {
+            "marketingDesc": "Excepteur nostrud",
+            "marketingId": -11044364,
+            "marketingType": "enim"
+          },
+          {
+            "marketingDesc": "elit sunt dolore",
+            "marketingId": 18454997,
+            "marketingType": "dolore Lorem exercitation sunt"
+          },
+          {
+            "marketingDesc": "anim",
+            "marketingId": -21119280,
+            "marketingType": "in cupid"
+          },
+          {
+            "marketingDesc": "aliqua in anim dolore ullamco",
+            "marketingId": 18417811,
+            "marketingType": "voluptate"
+          },
+          {
+            "marketingDesc": "dolor esse velit laborum",
+            "marketingId": 53343287,
+            "marketingType": "proident minim"
+          }
+        ],
+        "maxCount": 33777819,
+        "mockSpecDetailIds": [
+          -3780814,
+          -74002877,
+          2057777,
+          95869428,
+          -42864354
+        ],
+        "mockSpecIds": [
+          -94641015,
+          61584820,
+          -6305179,
+          -22608797,
+          -74258320
+        ],
+        "priceType": 29665335,
+        "salePrice": 91700325.07688114,
+        "saleType": 33778860,
+        "smallProgramCode": "incididunt eiusmod",
+        "specDetailRelIds": [
+          24729709,
+          -54451032,
+          -30502290,
+          -24522210,
+          -8868129
+        ],
+        "specText": "ut",
+        "stock": -82948484,
+        "storeCateIds": [
+          11391630,
+          48832791,
+          -58048766,
+          -76751113,
+          37125398
+        ],
+        "storeId": -25275163,
+        "storeName": "anim pariatur quis eiusmod",
+        "updateTime": "1969-10-18T09:42:37.616Z",
+        "validFlag": -7718729
+      },
+      {
+        "addedFlag": -47674265,
+        "addedTime": "1982-08-02T23:28:15.117Z",
+        "allowPriceSet": -4843415,
+        "aloneFlag": false,
+        "auditStatus": 3,
+        "brandId": -24014638,
+        "buyCount": -55755101,
+        "cateId": -15952191,
+        "checked": false,
+        "commissionRate": -92057133.93378696,
+        "companyInfoId": -53736883,
+        "companyType": 1,
+        "costPrice": 17671362.51511547,
+        "count": 96457516,
+        "couponLabels": [
+          {
+            "couponActivityId": "consectetur enim laborum culpa",
+            "couponDesc": "enim elit dolore sunt Lorem",
+            "couponInfoId": "aute adipisicing Duis tempor amet"
+          },
+          {
+            "couponActivityId": "consequat proident dolore mollit nulla",
+            "couponDesc": "velit",
+            "couponInfoId": "nostrud laborum"
+          },
+          {
+            "couponActivityId": "veniam eiusmod nisi adipisicing",
+            "couponDesc": "incididunt enim",
+            "couponInfoId": "non exercitation aliqua"
+          },
+          {
+            "couponActivityId": "do tempor minim enim exercitation",
+            "couponDesc": "sit irure Duis",
+            "couponInfoId": "quis mollit aliquip cupidatat sint"
+          }
+        ],
+        "createTime": "1988-10-22T18:40:57.792Z",
+        "customFlag": 51893922,
+        "delFlag": 1,
+        "distributionCommission": 80568705.9012199,
+        "distributionGoodsAudit": 4,
+        "distributionGoodsAuditReason": "velit ea",
+        "distributionSalesCount": 12137446,
+        "freightTempId": 74037055,
+        "goods": {
+          "addedFlag": -82330057,
+          "addedTime": "1943-09-20T13:57:03.124Z",
+          "allowPriceSet": -87200956,
+          "auditReason": "velit ut",
+          "auditStatus": 3,
+          "brandId": -16619315,
+          "cateId": 55818978,
+          "companyInfoId": 6264977,
+          "companyType": 0,
+          "costPrice": -43700592.61127994,
+          "createTime": "1999-10-10T03:45:07.341Z",
+          "customFlag": 55478437,
+          "delFlag": 0,
+          "freightTempId": -16647094,
+          "freightTempName": "Lorem tempor laborum",
+          "goodsCollectNum": 81196628,
+          "goodsCubage": 90284541.51560506,
+          "goodsDetail": "consequat in des",
+          "goodsEvaluateNum": -13128416,
+          "goodsFavorableCommentNum": 19058410,
+          "goodsId": "enim ",
+          "goodsImg": "proident nisi adipisicing",
+          "goodsInfoIds": [
+            "dolore deserunt consectetur nostrud",
+            "do",
+            "aute magna",
+            "eiusmod Exc"
+          ],
+          "goodsMobileDetail": "laborum",
+          "goodsName": "mollit aliqua culpa quis consequat",
+          "goodsNo": "ipsum",
+          "goodsSalesNum": -65438510,
+          "goodsSubtitle": "velit eu aliqua esse",
+          "goodsUnit": "nostrud magna",
+          "goodsVideo": "sit labore Excepteur",
+          "goodsWeight": -4001785.8055143505,
+          "grouponForbiddenFlag": false,
+          "levelDiscountFlag": 57048732,
+          "linePrice": -33725878.77776532,
+          "marketPrice": 77858209.5565922,
+          "moreSpecFlag": 47459781,
+          "priceType": -53971479,
+          "saleType": 44305678,
+          "stock": 7277258,
+          "storeCateIds": [
+            538091,
+            67128745,
+            12845514,
+            -35339745
+          ],
+          "storeId": 60296459,
+          "submitTime": "1983-06-28T01:47:07.376Z",
+          "supplierName": "sed in",
+          "updateTime": "2008-07-02T15:20:05.381Z"
+        },
+        "goodsCollectNum": 66706090,
+        "goodsCubage": -76408210.7398456,
+        "goodsEvaluateNum": -13581513,
+        "goodsFavorableCommentNum": -47316114,
+        "goodsId": "laboris nisi veniam",
+        "goodsInfoBarcode": "proident dolor",
+        "goodsInfoId": "labore culpa eiusmod dolore officia",
+        "goodsInfoImg": "cillum anim Duis",
+        "goodsInfoName": "magna fugiat adipisicing Duis sunt",
+        "goodsInfoNo": "laboris ex culpa elit anim",
+        "goodsSalesNum": -45091029,
+        "goodsStatus": 2,
+        "goodsUnit": "velit cillum sunt",
+        "goodsWeight": -34892566.26598021,
+        "grouponLabel": {
+          "grouponActivityId": "eu officia fugiat id cillum",
+          "marketingDesc": "laborum"
+        },
+        "grouponPrice": 41304614.700659215,
+        "intervalMaxPrice": -23981795.43017353,
+        "intervalMinPrice": 25462544.056580022,
+        "intervalPriceIds": [
+          -72804057,
+          19309752,
+          82118289,
+          19495502,
+          6783329
+        ],
+        "joinDistributior": 41146480,
+        "levelDiscountFlag": 30339891,
+        "marketPrice": -6143060.238165438,
+        "marketingLabels": [
+          {
+            "marketingDesc": "proident magna exercitation ad nostrud",
+            "marketingId": 37376158,
+            "marketingType": "sit adipisicing dolore dolore occaecat"
+          },
+          {
+            "marketingDesc": "reprehenderit proident consectetur mollit qui",
+            "marketingId": 41910396,
+            "marketingType": "enim"
+          },
+          {
+            "marketingDesc": "est aliquip Duis",
+            "marketingId": -34499123,
+            "marketingType": "voluptate dolor"
+          },
+          {
+            "marketingDesc": "mollit velit in proident ut",
+            "marketingId": -8914833,
+            "marketingType": "nulla in ut consequat"
+          }
+        ],
+        "maxCount": -38567123,
+        "mockSpecDetailIds": [
+          81619175,
+          56803739,
+          -16746564,
+          35189159
+        ],
+        "mockSpecIds": [
+          -61041322,
+          -85056829,
+          13030855,
+          27090375
+        ],
+        "priceType": -74399966,
+        "salePrice": -49980607.01924421,
+        "saleType": 54174483,
+        "smallProgramCode": "exercitation consectetur quis n",
+        "specDetailRelIds": [
+          79458174,
+          -16192229,
+          -41742866,
+          -5571850,
+          -19974453
+        ],
+        "specText": "occaecat officia ipsum",
+        "stock": -29334626,
+        "storeCateIds": [
+          42524874,
+          58843154,
+          -21411420,
+          72744915
+        ],
+        "storeId": 54819680,
+        "storeName": "Duis",
+        "updateTime": "1987-01-30T13:04:55.463Z",
+        "validFlag": -87461612
+      },
+      {
+        "addedFlag": 28530129,
+        "addedTime": "1988-01-23T18:43:21.539Z",
+        "allowPriceSet": 74981684,
+        "aloneFlag": false,
+        "auditStatus": 0,
+        "brandId": -84294414,
+        "buyCount": 96853365,
+        "cateId": -53521500,
+        "checked": false,
+        "commissionRate": 19937396.40957442,
+        "companyInfoId": 46899836,
+        "companyType": 0,
+        "costPrice": -61486153.41733961,
+        "count": -99746012,
+        "couponLabels": [
+          {
+            "couponActivityId": "in Duis",
+            "couponDesc": "est veniam magna ut dolor",
+            "couponInfoId": "ut est Duis sunt reprehenderit"
+          },
+          {
+            "couponActivityId": "commodo consectetur ad dolore",
+            "couponDesc": "Excepteur proident in eu adipisicing",
+            "couponInfoId": "in incididunt dolore"
+          },
+          {
+            "couponActivityId": "proident ex",
+            "couponDesc": "non",
+            "couponInfoId": "do ex veniam"
+          },
+          {
+            "couponActivityId": "Duis dolore officia",
+            "couponDesc": "reprehenderit dolor aliqua commodo",
+            "couponInfoId": "est velit voluptate"
+          },
+          {
+            "couponActivityId": "Ut esse sed ut",
+            "couponDesc": "in quis esse",
+            "couponInfoId": "ea commodo sint Excepteur"
+          }
+        ],
+        "createTime": "2003-08-21T03:36:46.665Z",
+        "customFlag": -45120087,
+        "delFlag": 0,
+        "distributionCommission": -69997414.20133865,
+        "distributionGoodsAudit": 1,
+        "distributionGoodsAuditReason": "in est incididunt aute",
+        "distributionSalesCount": 77010398,
+        "freightTempId": -26232016,
+        "goods": {
+          "addedFlag": 2933514,
+          "addedTime": "2018-01-30T05:24:28.173Z",
+          "allowPriceSet": -28274655,
+          "auditReason": "amet voluptate ipsum in",
+          "auditStatus": 2,
+          "brandId": 93025444,
+          "cateId": 94606215,
+          "companyInfoId": -94279144,
+          "companyType": 0,
+          "costPrice": 26684623.976026595,
+          "createTime": "2012-03-17T06:26:12.401Z",
+          "customFlag": -74940738,
+          "delFlag": 1,
+          "freightTempId": 24716776,
+          "freightTempName": "sed",
+          "goodsCollectNum": 38793235,
+          "goodsCubage": 22628242.106683016,
+          "goodsDetail": "aute dolor ut qui ullamco",
+          "goodsEvaluateNum": 12891379,
+          "goodsFavorableCommentNum": 44911734,
+          "goodsId": "qui labore",
+          "goodsImg": "tempor sint ve",
+          "goodsInfoIds": [
+            "amet",
+            "ut ea",
+            "veniam dolor",
+            "est reprehenderit laborum"
+          ],
+          "goodsMobileDetail": "culpa",
+          "goodsName": "adipisicing",
+          "goodsNo": "veniam sed ",
+          "goodsSalesNum": -25393794,
+          "goodsSubtitle": "exercitation nostrud ut",
+          "goodsUnit": "Ut tempor laborum",
+          "goodsVideo": "cupidatat ipsum commodo",
+          "goodsWeight": -86793171.36913194,
+          "grouponForbiddenFlag": true,
+          "levelDiscountFlag": 12876141,
+          "linePrice": -75112861.1089217,
+          "marketPrice": 10423867.619903728,
+          "moreSpecFlag": -29022534,
+          "priceType": 46519070,
+          "saleType": 87409134,
+          "stock": 6194814,
+          "storeCateIds": [
+            -17254810,
+            -16830411,
+            52679518,
+            -8287807,
+            21284656
+          ],
+          "storeId": -70154124,
+          "submitTime": "1952-06-01T20:57:09.504Z",
+          "supplierName": "commodo ad enim",
+          "updateTime": "2015-01-27T05:36:42.028Z"
+        },
+        "goodsCollectNum": -66070674,
+        "goodsCubage": 57248471.56374264,
+        "goodsEvaluateNum": 96887711,
+        "goodsFavorableCommentNum": 80476575,
+        "goodsId": "et in exercitation",
+        "goodsInfoBarcode": "nostrud velit laborum Excepteur commodo",
+        "goodsInfoId": "enim ex sit nulla anim",
+        "goodsInfoImg": "laboris laborum in sit non",
+        "goodsInfoName": "dolore dolore",
+        "goodsInfoNo": "id occaecat",
+        "goodsSalesNum": 11609587,
+        "goodsStatus": 2,
+        "goodsUnit": "magna adipisicing dolore",
+        "goodsWeight": 34815501.66214919,
+        "grouponLabel": {
+          "grouponActivityId": "reprehend",
+          "marketingDesc": "volup"
+        },
+        "grouponPrice": -88717601.1976572,
+        "intervalMaxPrice": 13978562.4301247,
+        "intervalMinPrice": 17564512.500969574,
+        "intervalPriceIds": [
+          -91581559,
+          -33164461,
+          -3459253,
+          -30563237,
+          -16590072
+        ],
+        "joinDistributior": -14738386,
+        "levelDiscountFlag": -60624583,
+        "marketPrice": -79425527.50999087,
+        "marketingLabels": [
+          {
+            "marketingDesc": "labore dolor",
+            "marketingId": 15823094,
+            "marketingType": "sunt a"
+          },
+          {
+            "marketingDesc": "nost",
+            "marketingId": -81665438,
+            "marketingType": "in aliqua"
+          },
+          {
+            "marketingDesc": "aliquip sint",
+            "marketingId": -46119866,
+            "marketingType": "ut"
+          },
+          {
+            "marketingDesc": "non nisi cupidatat",
+            "marketingId": -25387613,
+            "marketingType": "dolor officia Ut non"
+          },
+          {
+            "marketingDesc": "ea",
+            "marketingId": 23957152,
+            "marketingType": "sunt officia Lorem"
+          }
+        ],
+        "maxCount": 69637224,
+        "mockSpecDetailIds": [
+          50172460,
+          -22083070,
+          17728438
+        ],
+        "mockSpecIds": [
+          -65534003,
+          -91822851,
+          -31402254,
+          74112815,
+          -88069531
+        ],
+        "priceType": -95646562,
+        "salePrice": 66448448.240154356,
+        "saleType": -84357927,
+        "smallProgramCode": "sed irure aliquip nisi",
+        "specDetailRelIds": [
+          91630184,
+          21716942,
+          -82844354,
+          22734830
+        ],
+        "specText": "laborum est",
+        "stock": 1324198,
+        "storeCateIds": [
+          -99666568,
+          33384277,
+          17616931,
+          25233197,
+          -71393869
+        ],
+        "storeId": -75566954,
+        "storeName": "voluptate",
+        "updateTime": "2004-08-05T08:11:55.785Z",
+        "validFlag": 39767859
+      }
+    ],
+    "openFlag": 0,
+    "recruitDesc": "fugiat ex incididunt",
+    "recruitImg": "deserunt"
+  },
+  "DistributionSetting4StoreBagsVerifyResponse": {
+    "result": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "DistributionPerformanceByDayQueryResponse": {
+    "dataList": [
+      {
+        "commission": -13647324.90218094,
+        "customerId": "voluptate",
+        "distributionId": "in irure dolor laboris",
+        "saleAmount": -9635508.93956095,
+        "targetDate": "2002-06-08"
+      },
+      {
+        "commission": -12240363.871634588,
+        "customerId": "elit incididunt eu dolore nulla",
+        "distributionId": "dolor",
+        "saleAmount": 40822515.22084302,
+        "targetDate": "1967-12-05"
+      },
+      {
+        "commission": 93441080.47823921,
+        "customerId": "ex",
+        "distributionId": "anim culpa pariatur",
+        "saleAmount": -57588435.422459215,
+        "targetDate": "1999-11-05"
+      },
+      {
+        "commission": -46730265.0876186,
+        "customerId": "ea nulla labore pariatur Duis",
+        "distributionId": "nostrud",
+        "saleAmount": 74760480.64625761,
+        "targetDate": "1974-10-11"
+      },
+      {
+        "commission": -16230753.949137628,
+        "customerId": "adipisicing Lorem voluptate",
+        "distributionId": "id",
+        "saleAmount": -95042698.32385473,
+        "targetDate": "1948-04-09"
+      }
+    ],
+    "totalCommission": 67092702.42679778,
+    "totalSaleAmount": -98970236.89403741
+  },
+  "DistributionPerformanceByLast6MonthsQueryResponse": {
+    "dataList": [
+      {
+        "commission": -57440053.435407765,
+        "customerId": "tempor irure dolor officia",
+        "distributionId": "mollit qui esse",
+        "saleAmount": 40314923.319208115,
+        "targetMonth": "sint co"
+      },
+      {
+        "commission": 14263018.977604866,
+        "customerId": "",
+        "distributionId": "officia nulla",
+        "saleAmount": -89463760.61996561,
+        "targetMonth": "reprehenderit dolor ullamco Ut in"
+      },
+      {
+        "commission": 2659788.434405774,
+        "customerId": "sit",
+        "distributionId": "ad",
+        "saleAmount": -79086298.99704969,
+        "targetMonth": "consequat nisi"
+      },
+      {
+        "commission": -86132936.57920384,
+        "customerId": "do",
+        "distributionId": "qui officia",
+        "saleAmount": -78305309.68220182,
+        "targetMonth": "occaecat ipsum reprehenderit sit"
+      },
+      {
+        "commission": 19633931.497519404,
+        "customerId": "esse Lorem sunt",
+        "distributionId": "aute",
+        "saleAmount": 9028005.784764439,
+        "targetMonth": "proident ea dolore id mollit"
+      }
+    ],
+    "totalCommission": 36453364.106372446,
+    "totalSaleAmount": 74719221.67379925
+  },
+  "DistributionPerformanceSummaryQueryResponse": {
+    "dataList": [
+      {
+        "commission": 4440053.435407765,
+        "customerId": "eghj23ergbs4h564dgh435bhdfd",
+        "distributionId": "g34gsagrtr4fr65dbhasgshjnyjn4",
+        "saleAmount": 50234493.319208115
+      },
+      {
+        "commission": -73605720.2639548,
+        "customerId": "Lorem",
+        "distributionId": "sit",
+        "saleAmount": -82101976.08233112
+      },
+      {
+        "commission": 18044035.192096874,
+        "customerId": "consectetur qui",
+        "distributionId": "consectetur",
+        "saleAmount": 24974747.815233305
+      },
+      {
+        "commission": -92547992.9805392,
+        "customerId": "quis ipsum do ",
+        "distributionId": "Lorem nostrud id adipisicing minim",
+        "saleAmount": 47021403.028960675
+      },
+      {
+        "commission": -44701522.154509865,
+        "customerId": "Ut id incididunt do",
+        "distributionId": "esse ",
+        "saleAmount": 38812193.34906483
+      }
+    ]
+  },
+  "DistributionPerformanceYesterdayQueryResponse": {
+    "performanceByDayVO": {
+      "commission": -46679513.85881341,
+      "customerId": "exercitation",
+      "distributionId": "deserunt laborum aliquip",
+      "saleAmount": 50642791.25545755,
+      "targetDate": "1986-04-01"
+    }
+  }
+}

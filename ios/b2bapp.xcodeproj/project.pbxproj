@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		231A648A24C1B57E00C69ABA /* main.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = 231A647A24C1B57E00C69ABA /* main.jsbundle.meta */; };
+		231A6B5424C1B6AF00C69ABA /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
+		376B2A8C1F738DF00057FA66 /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 376B2A8B1F738DF00057FA66 /* SplashScreen.m */; };
+		376B2AAE1F738E4A0057FA66 /* SplashScreen.h in Sources */ = {isa = PBXBuildFile; fileRef = 376B2AAD1F738E4A0057FA66 /* SplashScreen.h */; };
+		37D6CC6B2325F34D00C91C52 /* Web.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37D6CC362325F34D00C91C52 /* Web.bundle */; };
+		3B3E71822123B7F400838F4B /* WXEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3E71812123B7F400838F4B /* WXEventManager.m */; };
+		5ABCB6B323C5BCDF00D95168 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABCB6B223C5BCDF00D95168 /* SystemConfiguration.framework */; };
+		5ABCB6B523C5BCE900D95168 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABCB6B423C5BCE900D95168 /* libsqlite3.tbd */; };
+		5ABCB6B723C5BCEF00D95168 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABCB6B623C5BCEF00D95168 /* libz.tbd */; };
+		5ABCB6B923C5BCF800D95168 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABCB6B823C5BCF800D95168 /* CoreTelephony.framework */; };
+		5ABCB6BB23C5BD0E00D95168 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABCB6BA23C5BD0E00D95168 /* UserNotifications.framework */; };
+		5ABCB6C223C5BE0900D95168 /* RNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABCB6C023C5BE0800D95168 /* RNUMConfigure.m */; };
+		5ABCB6C523C5BE1E00D95168 /* UMPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABCB6C323C5BE1E00D95168 /* UMPushModule.m */; };
+		5F4344A72508E1A000871DB7 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4344A52508E1A000871DB7 /* libAPOpenSdk.a */; };
+		5F4344AA2508E2B700871DB7 /* APRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4344A92508E2B600871DB7 /* APRootViewController.m */; };
+		720F7D52791040B0A7F5AAA8 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5927D81926D4B3F9049AC44 /* antoutline.ttf */; };
+		A8223C5880275B1EE4967AC3 /* libPods-b2bapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E23F2F60532457BC2648AD2 /* libPods-b2bapp.a */; };
+		AB08482520EF3CD9004FA39E /* WeixinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08482420EF3CD9004FA39E /* WeixinManager.m */; };
+		AB08488F20EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08488120EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */; };
+		AB08489020EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08488420EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */; };
+		AB08489120EF5AD0004FA39E /* WXMediaMessage+messageConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08488520EF5AD0004FA39E /* WXMediaMessage+messageConstruct.m */; };
+		AB08489220EF5AD0004FA39E /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08488A20EF5AD0004FA39E /* WXApiResponseHandler.m */; };
+		AB08489320EF5AD0004FA39E /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08488B20EF5AD0004FA39E /* WXApiRequestHandler.m */; };
+		AB08489420EF5AD0004FA39E /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB08488E20EF5AD0004FA39E /* WXApiManager.m */; };
+		AB8102521F6D08B200A98213 /* PayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8102511F6D08B200A98213 /* PayManager.m */; };
+		C16FF45024A5F3F500CAC868 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FF43F24A5F3F500CAC868 /* UMCommon.framework */; };
+		C16FF45224A5F42800CAC868 /* UMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FF45124A5F42700CAC868 /* UMPush.framework */; };
+		C16FF45424A5F44900CAC868 /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FF45324A5F44800CAC868 /* UMCommonLog.framework */; };
+		C196CF0124D84129006CA196 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C196CF0024D84129006CA196 /* Security.framework */; };
+		C196CF0324D84137006CA196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C196CF0224D84137006CA196 /* CoreGraphics.framework */; };
+		C196CF0524D84142006CA196 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C196CF0424D84142006CA196 /* WebKit.framework */; };
+		C4741C5E221F86EE002D57EE /* AlipayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4741C5D221F86EE002D57EE /* AlipayManager.m */; };
+		C4741C62221F8776002D57EE /* AlipayRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4741C61221F8776002D57EE /* AlipayRequestHandler.m */; };
+		C4741C65221F8791002D57EE /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = C4741C64221F8791002D57EE /* Order.m */; };
+		D8F68BF26DC446648F6A7912 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C59D83ECB685439EB966B055 /* antfill.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E7B82B41F6134DD0082DA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8816645BA44720B8041D0F /* ReactNativePermissions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D23B34F1C767B80008B4819;
+			remoteInfo = ReactNativePermissions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F18A1CB2500DDC20055D393 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0087310E2639ACE100836266 /* b2bappRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = b2bappRelease.entitlements; path = b2bapp/b2bappRelease.entitlements; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* b2bapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = b2bapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = b2bapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = b2bapp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = b2bapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = b2bapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = b2bapp/main.m; sourceTree = "<group>"; };
+		231A647A24C1B57E00C69ABA /* main.jsbundle.meta */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.jsbundle.meta; sourceTree = "<group>"; };
+		2B8816645BA44720B8041D0F /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
+		376B2A8B1F738DF00057FA66 /* SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreen.m; sourceTree = "<group>"; };
+		376B2AAD1F738E4A0057FA66 /* SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		37D6CC362325F34D00C91C52 /* Web.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Web.bundle; path = ../xsite/Web.bundle; sourceTree = "<group>"; };
+		3B3E71802123B7DA00838F4B /* WXEventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXEventManager.h; sourceTree = "<group>"; };
+		3B3E71812123B7F400838F4B /* WXEventManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXEventManager.m; sourceTree = "<group>"; };
+		5A784F1721775CDE00B83E4B /* RCTVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTVideo.h; path = "../node_modules/@wanmi/react-native-video/ios/RCTVideo.h"; sourceTree = "<group>"; };
+		5ABCB6B223C5BCDF00D95168 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5ABCB6B423C5BCE900D95168 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5ABCB6B623C5BCEF00D95168 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5ABCB6B823C5BCF800D95168 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5ABCB6BA23C5BD0E00D95168 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		5ABCB6BC23C5BD1700D95168 /* b2bapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = b2bapp.entitlements; path = b2bapp/b2bapp.entitlements; sourceTree = "<group>"; };
+		5ABCB6C023C5BE0800D95168 /* RNUMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUMConfigure.m; sourceTree = "<group>"; };
+		5ABCB6C123C5BE0900D95168 /* RNUMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUMConfigure.h; sourceTree = "<group>"; };
+		5ABCB6C323C5BE1E00D95168 /* UMPushModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPushModule.m; sourceTree = "<group>"; };
+		5ABCB6C423C5BE1E00D95168 /* UMPushModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPushModule.h; sourceTree = "<group>"; };
+		5ABCB73023C5E66700D95168 /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
+		5ABCB73123C5E66800D95168 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		5F4344A42508E1A000871DB7 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
+		5F4344A52508E1A000871DB7 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
+		5F4344A62508E1A000871DB7 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
+		5F4344A82508E2B600871DB7 /* APRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRootViewController.h; sourceTree = "<group>"; };
+		5F4344A92508E2B600871DB7 /* APRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRootViewController.m; sourceTree = "<group>"; };
+		7E23F2F60532457BC2648AD2 /* libPods-b2bapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-b2bapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921A899EF3EF65317852D538 /* Pods-b2bapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-b2bapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-b2bapp/Pods-b2bapp.debug.xcconfig"; sourceTree = "<group>"; };
+		A6512D90CC5C79E4F47F6544 /* Pods-b2bapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-b2bapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-b2bapp/Pods-b2bapp.release.xcconfig"; sourceTree = "<group>"; };
+		AB08482320EF3CC9004FA39E /* WeixinManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeixinManager.h; sourceTree = "<group>"; };
+		AB08482420EF3CD9004FA39E /* WeixinManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeixinManager.m; sourceTree = "<group>"; };
+		AB08488120EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		AB08488220EF5AD0004FA39E /* WXMediaMessage+messageConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXMediaMessage+messageConstruct.h"; sourceTree = "<group>"; };
+		AB08488320EF5AD0004FA39E /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		AB08488420EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.m"; sourceTree = "<group>"; };
+		AB08488520EF5AD0004FA39E /* WXMediaMessage+messageConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WXMediaMessage+messageConstruct.m"; sourceTree = "<group>"; };
+		AB08488620EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GetMessageFromWXResp+responseWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		AB08488720EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SendMessageToWXReq+requestWithTextOrMediaMessage.h"; sourceTree = "<group>"; };
+		AB08488920EF5AD0004FA39E /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		AB08488A20EF5AD0004FA39E /* WXApiResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiResponseHandler.m; sourceTree = "<group>"; };
+		AB08488B20EF5AD0004FA39E /* WXApiRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiRequestHandler.m; sourceTree = "<group>"; };
+		AB08488C20EF5AD0004FA39E /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
+		AB08488D20EF5AD0004FA39E /* WXApiResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiResponseHandler.h; sourceTree = "<group>"; };
+		AB08488E20EF5AD0004FA39E /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		AB8102501F6D079500A98213 /* PayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PayManager.h; path = b2bapp/PayManager.h; sourceTree = "<group>"; };
+		AB8102511F6D08B200A98213 /* PayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayManager.m; path = b2bapp/PayManager.m; sourceTree = "<group>"; };
+		BF26F34E90D843DE9A8F1DF2 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativePermissions.a; sourceTree = "<group>"; };
+		C16FF39E24A5C04100CAC868 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = Pods/WechatOpenSDK/OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		C16FF43F24A5F3F500CAC868 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = umeng/common/common_ios_7.1.0/normal/UMCommon.framework; sourceTree = "<group>"; };
+		C16FF45124A5F42700CAC868 /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMPush.framework; path = umeng/push/push_ios_3.2.4/UMPush.framework; sourceTree = "<group>"; };
+		C16FF45324A5F44800CAC868 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommonLog.framework; path = umeng/umcommonlog/umcommonlog_ios_2.0.0/UMCommonLog.framework; sourceTree = "<group>"; };
+		C196CF0024D84129006CA196 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C196CF0224D84137006CA196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C196CF0424D84142006CA196 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C4741C29221F86E0002D57EE /* AlipayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlipayManager.h; sourceTree = "<group>"; };
+		C4741C5D221F86EE002D57EE /* AlipayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayManager.m; sourceTree = "<group>"; };
+		C4741C60221F874D002D57EE /* AlipayRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlipayRequestHandler.h; sourceTree = "<group>"; };
+		C4741C61221F8776002D57EE /* AlipayRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayRequestHandler.m; sourceTree = "<group>"; };
+		C4741C63221F8787002D57EE /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		C4741C64221F8791002D57EE /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		C5927D81926D4B3F9049AC44 /* antoutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = antoutline.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antoutline.ttf"; sourceTree = "<group>"; };
+		C59D83ECB685439EB966B055 /* antfill.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = antfill.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antfill.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABCB6BB23C5BD0E00D95168 /* UserNotifications.framework in Frameworks */,
+				5ABCB6B923C5BCF800D95168 /* CoreTelephony.framework in Frameworks */,
+				C196CF0524D84142006CA196 /* WebKit.framework in Frameworks */,
+				5ABCB6B723C5BCEF00D95168 /* libz.tbd in Frameworks */,
+				C16FF45024A5F3F500CAC868 /* UMCommon.framework in Frameworks */,
+				5ABCB6B523C5BCE900D95168 /* libsqlite3.tbd in Frameworks */,
+				5ABCB6B323C5BCDF00D95168 /* SystemConfiguration.framework in Frameworks */,
+				C196CF0124D84129006CA196 /* Security.framework in Frameworks */,
+				C16FF45424A5F44900CAC868 /* UMCommonLog.framework in Frameworks */,
+				C16FF45224A5F42800CAC868 /* UMPush.framework in Frameworks */,
+				A8223C5880275B1EE4967AC3 /* libPods-b2bapp.a in Frameworks */,
+				5F4344A72508E1A000871DB7 /* libAPOpenSdk.a in Frameworks */,
+				C196CF0324D84137006CA196 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* b2bapp */ = {
+			isa = PBXGroup;
+			children = (
+				0087310E2639ACE100836266 /* b2bappRelease.entitlements */,
+				5F4344A82508E2B600871DB7 /* APRootViewController.h */,
+				5F4344A92508E2B600871DB7 /* APRootViewController.m */,
+				5F4344A22508E17300871DB7 /* alishare */,
+				5ABCB6BC23C5BD1700D95168 /* b2bapp.entitlements */,
+				5ABCB66B23C5B9C800D95168 /* umeng */,
+				C4741C5F221F871D002D57EE /* alipay */,
+				AB08487F20EF5AD0004FA39E /* weixin */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				AB8102501F6D079500A98213 /* PayManager.h */,
+				AB8102511F6D08B200A98213 /* PayManager.m */,
+				AB08482320EF3CC9004FA39E /* WeixinManager.h */,
+				AB08482420EF3CD9004FA39E /* WeixinManager.m */,
+				C4741C29221F86E0002D57EE /* AlipayManager.h */,
+				C4741C5D221F86EE002D57EE /* AlipayManager.m */,
+				37D6CC362325F34D00C91C52 /* Web.bundle */,
+			);
+			name = b2bapp;
+			sourceTree = "<group>";
+		};
+		1E7B828F1F6134DC0082DA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7B82B51F6134DD0082DA37 /* libReactNativePermissions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BBA2BA1F74F0E30025E188 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				BF26F34E90D843DE9A8F1DF2 /* libReactNativePermissions.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		37777BAA08B8FC94B9AEECE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				921A899EF3EF65317852D538 /* Pods-b2bapp.debug.xcconfig */,
+				A6512D90CC5C79E4F47F6544 /* Pods-b2bapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5ABCB66B23C5B9C800D95168 /* umeng */ = {
+			isa = PBXGroup;
+			children = (
+				5ABCB6C423C5BE1E00D95168 /* UMPushModule.h */,
+				5ABCB6C323C5BE1E00D95168 /* UMPushModule.m */,
+				5ABCB6C123C5BE0900D95168 /* RNUMConfigure.h */,
+				5ABCB6C023C5BE0800D95168 /* RNUMConfigure.m */,
+			);
+			path = umeng;
+			sourceTree = "<group>";
+		};
+		5F4344A22508E17300871DB7 /* alishare */ = {
+			isa = PBXGroup;
+			children = (
+				5F4344A62508E1A000871DB7 /* APOpenAPI.h */,
+				5F4344A42508E1A000871DB7 /* APOpenAPIObject.h */,
+				5F4344A52508E1A000871DB7 /* libAPOpenSdk.a */,
+			);
+			path = alishare;
+			sourceTree = "<group>";
+		};
+		6D8100F87D9A429185590656 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C59D83ECB685439EB966B055 /* antfill.ttf */,
+				C5927D81926D4B3F9049AC44 /* antoutline.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6FE7AAFAE41D3E84575C06F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C196CF0424D84142006CA196 /* WebKit.framework */,
+				C196CF0224D84137006CA196 /* CoreGraphics.framework */,
+				C196CF0024D84129006CA196 /* Security.framework */,
+				C16FF39E24A5C04100CAC868 /* libWeChatSDK.a */,
+				5ABCB73123C5E66800D95168 /* UMCommon.framework */,
+				5ABCB73023C5E66700D95168 /* UMPush.framework */,
+				5ABCB6BA23C5BD0E00D95168 /* UserNotifications.framework */,
+				5ABCB6B823C5BCF800D95168 /* CoreTelephony.framework */,
+				5ABCB6B623C5BCEF00D95168 /* libz.tbd */,
+				5ABCB6B423C5BCE900D95168 /* libsqlite3.tbd */,
+				5ABCB6B223C5BCDF00D95168 /* SystemConfiguration.framework */,
+				5A784F1721775CDE00B83E4B /* RCTVideo.h */,
+				7E23F2F60532457BC2648AD2 /* libPods-b2bapp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2B8816645BA44720B8041D0F /* ReactNativePermissions.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				231A647A24C1B57E00C69ABA /* main.jsbundle.meta */,
+				C16FF45324A5F44800CAC868 /* UMCommonLog.framework */,
+				C16FF43F24A5F3F500CAC868 /* UMCommon.framework */,
+				376B2AAD1F738E4A0057FA66 /* SplashScreen.h */,
+				C16FF45124A5F42700CAC868 /* UMPush.framework */,
+				376B2A8B1F738DF00057FA66 /* SplashScreen.m */,
+				13B07FAE1A68108700A75B9A /* b2bapp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				37777BAA08B8FC94B9AEECE9 /* Pods */,
+				6FE7AAFAE41D3E84575C06F8 /* Frameworks */,
+				26BBA2BA1F74F0E30025E188 /* Recovered References */,
+				6D8100F87D9A429185590656 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			wrapsLines = 1;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* b2bapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB08487F20EF5AD0004FA39E /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				AB08488020EF5AD0004FA39E /* Helper */,
+				AB08488820EF5AD0004FA39E /* Control */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		AB08488020EF5AD0004FA39E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB08488120EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m */,
+				AB08488220EF5AD0004FA39E /* WXMediaMessage+messageConstruct.h */,
+				AB08488320EF5AD0004FA39E /* Constant.h */,
+				AB08488420EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.m */,
+				AB08488520EF5AD0004FA39E /* WXMediaMessage+messageConstruct.m */,
+				AB08488620EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.h */,
+				AB08488720EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AB08488820EF5AD0004FA39E /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				AB08488920EF5AD0004FA39E /* WXApiManager.h */,
+				AB08488A20EF5AD0004FA39E /* WXApiResponseHandler.m */,
+				AB08488B20EF5AD0004FA39E /* WXApiRequestHandler.m */,
+				AB08488C20EF5AD0004FA39E /* WXApiRequestHandler.h */,
+				AB08488D20EF5AD0004FA39E /* WXApiResponseHandler.h */,
+				AB08488E20EF5AD0004FA39E /* WXApiManager.m */,
+				3B3E71802123B7DA00838F4B /* WXEventManager.h */,
+				3B3E71812123B7F400838F4B /* WXEventManager.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		C4741C5F221F871D002D57EE /* alipay */ = {
+			isa = PBXGroup;
+			children = (
+				C4741C60221F874D002D57EE /* AlipayRequestHandler.h */,
+				C4741C61221F8776002D57EE /* AlipayRequestHandler.m */,
+				C4741C63221F8787002D57EE /* Order.h */,
+				C4741C64221F8791002D57EE /* Order.m */,
+			);
+			path = alipay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* b2bapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "b2bapp" */;
+			buildPhases = (
+				F567F2FF77A1DDD76858D4A9 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3531157A4DB1CEC308A43D5F /* [CP] Copy Pods Resources */,
+				5F18A1CB2500DDC20055D393 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = b2bapp;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* b2bapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = SFSFH6NHYB;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "b2bapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = China;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				China,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1E7B828F1F6134DC0082DA37 /* Products */;
+					ProjectRef = 2B8816645BA44720B8041D0F /* ReactNativePermissions.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* b2bapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1E7B82B51F6134DD0082DA37 /* libReactNativePermissions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativePermissions.a;
+			remoteRef = 1E7B82B41F6134DD0082DA37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231A6B5424C1B6AF00C69ABA /* main.jsbundle in Resources */,
+				37D6CC6B2325F34D00C91C52 /* Web.bundle in Resources */,
+				231A648A24C1B57E00C69ABA /* main.jsbundle.meta in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D8F68BF26DC446648F6A7912 /* antfill.ttf in Resources */,
+				720F7D52791040B0A7F5AAA8 /* antoutline.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		3531157A4DB1CEC308A43D5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-b2bapp/Pods-b2bapp-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-b2bapp/Pods-b2bapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F567F2FF77A1DDD76858D4A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-b2bapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB08489320EF5AD0004FA39E /* WXApiRequestHandler.m in Sources */,
+				C4741C62221F8776002D57EE /* AlipayRequestHandler.m in Sources */,
+				376B2AAE1F738E4A0057FA66 /* SplashScreen.h in Sources */,
+				5ABCB6C523C5BE1E00D95168 /* UMPushModule.m in Sources */,
+				AB08489020EF5AD0004FA39E /* SendMessageToWXReq+requestWithTextOrMediaMessage.m in Sources */,
+				C4741C5E221F86EE002D57EE /* AlipayManager.m in Sources */,
+				376B2A8C1F738DF00057FA66 /* SplashScreen.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				AB08488F20EF5AD0004FA39E /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */,
+				AB08482520EF3CD9004FA39E /* WeixinManager.m in Sources */,
+				5F4344AA2508E2B700871DB7 /* APRootViewController.m in Sources */,
+				5ABCB6C223C5BE0900D95168 /* RNUMConfigure.m in Sources */,
+				AB08489120EF5AD0004FA39E /* WXMediaMessage+messageConstruct.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				AB08489420EF5AD0004FA39E /* WXApiManager.m in Sources */,
+				3B3E71822123B7F400838F4B /* WXEventManager.m in Sources */,
+				AB8102521F6D08B200A98213 /* PayManager.m in Sources */,
+				C4741C65221F8791002D57EE /* Order.m in Sources */,
+				AB08489220EF5AD0004FA39E /* WXApiResponseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = b2bapp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921A899EF3EF65317852D538 /* Pods-b2bapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = b2bapp/b2bapp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 27;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = SFSFH6NHYB;
+				"DEVELOPMENT_TEAM[sdk=*]" = K9VXW22LXD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/umeng/common/common_ios_7.1.0/normal",
+					"$(PROJECT_DIR)/umeng/push/push_ios_3.2.4",
+					"$(PROJECT_DIR)/umeng/umcommonlog/umcommonlog_ios_2.0.0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-permissions/**",
+					"$(SRCROOT)/../node_modules/@wanmi/react-native-open-settings",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-baidu-map/ios/RCTBaiduMap",
+				);
+				INFOPLIST_FILE = b2bapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/WechatOpenSDK/OpenSDK1.8.7.1",
+					"$(SRCROOT)/../node_modules/react-native-baidu-map/ios",
+					"$(PROJECT_DIR)/alishare",
+				);
+				MARKETING_VERSION = 1.2.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjdbj.shop;
+				PRODUCT_NAME = b2bapp;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6512D90CC5C79E4F47F6544 /* Pods-b2bapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = b2bapp/b2bappRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 27;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = SFSFH6NHYB;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/umeng/common/common_ios_7.1.0/normal",
+					"$(PROJECT_DIR)/umeng/push/push_ios_3.2.4",
+					"$(PROJECT_DIR)/umeng/umcommonlog/umcommonlog_ios_2.0.0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-permissions/**",
+					"$(SRCROOT)/../node_modules/@wanmi/react-native-open-settings",
+					"$(SRCROOT)/../node_modules/react-native-device-info/RNDeviceInfo",
+					"$(SRCROOT)/../node_modules/react-native-baidu-map/ios/RCTBaiduMap",
+				);
+				INFOPLIST_FILE = b2bapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/WechatOpenSDK/OpenSDK1.8.7.1",
+					"$(SRCROOT)/../node_modules/react-native-baidu-map/ios",
+					"$(PROJECT_DIR)/alishare",
+				);
+				MARKETING_VERSION = 1.2.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianmi.kstore;
+				PRODUCT_NAME = b2bapp;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hunan Xiyaya Business Service Co., Ltd. (K9VXW22LXD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hunan Xiyaya Business Service Co., Ltd. (K9VXW22LXD)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hunan Xiyaya Business Service Co., Ltd. (K9VXW22LXD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hunan Xiyaya Business Service Co., Ltd. (K9VXW22LXD)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "b2bapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "b2bapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

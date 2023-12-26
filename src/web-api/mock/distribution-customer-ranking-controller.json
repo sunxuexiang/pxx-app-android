@@ -1,0 +1,72 @@
+{
+  "DistributionCustomerRankingResponse": {
+    "distributionCustomerRankingVO": {
+      "commission": -94804998.90916483,
+      "customerId": "elit voluptate sed",
+      "id": "laboris in ad",
+      "img": "in",
+      "inviteAvailableCount": -98912346,
+      "inviteCount": -87311278,
+      "name": "Excepteur qui mollit sunt esse",
+      "ranking": "ex velit m",
+      "saleAmount": -10393488.239887148
+    },
+    "rankingVOList": [
+      {
+        "commission": 40066118.51643026,
+        "customerId": "ea elit",
+        "id": "eu elit est Ut",
+        "img": "tempor Excepteur eu",
+        "inviteAvailableCount": -89252436,
+        "inviteCount": 62452150,
+        "name": "enim in fugiat",
+        "ranking": "adipisicing et pariatur",
+        "saleAmount": 23125629.46383436
+      },
+      {
+        "commission": 29659034.529308096,
+        "customerId": "magna eu in id",
+        "id": "Duis proident consectetur ut id",
+        "img": "ea et sint",
+        "inviteAvailableCount": 94435896,
+        "inviteCount": -69892657,
+        "name": "consequat",
+        "ranking": "est nostrud",
+        "saleAmount": 38436910.01611748
+      },
+      {
+        "commission": -15697463.315293536,
+        "customerId": "ex consequat",
+        "id": "voluptate",
+        "img": "pariatur est ut nostrud",
+        "inviteAvailableCount": 10255891,
+        "inviteCount": 85444310,
+        "name": "consequat",
+        "ranking": "do",
+        "saleAmount": 17080132.59784776
+      },
+      {
+        "commission": 84770126.12684494,
+        "customerId": "dolore proident cillum Duis",
+        "id": "nisi in ad do",
+        "img": "occaecat",
+        "inviteAvailableCount": -49451281,
+        "inviteCount": 96584640,
+        "name": "velit",
+        "ranking": "mollit",
+        "saleAmount": -17616419.59686418
+      },
+      {
+        "commission": 99507465.68486911,
+        "customerId": "nisi exercitation",
+        "id": "minim",
+        "img": "ut sit qu",
+        "inviteAvailableCount": 46931770,
+        "inviteCount": -83465261,
+        "name": "incididunt",
+        "ranking": "Ut aliqua commodo",
+        "saleAmount": -88608981.68934388
+      }
+    ]
+  }
+}

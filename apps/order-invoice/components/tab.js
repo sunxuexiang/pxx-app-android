@@ -1,0 +1,50 @@
+import React, { Component } from 'react';
+import { View, StyleSheet, PixelRatio } from 'react-native';
+import { Relax } from 'plume2';
+
+import { screenWidth } from 'wmkit/styles/index';
+
+import { noop } from 'wmkit/noop';
+import RadioBox from 'wmkit/radio-box';
+
+@Relax
+export default class Tabs extends Component {
+  static relaxProps = {
+    key: 'key',
+    tabs: 'tabs',
+
+    initTabActive: noop
+  };
+
+  render() {
+    const { key, initTabActive, tabs } = this.props.relaxProps;
+
+    return (
+      <View style={styles.box}>
+        <RadioBox
+          data={tabs}
+          checked={key}
+          isBadge={true}
+          onCheck={(val) =>
+            initTabActive({
+              tabKey: val,
+              companyInfoId: this.props.companyInfoId
+            })
+          }
+        />
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  box: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 12,
+    backgroundColor: '#ffffff',
+    marginBottom: 12
+
+  }
+});

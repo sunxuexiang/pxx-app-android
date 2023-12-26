@@ -1,0 +1,108 @@
+{
+  "ExpressCompanyVO": {
+    "delFlag": 1,
+    "expressCode": "proident dolor cupidatat",
+    "expressCompanyId": -57560679,
+    "expressName": "sit consectetur laboris velit dolor",
+    "isAdd": -62145891,
+    "isChecked": 53022276
+  },
+  "ExpressCompany": {
+    "expressCode": "velit",
+    "expressCompanyId": 25324826,
+    "expressName": "et",
+    "isChecked": 89374945
+  },
+  "ExpressCompanyArray": [
+    {
+      "expressCode": "exercitation",
+      "expressCompanyId": -90374695,
+      "expressName": "dolore cons",
+      "isChecked": 9971150
+    },
+    {
+      "expressCode": "occaecat minim te",
+      "expressCompanyId": -10209916,
+      "expressName": "proident ut enim",
+      "isChecked": 92364979
+    },
+    {
+      "expressCode": "pariatur incididunt",
+      "expressCompanyId": -57425852,
+      "expressName": "aute dolor sint",
+      "isChecked": 81507100
+    },
+    {
+      "expressCode": "elit",
+      "expressCompanyId": -44409804,
+      "expressName": "anim",
+      "isChecked": 44131124
+    }
+  ],
+  "ExpressCompanyRopResponse": {
+    "checkedExpressCompanyList": [
+      {
+        "expressCode": "officia",
+        "expressCompanyId": -19962526,
+        "expressName": "consectetur",
+        "isChecked": -66744030
+      },
+      {
+        "expressCode": "veniam mollit id",
+        "expressCompanyId": 33644802,
+        "expressName": "officia",
+        "isChecked": -57887157
+      },
+      {
+        "expressCode": "magna ullamco mollit",
+        "expressCompanyId": 76237624,
+        "expressName": "commodo",
+        "isChecked": -62638640
+      },
+      {
+        "expressCode": "sed incididunt",
+        "expressCompanyId": 20299973,
+        "expressName": "pariatur laborum ullamco eiusmod",
+        "isChecked": 21600775
+      },
+      {
+        "expressCode": "nisi",
+        "expressCompanyId": -18035199,
+        "expressName": "adipisicing amet",
+        "isChecked": 21935541
+      }
+    ],
+    "expressCompanyList": [
+      {
+        "expressCode": "tempor",
+        "expressCompanyId": -72893430,
+        "expressName": "Duis ut non fugiat",
+        "isChecked": -89648000
+      },
+      {
+        "expressCode": "nulla consectetur",
+        "expressCompanyId": 98245271,
+        "expressName": "proident laborum elit velit",
+        "isChecked": 54360966
+      },
+      {
+        "expressCode": "elit et",
+        "expressCompanyId": 88801396,
+        "expressName": "adipisicing",
+        "isChecked": -57941868
+      },
+      {
+        "expressCode": "in cillum i",
+        "expressCompanyId": -41081537,
+        "expressName": "ullamco",
+        "isChecked": 75618286
+      },
+      {
+        "expressCode": "reprehenderit",
+        "expressCompanyId": 98913980,
+        "expressName": "minim nostrud ",
+        "isChecked": -9314848
+      }
+    ]
+  }
+}

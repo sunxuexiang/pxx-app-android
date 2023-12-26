@@ -1,0 +1,4438 @@
+{
+  "AccountBaseController": {
+    "fileName": "AccountBaseController",
+    "methods": {
+      "findValidOfflineAccounts": {
+        "responseTs": [
+          "OfflineAccountVOArray"
+        ]
+      }
+    }
+  },
+  "BossCustomerController": {
+    "fileName": "BossCustomerController",
+    "methods": {
+      "queryGrowthValueIntroduction": {
+        "responseTs": []
+      },
+      "queryGrowthValue": {
+        "responseTs": []
+      }
+    }
+  },
+  "CouponCateController": {
+    "fileName": "CouponCateController",
+    "methods": {
+      "listCouponCate": {
+        "responseTs": [
+          "CouponCateVOArray"
+        ]
+      }
+    }
+  },
+  "CouponCodeBaseController": {
+    "fileName": "CouponCodeBaseController",
+    "methods": {
+      "checkoutCoupons": {
+        "responseTs": [
+          "CouponCheckoutResponse",
+          "CheckGoodsInfoVO[]",
+          "CheckGoodsInfoVO"
+        ]
+      },
+      "customerFetchCoupon": {
+        "responseTs": []
+      },
+      "listMyCouponList": {
+        "responseTs": [
+          "CouponCodePageResponse",
+          "MicroServicePageCouponCodeVO",
+          "CouponCodeVO[]",
+          "CouponCodeVO",
+          "Sort3"
+        ]
+      }
+    }
+  },
+  "CouponInfoController": {
+    "fileName": "CouponInfoController",
+    "methods": {
+      "getCouponStarted": {
+        "responseTs": [
+          "CouponCacheCenterPageResponse",
+          "{\n[k: string]: string;\n}",
+          "MicroServicePageCouponVO",
+          "CouponVO[]",
+          "CouponVO",
+          "Sort"
+        ]
+      },
+      "listGoodsByCouponId": {
+        "responseTs": [
+          "CouponGoodsPageResponse",
+          "CouponGoodsListResponse",
+          "{\n[k: string]: string;\n}",
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO[]",
+          "GoodsPropDetailVO",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable",
+          "Sort2",
+          "Sort3",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO[]",
+          "GoodsVO",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      },
+      "getCouponStartedFront": {
+        "responseTs": [
+          "CouponCacheCenterPageResponse",
+          "{\n[k: string]: string;\n}",
+          "MicroServicePageCouponVO",
+          "CouponVO[]",
+          "CouponVO",
+          "Sort"
+        ]
+      },
+      "listCouponForGoodsDetailFront": {
+        "responseTs": [
+          "CouponCacheListForGoodsListResponse",
+          "CouponVO2[]",
+          "CouponVO2",
+          "{\n[k: string]: string;\n}"
+        ]
+      },
+      "listCouponForGoodsListFront": {
+        "responseTs": [
+          "CouponCacheListForGoodsListResponse",
+          "CouponVO2[]",
+          "CouponVO2",
+          "{\n[k: string]: string;\n}"
+        ]
+      },
+      "listCouponForGoodsDetail": {
+        "responseTs": [
+          "CouponCacheListForGoodsListResponse",
+          "CouponVO2[]",
+          "CouponVO2",
+          "{\n[k: string]: string;\n}"
+        ]
+      },
+      "listCouponForGoodsList": {
+        "responseTs": [
+          "CouponCacheListForGoodsListResponse",
+          "CouponVO2[]",
+          "CouponVO2",
+          "{\n[k: string]: string;\n}"
+        ]
+      }
+    }
+  },
+  "CustomerAccountBaseController": {
+    "fileName": "CustomerAccountBaseController",
+    "methods": {
+      "addCustomerAccount": {
+        "responseTs": []
+      },
+      "editCustomerAccount": {
+        "responseTs": []
+      },
+      "deleteCustomerAccount_": {
+        "responseTs": []
+      },
+      "findById": {
+        "responseTs": [
+          "CustomerAccountOptionalResponse"
+        ]
+      },
+      "findAll": {
+        "responseTs": [
+          "CustomerAccountVOArray"
+        ]
+      }
+    }
+  },
+  "CustomerBalanceBaseController": {
+    "fileName": "CustomerBalanceBaseController",
+    "methods": {
+      "setPayPassword": {
+        "responseTs": []
+      },
+      "validateCode": {
+        "responseTs": []
+      },
+      "sendPayVerifyCode": {
+        "responseTs": []
+      },
+      "balancePayPassword": {
+        "responseTs": []
+      },
+      "checkCustomerPayPwd": {
+        "responseTs": []
+      },
+      "isPayPwdValid": {
+        "responseTs": []
+      },
+      "passwordByForgot": {
+        "responseTs": []
+      },
+      "validatePayCode": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerBaseController": {
+    "fileName": "CustomerBaseController",
+    "methods": {
+      "checkToken": {
+        "responseTs": []
+      },
+      "findCustomerBaseInfo": {
+        "responseTs": [
+          "CustomerBaseInfoResponse"
+        ]
+      },
+      "updateCustomerBaseInfo": {
+        "responseTs": []
+      },
+      "findCustomerCenterInfo": {
+        "responseTs": [
+          "CustomerCenterResponse"
+        ]
+      },
+      "getCustomerBaseInfo": {
+        "responseTs": [
+          "CustomerDetailVO",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "findCustomerMobile": {
+        "responseTs": [
+          "CustomerSafeResponse"
+        ]
+      },
+      "sendVerifiedCode": {
+        "responseTs": []
+      },
+      "getLoginCustomerInfo": {
+        "responseTs": [
+          "CustomerGetByIdResponse",
+          "CustomerDetailVO3",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO",
+          "DistributeChannel2",
+          "StoreCustomerRelaVO2[]",
+          "StoreCustomerRelaVO2"
+        ]
+      },
+      "sendVerifiedCodeNew": {
+        "responseTs": []
+      },
+      "changeNewMobile": {
+        "responseTs": []
+      },
+      "validateVerifiedCode": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerDeliveryAddressBaseController": {
+    "fileName": "CustomerDeliveryAddressBaseController",
+    "methods": {
+      "saveAddress": {
+        "responseTs": []
+      },
+      "findById": {
+        "responseTs": [
+          "CustomerDeliveryAddressByIdResponse"
+        ]
+      },
+      "updateAddress": {
+        "responseTs": []
+      },
+      "deleteAddress_": {
+        "responseTs": []
+      },
+      "findAddressList": {
+        "responseTs": [
+          "CustomerDeliveryAddressVOArray"
+        ]
+      },
+      "findDefaultAddress": {
+        "responseTs": [
+          "CustomerDeliveryAddressResponse"
+        ]
+      },
+      "setDefaultAddress": {
+        "responseTs": []
+      },
+      "addCouponCate": {
+        "responseTs": [
+          "CustomerEmailAddResponse"
+        ]
+      },
+      "modifyCouponCate": {
+        "responseTs": []
+      },
+      "sendEmailToFinance": {
+        "responseTs": []
+      },
+      "deleteCustomerEmailByCustomerEmailId_": {
+        "responseTs": []
+      },
+      "listCustomerEmailByCustomerId": {
+        "responseTs": [
+          "CustomerEmailVOArray"
+        ]
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "count": {
+        "responseTs": []
+      },
+      "info": {
+        "responseTs": [
+          "FollowListResponse",
+          "MicroServicePageGoodsInfoVO",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort3",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO1[]",
+          "GoodsVO1"
+        ]
+      },
+      "hasInvalid": {
+        "responseTs": []
+      },
+      "isGoodsFollow": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      }
+    }
+  },
+  "CustomerDrawCashController": {
+    "fileName": "CustomerDrawCashController",
+    "methods": {
+      "addCustomerDrawCash": {
+        "responseTs": [
+          "CustomerDrawCashAddResponse",
+          "CustomerDrawCashVO",
+          "'0' ",
+          " '1'",
+          " '1' ",
+          " '2'"
+        ]
+      },
+      "cancel": {
+        "responseTs": [
+          "CustomerDrawCashModifyResponse",
+          "CustomerDrawCashVO2",
+          "'0' ",
+          " '1'",
+          " '1' ",
+          " '2'"
+        ]
+      },
+      "countDrawCashSumByCustId": {
+        "responseTs": []
+      },
+      "detail": {
+        "responseTs": [
+          "CustomerDrawCashByIdResponse",
+          "CustomerDrawCashVO3",
+          "'0' ",
+          " '1'",
+          " '1' ",
+          " '2'"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "MicroServicePageCustomerDrawCashVO",
+          "CustomerDrawCashVO4[]",
+          "CustomerDrawCashVO4",
+          "'0' ",
+          " '1'",
+          " '1' ",
+          " '2'",
+          "Sort3"
+        ]
+      }
+    }
+  },
+  "CustomerFundsController": {
+    "fileName": "CustomerFundsController",
+    "methods": {
+      "page": {
+        "responseTs": [
+          "MicroServicePageCustomerFundsDetailVO",
+          "CustomerFundsDetailVO[]",
+          "CustomerFundsDetailVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3' ",
+          " '4' ",
+          " '5' ",
+          " '6'",
+          "Sort3"
+        ]
+      },
+      "statistics": {
+        "responseTs": [
+          "CustomerFundsStatisticsResponse"
+        ]
+      }
+    }
+  },
+  "CustomerGoodsEvaluatePraiseController": {
+    "fileName": "CustomerGoodsEvaluatePraiseController",
+    "methods": {
+      "add": {
+        "responseTs": [
+          "CustomerGoodsEvaluatePraiseAddResponse",
+          "CustomerGoodsEvaluatePraiseVO"
+        ]
+      },
+      "deleteByIdList_": {
+        "responseTs": []
+      },
+      "modify": {
+        "responseTs": [
+          "CustomerGoodsEvaluatePraiseModifyResponse",
+          "CustomerGoodsEvaluatePraiseVO2"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "CustomerGoodsEvaluatePraisePageResponse",
+          "MicroServicePageCustomerGoodsEvaluatePraiseVO",
+          "CustomerGoodsEvaluatePraiseVO3[]",
+          "CustomerGoodsEvaluatePraiseVO3",
+          "Sort3"
+        ]
+      },
+      "getById": {
+        "responseTs": [
+          "CustomerGoodsEvaluatePraiseByIdResponse",
+          "CustomerGoodsEvaluatePraiseVO4"
+        ]
+      },
+      "deleteById_": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerInvoiceBaseController": {
+    "fileName": "CustomerInvoiceBaseController",
+    "methods": {
+      "findCustomerInvoiceByCustomerId": {
+        "responseTs": [
+          "\n  CustomerInvoiceByCustomerIdAndDelFlagResponse\n"
+        ]
+      },
+      "saveCustomerInvoice": {
+        "responseTs": []
+      },
+      "updateCustomerInvoice": {
+        "responseTs": []
+      },
+      "findInfoByCustomerId": {
+        "responseTs": [
+          "CustomerInvoiceByCustomerIdResponse",
+          "CustomerInvoiceVO",
+          "'0' ",
+          " '1'"
+        ]
+      },
+      "findInvoices": {
+        "responseTs": [
+          "CustomerInvoiceByCustomerIdResponseArray"
+        ]
+      }
+    }
+  },
+  "CustomerLevelBaseController": {
+    "fileName": "CustomerLevelBaseController",
+    "methods": {
+      "getCustomerLevelRightsInfos": {
+        "responseTs": [
+          "\n  CustomerLevelWithRightsByCustomerIdResponse\n"
+        ]
+      }
+    }
+  },
+  "CustomerLevelRightsBaseController": {
+    "fileName": "CustomerLevelRightsBaseController",
+    "methods": {
+      "queryCustomerLevelRightsList": {
+        "responseTs": [
+          "\n  CustomerLevelWithRightsResponse\n"
+        ]
+      }
+    }
+  },
+  "CustomerPointsController": {
+    "fileName": "CustomerPointsController",
+    "methods": {
+      "queryWillExpirePoints": {
+        "responseTs": [
+          "CustomerPointsExpireResponse"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "CustomerPointsDetailPageResponse",
+          "MicroServicePageCustomerPointsDetailVO",
+          "CustomerPointsDetailVO[]",
+          "CustomerPointsDetailVO",
+          "",
+          " '0'\n",
+          " '1'\n",
+          " '2'\n",
+          " '3'\n",
+          " '4'\n",
+          " '5'\n",
+          " '6'\n",
+          " '7'\n",
+          " '8'\n",
+          " '9'\n",
+          " '10'\n",
+          " '11'\n",
+          " '12'\n",
+          " '13'\n",
+          " '14'\n",
+          " '15'\n",
+          " '16'\n",
+          " '17'\n",
+          " '18'\n",
+          " '19'",
+          "'0' ",
+          " '1'",
+          "Sort3"
+        ]
+      },
+      "share": {
+        "responseTs": []
+      }
+    }
+  },
+  "CustomerSignRecordController": {
+    "fileName": "CustomerSignRecordController",
+    "methods": {
+      "add": {
+        "responseTs": [
+          "CustomerSignRecordAddResponse",
+          "CustomerSignRecordVO"
+        ]
+      },
+      "deleteByIdList_": {
+        "responseTs": []
+      },
+      "exportData": {
+        "responseTs": []
+      },
+      "getCustomerInfo": {
+        "responseTs": [
+          "CustomerSignRecordInitInfoResponse",
+          "CustomerVO",
+          "CustomerDetailVO",
+          "CustomerVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "getList": {
+        "responseTs": [
+          "CustomerSignRecordListResponse",
+          "CustomerSignRecordVO2[]",
+          "CustomerSignRecordVO2"
+        ]
+      },
+      "getListByThisMonth": {
+        "responseTs": [
+          "CustomerSignRecordListResponse",
+          "CustomerSignRecordVO2[]",
+          "CustomerSignRecordVO2"
+        ]
+      },
+      "deleteById_": {
+        "responseTs": []
+      }
+    }
+  },
+  "DistributionController": {
+    "fileName": "DistributionController",
+    "methods": {
+      "loginIsDistributor": {
+        "responseTs": []
+      },
+      "checkStatus": {
+        "responseTs": []
+      },
+      "queryDistributorInfoByCustomerId": {
+        "responseTs": [
+          "\n  DistributionCustomerByCustomerIdResponse\n"
+        ]
+      },
+      "getDistributorStatus": {
+        "responseTs": [
+          "\n  DistributionCustomerEnableByCustomerIdResponse\n"
+        ]
+      },
+      "queryOpenFlag": {
+        "responseTs": []
+      },
+      "getPerformanceByInviteedId": {
+        "responseTs": [
+          "\n  DistributionRecordByInviteeIdResponse\n"
+        ]
+      },
+      "getSetting": {
+        "responseTs": [
+          "DistributionSimSettingResponse",
+          "DistributionCustomerSimVO",
+          "DistributionSettingSimVO"
+        ]
+      },
+      "getSettingAndInvitor": {
+        "responseTs": [
+          "DistributionSimSettingResponse",
+          "DistributionCustomerSimVO",
+          "DistributionSettingSimVO"
+        ]
+      },
+      "storeBags": {
+        "responseTs": [
+          "DistributionSetting4StoreBagsResponse",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO"
+        ]
+      },
+      "verifyStoreBagsSku": {
+        "responseTs": [
+          "DistributionSetting4StoreBagsVerifyResponse"
+        ]
+      }
+    }
+  },
+  "DistributionCustomerRankingController": {
+    "fileName": "DistributionCustomerRankingController",
+    "methods": {
+      "getRanking": {
+        "responseTs": [
+          "DistributionCustomerRankingResponse",
+          "DistributionCustomerRankingVO",
+          "DistributionCustomerRankingVO1[]",
+          "DistributionCustomerRankingVO1"
+        ]
+      }
+    }
+  },
+  "DistributionGoodsMatterController": {
+    "fileName": "DistributionGoodsMatterController",
+    "methods": {
+      "deleteList": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": [
+          "DistributionGoodsMatterPageResponse",
+          "CompanyInfoVO[]",
+          "CompanyInfoVO",
+          "EmployeeVO[]",
+          "EmployeeVO",
+          "CompanyInfoVO1",
+          "StoreVO[]",
+          "StoreVO",
+          "CompanyInfoVO2",
+          "MicroServicePageDistributionGoodsMatterPageVO",
+          "DistributionGoodsMatterPageVO[]",
+          "DistributionGoodsMatterPageVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort3",
+          "GoodsInfoSpecDetailRelVO[]",
+          "GoodsInfoSpecDetailRelVO"
+        ]
+      },
+      "pageNew": {
+        "responseTs": [
+          "DistributionGoodsMatterPageResponse",
+          "CompanyInfoVO[]",
+          "CompanyInfoVO",
+          "EmployeeVO[]",
+          "EmployeeVO",
+          "CompanyInfoVO1",
+          "StoreVO[]",
+          "StoreVO",
+          "CompanyInfoVO2",
+          "MicroServicePageDistributionGoodsMatterPageVO",
+          "DistributionGoodsMatterPageVO[]",
+          "DistributionGoodsMatterPageVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort3",
+          "GoodsInfoSpecDetailRelVO[]",
+          "GoodsInfoSpecDetailRelVO"
+        ]
+      }
+    }
+  },
+  "DistributionMiniProgramController": {
+    "fileName": "DistributionMiniProgramController",
+    "methods": {
+      "getSkuQrCode": {
+        "responseTs": []
+      },
+      "distributionMiniProgramQrCode": {
+        "responseTs": []
+      }
+    }
+  },
+  "DistributionPerformanceController": {
+    "fileName": "DistributionPerformanceController",
+    "methods": {
+      "queryByDay": {
+        "responseTs": [
+          "DistributionPerformanceByDayQueryResponse",
+          "DistributionPerformanceByDayVO[]",
+          "DistributionPerformanceByDayVO"
+        ]
+      },
+      "queryByLast6Months": {
+        "responseTs": [
+          "DistributionPerformanceByLast6MonthsQueryResponse",
+          "DistributionPerformanceByMonthVO[]",
+          "DistributionPerformanceByMonthVO"
+        ]
+      },
+      "summaryPerformanceCurrentMonth": {
+        "responseTs": [
+          "\n  DistributionPerformanceSummaryQueryResponse\n"
+        ]
+      },
+      "summaryPerformanceCurrentMonthUsingHEAD": {
+        "responseTs": [
+          "\n  DistributionPerformanceSummaryQueryResponse\n"
+        ]
+      },
+      "summaryPerformanceCurrentMonth_": {
+        "responseTs": [
+          "\n  DistributionPerformanceSummaryQueryResponse\n"
+        ]
+      },
+      "summaryPerformanceCurrentMonthUsingOPTIONS": {
+        "responseTs": [
+          "\n  DistributionPerformanceSummaryQueryResponse\n"
+        ]
+      },
+      "summaryPerformanceCurrentMonthUsingPATCH": {
+        "responseTs": [
+          "\n  DistributionPerformanceSummaryQueryResponse\n"
+        ]
+      },
+      "queryYesterday": {
+        "responseTs": [
+          "DistributionPerformanceYesterdayQueryResponse",
+          "DistributionPerformanceByDayVO2"
+        ]
+      }
+    }
+  },
+  "DistributionSettingController": {
+    "fileName": "DistributionSettingController",
+    "methods": {
+      "findOne": {
+        "responseTs": [
+          "DistributionSimSettingResponse",
+          "DistributionCustomerSimVO",
+          "DistributionSettingSimVO"
+        ]
+      }
+    }
+  },
+  "DistributorGoodsInfoController": {
+    "fileName": "DistributorGoodsInfoController",
+    "methods": {
+      "add": {
+        "responseTs": [
+          "DistributorGoodsInfoAddResponse"
+        ]
+      },
+      "count": {
+        "responseTs": [
+          "DistributorGoodsInfoCountsResponse"
+        ]
+      },
+      "deleteF": {
+        "responseTs": [
+          "DistributorGoodsInfoDeleteResponse"
+        ]
+      },
+      "modifySequence": {
+        "responseTs": [
+          "DistributorGoodsInfoDeleteResponse"
+        ]
+      }
+    }
+  },
+  "DistributorLevelController": {
+    "fileName": "DistributorLevelController",
+    "methods": {
+      "getByCustomerId": {
+        "responseTs": [
+          "\n  DistributorLevelByCustomerIdResponse\n"
+        ]
+      }
+    }
+  },
+  "EvaluateController": {
+    "fileName": "EvaluateController",
+    "methods": {
+      "evaluatePage": {
+        "responseTs": [
+          "GoodsEvaluatePageResponse",
+          "MicroServicePageGoodsEvaluateVO",
+          "GoodsEvaluateVO[]",
+          "GoodsEvaluateVO",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "GoodsEvaluateVO1",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "Sort3"
+        ]
+      },
+      "evaluatePageLogin": {
+        "responseTs": [
+          "GoodsEvaluatePageResponse",
+          "MicroServicePageGoodsEvaluateVO",
+          "GoodsEvaluateVO[]",
+          "GoodsEvaluateVO",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "GoodsEvaluateVO1",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "Sort3"
+        ]
+      },
+      "top3EvaluateAndPraise": {
+        "responseTs": [
+          "GoodsDetailEvaluateTop3Resp",
+          "GoodsEvaluateCountResponse",
+          "GoodsEvaluateListResponse",
+          "GoodsEvaluateVO3[]",
+          "GoodsEvaluateVO3",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "GoodsEvaluateVO1",
+          "GoodsImageVO[]",
+          "GoodsImageVO"
+        ]
+      }
+    }
+  },
+  "ExpressCompanyController": {
+    "fileName": "ExpressCompanyController",
+    "methods": {
+      "findOne": {
+        "responseTs": [
+          "ExpressCompanyVO"
+        ]
+      }
+    }
+  },
+  "FlashSaleController": {
+    "fileName": "FlashSaleController",
+    "methods": {
+      "cateList": {
+        "responseTs": [
+          "FlashSaleCateListResponse",
+          "FlashSaleCateVO[]",
+          "FlashSaleCateVO"
+        ]
+      },
+      "delFlashSaleGoodsQualifications": {
+        "responseTs": []
+      },
+      "getFlashSaleGoodsQualifications": {
+        "responseTs": [
+          "RushToBuyFlashSaleGoodsRequest"
+        ]
+      },
+      "getFlashSaleInfo": {
+        "responseTs": [
+          "FlashSaleGoodsVO",
+          "FlashSaleCateVO2",
+          "GoodsVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO"
+        ]
+      },
+      "goodsList": {
+        "responseTs": [
+          "FlashSaleGoodsPageResponse",
+          "MicroServicePageFlashSaleGoodsVO",
+          "FlashSaleGoodsVO2[]",
+          "FlashSaleGoodsVO2",
+          "FlashSaleCateVO2",
+          "GoodsVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort3"
+        ]
+      },
+      "rushToBuyFlashSaleGoods": {
+        "responseTs": []
+      },
+      "sceneList": {
+        "responseTs": [
+          "FlashSaleActivityListResponse",
+          "FlashSaleActivityVO[]",
+          "FlashSaleActivityVO"
+        ]
+      },
+      "updateFlashSaleGoodsOrderNum": {
+        "responseTs": []
+      }
+    }
+  },
+  "FlashsaleGoodsController": {
+    "fileName": "FlashsaleGoodsController",
+    "methods": {
+      "isInProgress": {
+        "responseTs": [
+          "IsInProgressResp",
+          "FlashSaleGoodsVO[]",
+          "FlashSaleGoodsVO",
+          "FlashSaleCateVO",
+          "GoodsVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO"
+        ]
+      }
+    }
+  },
+  "GoodsBaseController": {
+    "fileName": "GoodsBaseController",
+    "methods": {
+      "getSkuQrCode": {
+        "responseTs": []
+      },
+      "grouponGoodsDetailLogin": {
+        "responseTs": [
+          "GrouponGoodsViewByIdResponse",
+          "GoodsVO",
+          "GoodsCustomerPriceVO[]",
+          "GoodsCustomerPriceVO",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsLevelPriceVO[]",
+          "GoodsLevelPriceVO",
+          "GoodsPropDetailRelVO[]",
+          "GoodsPropDetailRelVO",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO",
+          "GoodsTabRelaVO[]",
+          "GoodsTabRelaVO",
+          "GrouponDetailWithGoodsVO",
+          "CustomerDetailWithImgVO[]",
+          "CustomerDetailWithImgVO",
+          "GrouponActivityVO",
+          "",
+          " '0'\n",
+          " '1'\n",
+          " '2'\n",
+          " '3'\n",
+          " '4'\n",
+          " '5'\n",
+          " '6'\n",
+          " '7'\n",
+          " '8'\n",
+          " '9'",
+          "TradeGrouponVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'",
+          "GrouponInstanceWithCustomerInfoVO[]",
+          "GrouponInstanceWithCustomerInfoVO",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "StoreGoodsTabVO[]",
+          "StoreGoodsTabVO"
+        ]
+      },
+      "grouponDetailByGrouponNo": {
+        "responseTs": [
+          "GrouponGoodsViewByIdResponse",
+          "GoodsVO",
+          "GoodsCustomerPriceVO[]",
+          "GoodsCustomerPriceVO",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsLevelPriceVO[]",
+          "GoodsLevelPriceVO",
+          "GoodsPropDetailRelVO[]",
+          "GoodsPropDetailRelVO",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO",
+          "GoodsTabRelaVO[]",
+          "GoodsTabRelaVO",
+          "GrouponDetailWithGoodsVO",
+          "CustomerDetailWithImgVO[]",
+          "CustomerDetailWithImgVO",
+          "GrouponActivityVO",
+          "",
+          " '0'\n",
+          " '1'\n",
+          " '2'\n",
+          " '3'\n",
+          " '4'\n",
+          " '5'\n",
+          " '6'\n",
+          " '7'\n",
+          " '8'\n",
+          " '9'",
+          "TradeGrouponVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'",
+          "GrouponInstanceWithCustomerInfoVO[]",
+          "GrouponInstanceWithCustomerInfoVO",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "StoreGoodsTabVO[]",
+          "StoreGoodsTabVO"
+        ]
+      },
+      "pointsGoodsDetail": {
+        "responseTs": [
+          "GoodsViewByPointsGoodsIdResponse",
+          "GoodsVO3",
+          "GoodsInfoVO2[]",
+          "GoodsInfoVO2",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsPropDetailRelVO2[]",
+          "GoodsPropDetailRelVO2",
+          "GoodsSpecDetailVO2[]",
+          "GoodsSpecDetailVO2",
+          "GoodsSpecVO2[]",
+          "GoodsSpecVO2",
+          "GoodsTabRelaVO2[]",
+          "GoodsTabRelaVO2",
+          "GoodsImageVO2[]",
+          "GoodsImageVO2",
+          "PointsGoodsVO[]",
+          "PointsGoodsVO",
+          "GoodsVO4",
+          "GoodsInfoVO3",
+          "PointsGoodsCateVO",
+          "StoreGoodsTabVO2[]",
+          "StoreGoodsTabVO2"
+        ]
+      },
+      "shopGoodsDetail": {
+        "responseTs": [
+          "GoodsViewByIdAndSkuIdsResponse",
+          "GoodsVO5",
+          "GoodsCustomerPriceVO2[]",
+          "GoodsCustomerPriceVO2",
+          "GoodsInfoVO4[]",
+          "GoodsInfoVO4",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO2[]",
+          "GoodsIntervalPriceVO2",
+          "GoodsLevelPriceVO2[]",
+          "GoodsLevelPriceVO2",
+          "GoodsPropDetailRelVO3[]",
+          "GoodsPropDetailRelVO3",
+          "GoodsSpecDetailVO3[]",
+          "GoodsSpecDetailVO3",
+          "GoodsSpecVO3[]",
+          "GoodsSpecVO3",
+          "GoodsTabRelaVO3[]",
+          "GoodsTabRelaVO3",
+          "GoodsImageVO3[]",
+          "GoodsImageVO3",
+          "StoreGoodsTabVO3[]",
+          "StoreGoodsTabVO3"
+        ]
+      },
+      "detail": {
+        "responseTs": [
+          "GoodsViewByIdResponse",
+          "GoodsVO6",
+          "GoodsCustomerPriceVO3[]",
+          "GoodsCustomerPriceVO3",
+          "GoodsInfoVO5[]",
+          "GoodsInfoVO5",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO3[]",
+          "GoodsIntervalPriceVO3",
+          "GoodsLevelPriceVO3[]",
+          "GoodsLevelPriceVO3",
+          "GoodsPropDetailRelVO4[]",
+          "GoodsPropDetailRelVO4",
+          "GoodsSpecDetailVO4[]",
+          "GoodsSpecDetailVO4",
+          "GoodsSpecVO4[]",
+          "GoodsSpecVO4",
+          "GoodsTabRelaVO4[]",
+          "GoodsTabRelaVO4",
+          "GoodsImageVO4[]",
+          "GoodsImageVO4",
+          "StoreGoodsTabVO4[]",
+          "StoreGoodsTabVO4"
+        ]
+      },
+      "spuListFront": {
+        "responseTs": [
+          "EsGoodsResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "GoodsCateVO1[]",
+          "GoodsCateVO1",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO[]",
+          "GoodsPropDetailVO",
+          "PageEsGoods",
+          "EsGoods[]",
+          "EsGoods",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest[]",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "MarketingForEndVO[]",
+          "MarketingForEndVO",
+          "MarketingFullDiscountLevelVO[]",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO[]",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO[]",
+          "MarketingFullReductionLevelVO",
+          "GoodsInfoResponseVO",
+          "GoodsBrandVO1[]",
+          "GoodsBrandVO1",
+          "GoodsCateVO2[]",
+          "GoodsCateVO2",
+          "MicroServicePageGoodsInfoVO",
+          "GoodsInfoVO6[]",
+          "GoodsInfoVO6",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort7",
+          "GoodsInfoVO7[]",
+          "GoodsInfoVO7",
+          "GoodsIntervalPriceVO4[]",
+          "GoodsIntervalPriceVO4",
+          "GoodsVO7[]",
+          "GoodsVO7",
+          "-3 ",
+          " -2 ",
+          " -1 ",
+          "MarketingScopeVO[]",
+          "MarketingScopeVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "GoodsPropDetailRelVO5[]",
+          "GoodsPropDetailRelVO5",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort8",
+          "GoodsIntervalPriceVO5[]",
+          "GoodsIntervalPriceVO5",
+          "GoodsVO8[]",
+          "GoodsVO8",
+          "GoodsSpecDetailVO5[]",
+          "GoodsSpecDetailVO5",
+          "GoodsSpecVO5[]",
+          "GoodsSpecVO5"
+        ]
+      },
+      "goodslist": {
+        "responseTs": [
+          "EsGoodsResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "GoodsCateVO1[]",
+          "GoodsCateVO1",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO[]",
+          "GoodsPropDetailVO",
+          "PageEsGoods",
+          "EsGoods[]",
+          "EsGoods",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest[]",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "MarketingForEndVO[]",
+          "MarketingForEndVO",
+          "MarketingFullDiscountLevelVO[]",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO[]",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO[]",
+          "MarketingFullReductionLevelVO",
+          "GoodsInfoResponseVO",
+          "GoodsBrandVO1[]",
+          "GoodsBrandVO1",
+          "GoodsCateVO2[]",
+          "GoodsCateVO2",
+          "MicroServicePageGoodsInfoVO",
+          "GoodsInfoVO6[]",
+          "GoodsInfoVO6",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort7",
+          "GoodsInfoVO7[]",
+          "GoodsInfoVO7",
+          "GoodsIntervalPriceVO4[]",
+          "GoodsIntervalPriceVO4",
+          "GoodsVO7[]",
+          "GoodsVO7",
+          "-3 ",
+          " -2 ",
+          " -1 ",
+          "MarketingScopeVO[]",
+          "MarketingScopeVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "GoodsPropDetailRelVO5[]",
+          "GoodsPropDetailRelVO5",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort8",
+          "GoodsIntervalPriceVO5[]",
+          "GoodsIntervalPriceVO5",
+          "GoodsVO8[]",
+          "GoodsVO8",
+          "GoodsSpecDetailVO5[]",
+          "GoodsSpecDetailVO5",
+          "GoodsSpecVO5[]",
+          "GoodsSpecVO5"
+        ]
+      },
+      "grouponGoodsDetailUnLogin": {
+        "responseTs": [
+          "GrouponGoodsViewByIdResponse",
+          "GoodsVO",
+          "GoodsCustomerPriceVO[]",
+          "GoodsCustomerPriceVO",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsLevelPriceVO[]",
+          "GoodsLevelPriceVO",
+          "GoodsPropDetailRelVO[]",
+          "GoodsPropDetailRelVO",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO",
+          "GoodsTabRelaVO[]",
+          "GoodsTabRelaVO",
+          "GrouponDetailWithGoodsVO",
+          "CustomerDetailWithImgVO[]",
+          "CustomerDetailWithImgVO",
+          "GrouponActivityVO",
+          "",
+          " '0'\n",
+          " '1'\n",
+          " '2'\n",
+          " '3'\n",
+          " '4'\n",
+          " '5'\n",
+          " '6'\n",
+          " '7'\n",
+          " '8'\n",
+          " '9'",
+          "TradeGrouponVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'",
+          "GrouponInstanceWithCustomerInfoVO[]",
+          "GrouponInstanceWithCustomerInfoVO",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "StoreGoodsTabVO[]",
+          "StoreGoodsTabVO"
+        ]
+      },
+      "grouponDetailByGrouponNoUnLogin": {
+        "responseTs": [
+          "GrouponGoodsViewByIdResponse",
+          "GoodsVO",
+          "GoodsCustomerPriceVO[]",
+          "GoodsCustomerPriceVO",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsLevelPriceVO[]",
+          "GoodsLevelPriceVO",
+          "GoodsPropDetailRelVO[]",
+          "GoodsPropDetailRelVO",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO",
+          "GoodsTabRelaVO[]",
+          "GoodsTabRelaVO",
+          "GrouponDetailWithGoodsVO",
+          "CustomerDetailWithImgVO[]",
+          "CustomerDetailWithImgVO",
+          "GrouponActivityVO",
+          "",
+          " '0'\n",
+          " '1'\n",
+          " '2'\n",
+          " '3'\n",
+          " '4'\n",
+          " '5'\n",
+          " '6'\n",
+          " '7'\n",
+          " '8'\n",
+          " '9'",
+          "TradeGrouponVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'",
+          "GrouponInstanceWithCustomerInfoVO[]",
+          "GrouponInstanceWithCustomerInfoVO",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "StoreGoodsTabVO[]",
+          "StoreGoodsTabVO"
+        ]
+      },
+      "unLoginDetail": {
+        "responseTs": [
+          "GoodsViewByIdResponse",
+          "GoodsVO6",
+          "GoodsCustomerPriceVO3[]",
+          "GoodsCustomerPriceVO3",
+          "GoodsInfoVO5[]",
+          "GoodsInfoVO5",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO3[]",
+          "GoodsIntervalPriceVO3",
+          "GoodsLevelPriceVO3[]",
+          "GoodsLevelPriceVO3",
+          "GoodsPropDetailRelVO4[]",
+          "GoodsPropDetailRelVO4",
+          "GoodsSpecDetailVO4[]",
+          "GoodsSpecDetailVO4",
+          "GoodsSpecVO4[]",
+          "GoodsSpecVO4",
+          "GoodsTabRelaVO4[]",
+          "GoodsTabRelaVO4",
+          "GoodsImageVO4[]",
+          "GoodsImageVO4",
+          "StoreGoodsTabVO4[]",
+          "StoreGoodsTabVO4"
+        ]
+      }
+    }
+  },
+  "GoodsBrandBaseController": {
+    "fileName": "GoodsBrandBaseController",
+    "methods": {
+      "list": {
+        "responseTs": [
+          " GoodsBrandByIdResponse "
+        ]
+      }
+    }
+  },
+  "GoodsCateBaseController": {
+    "fileName": "GoodsCateBaseController",
+    "methods": {
+      "list": {
+        "responseTs": [
+          "GoodsCateVOArray"
+        ]
+      }
+    }
+  },
+  "GoodsEvaluateController": {
+    "fileName": "GoodsEvaluateController",
+    "methods": {
+      "addGoodsEvaluate": {
+        "responseTs": []
+      },
+      "editGoodsEvaluate": {
+        "responseTs": []
+      },
+      "getCustomerGoodsEvaluate": {
+        "responseTs": [
+          "GoodsEvaluateVO",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "null",
+          "GoodsImageVO[]",
+          "GoodsImageVO"
+        ]
+      },
+      "evaluateInfo": {
+        "responseTs": [
+          "EvaluateInfoResponse",
+          "GoodsEvaluateImageVO2[]",
+          "GoodsEvaluateImageVO2",
+          "null",
+          "GoodsEvaluateVO2",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "StoreEvaluateSumVO",
+          "StoreEvaluateVO",
+          "StoreVO",
+          "TradeItemVO",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'"
+        ]
+      },
+      "getGoodsAndStore": {
+        "responseTs": [
+          "GoodsEvaluateQueryGoodsAndStoreResponse",
+          "StoreEvaluateSumVO2",
+          "StoreVO3",
+          "null",
+          "TradeItemVO2",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'"
+        ]
+      },
+      "getGoodsEvaluateImg": {
+        "responseTs": [
+          "GoodsEvaluateImagePageResponse",
+          "MicroServicePageGoodsEvaluateImageVO",
+          "GoodsEvaluateImageVO3[]",
+          "GoodsEvaluateImageVO3",
+          "null",
+          "Sort3"
+        ]
+      },
+      "getGoodsEvaluateNum": {
+        "responseTs": []
+      },
+      "getStoreGoodsEvaluateNum": {
+        "responseTs": [
+          "GoodsDetailEvaluateResp",
+          "GoodsEvaluateCountResponse",
+          "GoodsEvaluateImagePageResponse2",
+          "MicroServicePageGoodsEvaluateImageVO",
+          "GoodsEvaluateImageVO3[]",
+          "GoodsEvaluateImageVO3",
+          "null",
+          "Sort3"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "GoodsEvaluatePageResponse",
+          "MicroServicePageGoodsEvaluateVO",
+          "GoodsEvaluateVO3[]",
+          "GoodsEvaluateVO3",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "null",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "Sort5"
+        ]
+      },
+      "spuGoodsEvaluatePage": {
+        "responseTs": [
+          "GoodsEvaluatePageResponse",
+          "MicroServicePageGoodsEvaluateVO",
+          "GoodsEvaluateVO3[]",
+          "GoodsEvaluateVO3",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "null",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "Sort5"
+        ]
+      },
+      "spuGoodsEvaluatePageLogin": {
+        "responseTs": [
+          "GoodsEvaluatePageResponse",
+          "MicroServicePageGoodsEvaluateVO",
+          "GoodsEvaluateVO3[]",
+          "GoodsEvaluateVO3",
+          "GoodsEvaluateImageVO[]",
+          "GoodsEvaluateImageVO",
+          "null",
+          "GoodsImageVO[]",
+          "GoodsImageVO",
+          "Sort5"
+        ]
+      }
+    }
+  },
+  "GoodsInfoBaseController": {
+    "fileName": "GoodsInfoBaseController",
+    "methods": {
+      "queryGoodsListBySkuIds": {
+        "responseTs": [
+          "GoodsInfoViewByIdsResponse",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsVO1[]",
+          "GoodsVO1"
+        ]
+      },
+      "propsList": {
+        "responseTs": [
+          "GoodsPropVOArray"
+        ]
+      },
+      "listByCateId": {
+        "responseTs": [
+          "GoodsPropVOArray"
+        ]
+      },
+      "getShopInfo": {
+        "responseTs": [
+          "ShopInfoResponse"
+        ]
+      },
+      "addDistributorGoods": {
+        "responseTs": [
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO2[]",
+          "GoodsPropDetailVO2",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort7",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO3[]",
+          "GoodsVO3",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      },
+      "shopSkuList": {
+        "responseTs": [
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO2[]",
+          "GoodsPropDetailVO2",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort7",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO3[]",
+          "GoodsVO3",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      },
+      "shopSkuListToC": {
+        "responseTs": [
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO2[]",
+          "GoodsPropDetailVO2",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort7",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO3[]",
+          "GoodsVO3",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      },
+      "detail": {
+        "responseTs": [
+          "GoodsInfoDetailByGoodsInfoResponse",
+          "GoodsVO4",
+          "GoodsCustomerPriceVO[]",
+          "GoodsCustomerPriceVO",
+          "GoodsInfoVO2",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO2[]",
+          "GoodsIntervalPriceVO2",
+          "GoodsLevelPriceVO[]",
+          "GoodsLevelPriceVO",
+          "GoodsPropDetailRelVO[]",
+          "GoodsPropDetailRelVO",
+          "GoodsSpecDetailVO2[]",
+          "GoodsSpecDetailVO2",
+          "GoodsSpecVO2[]",
+          "GoodsSpecVO2",
+          "GoodsImageVO[]",
+          "GoodsImageVO"
+        ]
+      },
+      "skuListFront": {
+        "responseTs": [
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO2[]",
+          "GoodsPropDetailVO2",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort7",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO3[]",
+          "GoodsVO3",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      },
+      "list": {
+        "responseTs": [
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO2[]",
+          "GoodsPropDetailVO2",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort7",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO3[]",
+          "GoodsVO3",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      },
+      "unLoginDetail": {
+        "responseTs": [
+          "GoodsInfoDetailByGoodsInfoResponse",
+          "GoodsVO4",
+          "GoodsCustomerPriceVO[]",
+          "GoodsCustomerPriceVO",
+          "GoodsInfoVO2",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "GoodsIntervalPriceVO2[]",
+          "GoodsIntervalPriceVO2",
+          "GoodsLevelPriceVO[]",
+          "GoodsLevelPriceVO",
+          "GoodsPropDetailRelVO[]",
+          "GoodsPropDetailRelVO",
+          "GoodsSpecDetailVO2[]",
+          "GoodsSpecDetailVO2",
+          "GoodsSpecVO2[]",
+          "GoodsSpecVO2",
+          "GoodsImageVO[]",
+          "GoodsImageVO"
+        ]
+      },
+      "unLoginList": {
+        "responseTs": [
+          "EsGoodsInfoResponse",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO2[]",
+          "GoodsPropDetailVO2",
+          "PageEsGoodsInfo",
+          "EsGoodsInfo[]",
+          "EsGoodsInfo",
+          "GoodsCustomerPriceNest[]",
+          "GoodsCustomerPriceNest",
+          "GoodsBrandNest",
+          "GoodsCateNest",
+          "GoodsInfoNest",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GrouponLabelVO2",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsLevelPriceNest[]",
+          "GoodsLevelPriceNest",
+          "GoodsPropDetailRelNest[]",
+          "GoodsPropDetailRelNest",
+          "GoodsInfoSpecDetailRelNest[]",
+          "GoodsInfoSpecDetailRelNest",
+          "Pageable2",
+          "Sort2",
+          "Sort7",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO3[]",
+          "GoodsVO3",
+          "GoodsSpecDetailVO[]",
+          "GoodsSpecDetailVO",
+          "GoodsSpecVO[]",
+          "GoodsSpecVO"
+        ]
+      }
+    }
+  },
+  "GoodsTobeEvaluateController": {
+    "fileName": "GoodsTobeEvaluateController",
+    "methods": {
+      "getGoodsTobeEvaluateNum": {
+        "responseTs": []
+      },
+      "pageGoodsTobeEvaluate": {
+        "responseTs": [
+          "GoodsTobeEvaluatePageResponse",
+          "MicroServicePageGoodsTobeEvaluateVO",
+          "GoodsTobeEvaluateVO[]",
+          "GoodsTobeEvaluateVO",
+          "Sort3"
+        ]
+      }
+    }
+  },
+  "GrouponBaseController": {
+    "fileName": "GrouponBaseController",
+    "methods": {
+      "getGrouponInstanceInfo": {
+        "responseTs": [
+          "GrouponInstanceWithCustomerInfoVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "GrouponInstancePageWithCustomerInfoResponse",
+          "MicroServicePageGrouponInstanceWithCustomerInfoVO",
+          "GrouponInstanceWithCustomerInfoVO2[]",
+          "GrouponInstanceWithCustomerInfoVO2",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'",
+          "Sort3"
+        ]
+      },
+      "inviteAddGroup": {
+        "responseTs": []
+      },
+      "getGrouponLatestInstanceByActivityId": {
+        "responseTs": [
+          "GrouponInstanceByActivityIdResponse",
+          "GrouponInstanceVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'"
+        ]
+      },
+      "vaildateGrouponStatusForOpenOrJoin": {
+        "responseTs": [
+          "GrouponGoodsInfoVO"
+        ]
+      }
+    }
+  },
+  "GrouponCateBaseController": {
+    "fileName": "GrouponCateBaseController",
+    "methods": {
+      "findGrouponCateList": {
+        "responseTs": [
+          "GrouponCateListResponse",
+          "GrouponCateVO[]",
+          "GrouponCateVO"
+        ]
+      }
+    }
+  },
+  "GrouponCenterController": {
+    "fileName": "GrouponCenterController",
+    "methods": {
+      "list": {
+        "responseTs": [
+          "GrouponCenterListResponse",
+          "MicroServicePageGrouponCenterVO",
+          "GrouponCenterVO[]",
+          "GrouponCenterVO",
+          "Sort3"
+        ]
+      }
+    }
+  },
+  "GrouponOrderController": {
+    "fileName": "GrouponOrderController",
+    "methods": {
+      "getGrouponOrderStatusByOrderId": {
+        "responseTs": [
+          "GrouponOrderStatusGetByOrderIdResponse",
+          "",
+          " '0'\n",
+          " '1'\n",
+          " '2'\n",
+          " '3'\n",
+          " '4'\n",
+          " '5'\n",
+          " '6'\n",
+          " '7'\n",
+          " '8'\n",
+          " '9'\n",
+          " '10'\n",
+          " '11'\n",
+          " '12'\n",
+          " '13'"
+        ]
+      },
+      "getGrouponActivityByGrouponNo": {
+        "responseTs": [
+          "GrouponActivityVO"
+        ]
+      }
+    }
+  },
+  "GrouponSettingController": {
+    "fileName": "GrouponSettingController",
+    "methods": {
+      "findOne": {
+        "responseTs": [
+          "GrouponSettingPageResponse",
+          "GrouponSettingVO"
+        ]
+      }
+    }
+  },
+  "ImageBaseController": {
+    "fileName": "ImageBaseController",
+    "methods": {
+      "uploadFile": {
+        "responseTs": []
+      }
+    }
+  },
+  "InviteCustomerRecordController": {
+    "fileName": "InviteCustomerRecordController",
+    "methods": {
+      "countInviteCustomer": {
+        "responseTs": [
+          "CountInviteCustomerResponse"
+        ]
+      },
+      "getDistributionSetting": {
+        "responseTs": [
+          "DistributionSettingVO"
+        ]
+      },
+      "pageInviteCustomer": {
+        "responseTs": [
+          "Page",
+          "{\n[k: string]: any;\n}[]",
+          "{\n[k: string]: any;\n}",
+          "Pageable",
+          "Sort3",
+          "Sort4"
+        ]
+      },
+      "pageMyCustomer": {
+        "responseTs": [
+          "MicroServicePage",
+          "{\n[k: string]: any;\n}[]",
+          "{\n[k: string]: any;\n}",
+          "Sort6"
+        ]
+      },
+      "pageValidInvite": {
+        "responseTs": [
+          "Page",
+          "{\n[k: string]: any;\n}[]",
+          "{\n[k: string]: any;\n}",
+          "Pageable",
+          "Sort3",
+          "Sort4"
+        ]
+      }
+    }
+  },
+  "InvoiceProjectBaseController": {
+    "fileName": "InvoiceProjectBaseController",
+    "methods": {
+      "queryProjectSwitchByIds": {
+        "responseTs": [
+          "InvoiceProjectSwitchSupportVOArray"
+        ]
+      },
+      "findAllInvoiceProject": {
+        "responseTs": [
+          "InvoiceProjectListVOArray"
+        ]
+      }
+    }
+  },
+  "LoginBaseController": {
+    "fileName": "LoginBaseController",
+    "methods": {
+      "checkAccount": {
+        "responseTs": []
+      },
+      "checkSmsByForgot": {
+        "responseTs": []
+      },
+      "checkSmsByRegister": {
+        "responseTs": []
+      },
+      "checkSmsByWebModalRegister": {
+        "responseTs": []
+      },
+      "getRegisterLimitType": {
+        "responseTs": [
+          "RegisterResponse"
+        ]
+      },
+      "login": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "loginWithVerificationCode": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "sendLoginCode": {
+        "responseTs": []
+      },
+      "passwordByForgot": {
+        "responseTs": []
+      },
+      "patchca": {
+        "responseTs": []
+      },
+      "perfect": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "register": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "checkRegister": {
+        "responseTs": []
+      },
+      "registerModal": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "CustomerDetailVO1",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "isVisitWithLogin": {
+        "responseTs": [
+          "UserAuditResponse"
+        ]
+      },
+      "validateSmsByForgot": {
+        "responseTs": []
+      }
+    }
+  },
+  "MarketingController": {
+    "fileName": "MarketingController",
+    "methods": {
+      "getMarketingById": {
+        "responseTs": [
+          "MarketingForEndVO",
+          "MarketingFullDiscountLevelVO[]",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO[]",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO[]",
+          "MarketingFullReductionLevelVO",
+          "GoodsInfoResponseVO",
+          "GoodsBrandVO[]",
+          "GoodsBrandVO",
+          "GoodsCateVO[]",
+          "GoodsCateVO",
+          "null[]",
+          "null",
+          "GoodsCatePropVO[]",
+          "GoodsCatePropVO",
+          "GoodsPropDetailVO[]",
+          "GoodsPropDetailVO",
+          "MicroServicePageGoodsInfoVO",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "Sort",
+          "GoodsInfoVO1[]",
+          "GoodsInfoVO1",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "GoodsVO1[]",
+          "GoodsVO1",
+          "-2 ",
+          " -1 ",
+          "MarketingScopeVO[]",
+          "MarketingScopeVO",
+          "'0' ",
+          " '1' ",
+          " '2'"
+        ]
+      }
+    }
+  },
+  "MarketingFullGiftController": {
+    "fileName": "MarketingFullGiftController",
+    "methods": {
+      "getGiftByMarketingIdWithOutLogin": {
+        "responseTs": [
+          "FullGiftLevelListByMarketingIdAndCustomerResponse",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "MarketingFullGiftLevelVO[]",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO"
+        ]
+      },
+      "getGiftByMarketingId": {
+        "responseTs": [
+          "FullGiftLevelListByMarketingIdAndCustomerResponse",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "MarketingFullGiftLevelVO[]",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO"
+        ]
+      }
+    }
+  },
+  "MessageController": {
+    "fileName": "MessageController",
+    "methods": {
+      "deleteById_": {
+        "responseTs": []
+      },
+      "page": {
+        "responseTs": [
+          "AppMessagePageResponse",
+          "MicroServicePageAppMessageVO",
+          "AppMessageVO[]",
+          "AppMessageVO",
+          "Sort3"
+        ]
+      },
+      "setMessageAllRead": {
+        "responseTs": []
+      },
+      "setMessageRead": {
+        "responseTs": []
+      }
+    }
+  },
+  "MobileConfigController": {
+    "fileName": "MobileConfigController",
+    "methods": {
+      "listConfigs": {
+        "responseTs": [
+          "ConfigVOArray"
+        ]
+      }
+    }
+  },
+  "MobileSettingController": {
+    "fileName": "MobileSettingController",
+    "methods": {
+      "getAboutUs": {
+        "responseTs": []
+      },
+      "getAppShareSetting": {
+        "responseTs": [
+          "AppShareSettingGetResponse"
+        ]
+      },
+      "getAppUpgrade": {
+        "responseTs": [
+          "AppUpgradeGetResponse"
+        ]
+      }
+    }
+  },
+  "PayBaseController": {
+    "fileName": "PayBaseController",
+    "methods": {
+      "defaultPayBatch": {
+        "responseTs": []
+      },
+      "defaultPayBatchUsingHEAD": {
+        "responseTs": []
+      },
+      "defaultPayBatch_": {
+        "responseTs": []
+      },
+      "defaultPayBatchUsingOPTIONS": {
+        "responseTs": []
+      },
+      "defaultPayBatchUsingPATCH": {
+        "responseTs": []
+      },
+      "queryGatewayIsOpen": {
+        "responseTs": []
+      },
+      "queryUnionB2bConfig": {
+        "responseTs": [
+          "PayGatewayConfigResponse",
+          "PayGatewayVO",
+          "PayGatewayConfigVO",
+          "null",
+          "null[]"
+        ]
+      },
+      "queryUnionB2bConfigUsingHEAD": {
+        "responseTs": [
+          "\n  PayGatewayConfigResponse\n"
+        ]
+      },
+      "queryUnionB2bConfig_": {
+        "responseTs": [
+          "PayGatewayConfigResponse",
+          "PayGatewayVO",
+          "PayGatewayConfigVO",
+          "null",
+          "null[]"
+        ]
+      },
+      "queryUnionB2bConfigUsingOPTIONS": {
+        "responseTs": [
+          "\n  PayGatewayConfigResponse\n"
+        ]
+      },
+      "queryUnionB2bConfigUsingPATCH": {
+        "responseTs": [
+          "\n  PayGatewayConfigResponse\n"
+        ]
+      },
+      "getRecordStatus": {
+        "responseTs": []
+      }
+    }
+  },
+  "PayController": {
+    "fileName": "PayController",
+    "methods": {
+      "checkPayState": {
+        "responseTs": []
+      },
+      "aliPay": {
+        "responseTs": []
+      },
+      "appAliPay": {
+        "responseTs": []
+      },
+      "balancePay": {
+        "responseTs": []
+      },
+      "create": {
+        "responseTs": []
+      },
+      "getAppId": {
+        "responseTs": []
+      },
+      "getLittleProgramOpenId": {
+        "responseTs": []
+      },
+      "getOpenIdByChannel": {
+        "responseTs": []
+      },
+      "getWxConfig": {
+        "responseTs": []
+      },
+      "getWxOpenId": {
+        "responseTs": []
+      },
+      "items": {
+        "responseTs": [
+          "PayChannelItemVOArray"
+        ]
+      },
+      "checkOrderPayState": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForApp": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForJSApi": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForLittleProgram": {
+        "responseTs": []
+      },
+      "wxPayUnifiedorderForMweb": {
+        "responseTs": [
+          "WxPayForMWebResponse"
+        ]
+      }
+    }
+  },
+  "PointsMallController": {
+    "fileName": "PointsMallController",
+    "methods": {
+      "getCateList": {
+        "responseTs": [
+          "PointsGoodsCateListResponse",
+          "PointsGoodsCateVO[]",
+          "PointsGoodsCateVO"
+        ]
+      },
+      "getById": {
+        "responseTs": [
+          "PointsCouponByIdResponse",
+          "PointsCouponVO",
+          "CouponInfoVO"
+        ]
+      },
+      "findCustomerInfo": {
+        "responseTs": [
+          "CustomerInfoResponse"
+        ]
+      },
+      "fetchPointsCoupon": {
+        "responseTs": [
+          "PointsTradeCommitResultVO"
+        ]
+      },
+      "hotExchange": {
+        "responseTs": [
+          "PointsGoodsPageResponse",
+          "MicroServicePagePointsGoodsVO",
+          "PointsGoodsVO[]",
+          "PointsGoodsVO",
+          "GoodsVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "PointsGoodsCateVO2",
+          "Sort3"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "PointsCouponPageResponse",
+          "MicroServicePagePointsCouponVO",
+          "PointsCouponVO2[]",
+          "PointsCouponVO2",
+          "CouponInfoVO",
+          "Sort5"
+        ]
+      },
+      "pageCanExchange": {
+        "responseTs": [
+          "PointsGoodsPageResponse",
+          "MicroServicePagePointsGoodsVO",
+          "PointsGoodsVO[]",
+          "PointsGoodsVO",
+          "GoodsVO",
+          "GoodsInfoVO",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO1",
+          "GrouponLabelVO",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO",
+          "PointsGoodsCateVO2",
+          "Sort3"
+        ]
+      },
+      "pageCanExchangeCoupon": {
+        "responseTs": [
+          "PointsCouponPageResponse",
+          "MicroServicePagePointsCouponVO",
+          "PointsCouponVO2[]",
+          "PointsCouponVO2",
+          "CouponInfoVO",
+          "Sort5"
+        ]
+      }
+    }
+  },
+  "PointsTradeController": {
+    "fileName": "PointsTradeController",
+    "methods": {
+      "commit": {
+        "responseTs": [
+          "PointsTradeCommitResultVO"
+        ]
+      },
+      "exchange": {
+        "responseTs": []
+      },
+      "getExchangeItem": {
+        "responseTs": [
+          "PointsTradeConfirmResponse",
+          "PointsTradeItemGroupVO2",
+          "SupplierVO",
+          "TradeItemVO",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'"
+        ]
+      }
+    }
+  },
+  "PurchaseBaseController": {
+    "fileName": "PurchaseBaseController",
+    "methods": {
+      "addFollow": {
+        "responseTs": []
+      },
+      "batchAdd": {
+        "responseTs": []
+      },
+      "clearLoseGoods_": {
+        "responseTs": []
+      },
+      "countGoods": {
+        "responseTs": []
+      },
+      "miniFrontInfo": {
+        "responseTs": [
+          "MiniPurchaseResponse",
+          "GoodsIntervalPriceVO[]",
+          "GoodsIntervalPriceVO",
+          "PurchaseGoodsReponse[]",
+          "PurchaseGoodsReponse",
+          "CouponLabelVO[]",
+          "CouponLabelVO",
+          "GoodsVO",
+          "GrouponLabelVO2",
+          "MarketingLabelVO[]",
+          "MarketingLabelVO"
+        ]
+      },
+      "frontInfo": {
+        "responseTs": [
+          "PurchaseResponse",
+          "CompanyInfoVO[]",
+          "CompanyInfoVO",
+          "EmployeeVO[]",
+          "EmployeeVO",
+          "CompanyInfoVO1",
+          "StoreVO[]",
+          "StoreVO",
+          "CompanyInfoVO2",
+          "GoodsInfoVO[]",
+          "GoodsInfoVO",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GoodsVO2",
+          "GrouponLabelVO3",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsIntervalPriceVO2[]",
+          "GoodsIntervalPriceVO2",
+          "{\n[k: string]: MarketingViewVO[];\n}",
+          "GoodsMarketingVO[]",
+          "GoodsMarketingVO",
+          "GoodsVO4[]",
+          "GoodsVO4",
+          "{\n[k: string]: boolean;\n}",
+          "{\n[k: string]: PurchaseMarketingCalcVO[];\n}",
+          "StoreVO1[]",
+          "StoreVO1"
+        ]
+      },
+      "queryGoodsMarketingList": {
+        "responseTs": [
+          "GoodsMarketingVOArray"
+        ]
+      },
+      "modifyGoodsMarketing": {
+        "responseTs": []
+      },
+      "mergePurchase": {
+        "responseTs": []
+      },
+      "miniInfo": {
+        "responseTs": [
+          "PurchaseMiniListResponse",
+          "GoodsIntervalPriceVO4[]",
+          "GoodsIntervalPriceVO4",
+          "PurchaseGoodsVO[]",
+          "PurchaseGoodsVO",
+          "CouponLabelVO3[]",
+          "CouponLabelVO3",
+          "GoodsVO6",
+          "GrouponLabelVO4",
+          "MarketingLabelVO3[]",
+          "MarketingLabelVO3"
+        ]
+      },
+      "add": {
+        "responseTs": []
+      },
+      "edit": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "info": {
+        "responseTs": [
+          "PurchaseListResponse",
+          "CompanyInfoVO4[]",
+          "CompanyInfoVO4",
+          "EmployeeVO[]",
+          "EmployeeVO",
+          "CompanyInfoVO1",
+          "StoreVO[]",
+          "StoreVO",
+          "CompanyInfoVO2",
+          "DistributionSettingSimVO",
+          "GoodsInfoVO6[]",
+          "GoodsInfoVO6",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GoodsVO2",
+          "GrouponLabelVO3",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsIntervalPriceVO5[]",
+          "GoodsIntervalPriceVO5",
+          "{\n[k: string]: MarketingViewVO2[];\n}",
+          "GoodsMarketingVO3[]",
+          "GoodsMarketingVO3",
+          "GoodsVO7[]",
+          "GoodsVO7",
+          "{\n[k: string]: boolean;\n}",
+          "{\n[k: string]: PurchaseMarketingCalcVO2[];\n}",
+          "StoreVO3[]",
+          "StoreVO3"
+        ]
+      },
+      "calcMarketingByMarketingId": {
+        "responseTs": [
+          "PurchaseCalcMarketingResponse",
+          "MarketingFullDiscountLevelVO3",
+          "MarketingFullGiftLevelVO4",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullGiftLevelVO5[]",
+          "MarketingFullGiftLevelVO5",
+          "MarketingFullReductionLevelVO3",
+          "PurchaseGoodsViewVO2",
+          "GoodsInfoVO3[]",
+          "GoodsInfoVO3",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GoodsVO2",
+          "GrouponLabelVO3",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsVO5[]",
+          "GoodsVO5",
+          "GoodsInfoVO7[]",
+          "GoodsInfoVO7",
+          "'0' ",
+          " '1' ",
+          " '2'"
+        ]
+      },
+      "calcMarketingByMarketingIdFront": {
+        "responseTs": [
+          "PurchaseCalcMarketingResponse",
+          "MarketingFullDiscountLevelVO3",
+          "MarketingFullGiftLevelVO4",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullGiftLevelVO5[]",
+          "MarketingFullGiftLevelVO5",
+          "MarketingFullReductionLevelVO3",
+          "PurchaseGoodsViewVO2",
+          "GoodsInfoVO3[]",
+          "GoodsInfoVO3",
+          "CouponLabelVO2[]",
+          "CouponLabelVO2",
+          "GoodsVO2",
+          "GrouponLabelVO3",
+          "MarketingLabelVO2[]",
+          "MarketingLabelVO2",
+          "GoodsVO5[]",
+          "GoodsVO5",
+          "GoodsInfoVO7[]",
+          "GoodsInfoVO7",
+          "'0' ",
+          " '1' ",
+          " '2'"
+        ]
+      }
+    }
+  },
+  "QQServiceController": {
+    "fileName": "QQServiceController",
+    "methods": {
+      "qqDetail": {
+        "responseTs": [
+          "OnlineServiceListResponse",
+          "OnlineServiceItemVO[]",
+          "OnlineServiceItemVO",
+          "OnlineServiceVO"
+        ]
+      }
+    }
+  },
+  "RefundOrderController": {
+    "fileName": "RefundOrderController",
+    "methods": {
+      "queryRefundByReturnOrderNo": {
+        "responseTs": [
+          "RefundOrderResponse",
+          "'0' ",
+          " '1'"
+        ]
+      }
+    }
+  },
+  "ResourceBaseController": {
+    "fileName": "ResourceBaseController",
+    "methods": {
+      "uploadFile": {
+        "responseTs": []
+      }
+    }
+  },
+  "ReturnOrderBaseController": {
+    "fileName": "ReturnOrderBaseController",
+    "methods": {
+      "cancel": {
+        "responseTs": []
+      },
+      "deliver": {
+        "responseTs": []
+      },
+      "findByTid": {
+        "responseTs": [
+          "ReturnOrderVOArray"
+        ]
+      },
+      "findCompletedByTid": {
+        "responseTs": [
+          "ReturnOrderVOArray"
+        ]
+      },
+      "images": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "MicroServicePageReturnOrderVO",
+          "ReturnOrderVO2[]",
+          "ReturnOrderVO2",
+          "BuyerVO",
+          "CompanyVO",
+          "ConsigneeVO",
+          "CustomerAccountVO",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "'0' ",
+          " '1'",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "ReturnEventLogVO[]",
+          "ReturnEventLogVO",
+          "Operator",
+          " 'INIT'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED'\n",
+          " 'RECEIVED'\n",
+          " 'REFUNDED'\n",
+          " 'COMPLETED'\n",
+          " 'REJECT_REFUND'\n",
+          " 'REJECT_RECEIVE'\n",
+          " 'VOID'\n",
+          " 'REFUND_FAILED'",
+          "ReturnItemVO[]",
+          "ReturnItemVO",
+          "ReturnItemVO1[]",
+          "ReturnItemVO1",
+          "ReturnLogisticsVO",
+          "ReturnPointsVO",
+          "ReturnPriceVO",
+          "Sort3"
+        ]
+      },
+      "findReturnReason": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "refundOrder": {
+        "responseTs": [
+          "RefundOrderResponse",
+          "'0' ",
+          " '1'"
+        ]
+      },
+      "returnItems": {
+        "responseTs": [
+          "ReturnItemVOArray"
+        ]
+      },
+      "returnLogistics": {
+        "responseTs": [
+          "ReturnLogisticsVO"
+        ]
+      },
+      "tradeDetails": {
+        "responseTs": [
+          "TradeVO",
+          "BuyerVO2",
+          "TradeCommissionVO[]",
+          "TradeCommissionVO",
+          "ConsigneeVO2",
+          "TradeDistributeItemVO2[]",
+          "TradeDistributeItemVO2",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "TradeItemVO[]",
+          "TradeItemVO",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "InvoiceVO",
+          "GeneralInvoiceVO",
+          "SpecialInvoiceVO",
+          "'SUPPLIER' ",
+          " 'WECHAT' ",
+          " 'PC' ",
+          " 'APP' ",
+          " 'LITTLEPROGRAM'",
+          "PayInfoVO",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'NO_LIMIT' ",
+          " 'PAY_FIRST'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "SellerVO",
+          "SupplierVO",
+          "TradeCouponVO",
+          "TradeDeliverVO[]",
+          "TradeDeliverVO",
+          "ConsigneeVO3",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "TradeEventLogVO[]",
+          "TradeEventLogVO",
+          "Operator2",
+          "TradeGrouponVO",
+          " '2' ",
+          " '3'",
+          "TradeItemVO1[]",
+          "TradeItemVO1",
+          "TradeMarketingVO[]",
+          "TradeMarketingVO",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO",
+          "TradePriceVO",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO",
+          "TradeStateVO",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'"
+        ]
+      },
+      "findReturnWay": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "findById": {
+        "responseTs": [
+          "ReturnOrderVO",
+          "BuyerVO",
+          "CompanyVO",
+          "ConsigneeVO",
+          "CustomerAccountVO",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "'0' ",
+          " '1'",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "ReturnEventLogVO[]",
+          "ReturnEventLogVO",
+          "Operator",
+          " 'INIT'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED'\n",
+          " 'RECEIVED'\n",
+          " 'REFUNDED'\n",
+          " 'COMPLETED'\n",
+          " 'REJECT_REFUND'\n",
+          " 'REJECT_RECEIVE'\n",
+          " 'VOID'\n",
+          " 'REFUND_FAILED'",
+          "ReturnItemVO[]",
+          "ReturnItemVO",
+          "ReturnItemVO1[]",
+          "ReturnItemVO1",
+          "ReturnLogisticsVO",
+          "ReturnPointsVO",
+          "ReturnPriceVO"
+        ]
+      },
+      "findByIdUsingHEAD": {
+        "responseTs": [
+          "ReturnOrderVO",
+          "BuyerVO",
+          "CompanyVO",
+          "ConsigneeVO",
+          "CustomerAccountVO",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "'0' ",
+          " '1'",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "ReturnEventLogVO[]",
+          "ReturnEventLogVO",
+          "Operator",
+          " 'INIT'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED'\n",
+          " 'RECEIVED'\n",
+          " 'REFUNDED'\n",
+          " 'COMPLETED'\n",
+          " 'REJECT_REFUND'\n",
+          " 'REJECT_RECEIVE'\n",
+          " 'VOID'\n",
+          " 'REFUND_FAILED'",
+          "ReturnItemVO[]",
+          "ReturnItemVO",
+          "ReturnItemVO1[]",
+          "ReturnItemVO1",
+          "ReturnLogisticsVO",
+          "ReturnPointsVO",
+          "ReturnPriceVO"
+        ]
+      },
+      "findById_": {
+        "responseTs": [
+          "ReturnOrderVO",
+          "BuyerVO",
+          "CompanyVO",
+          "ConsigneeVO",
+          "CustomerAccountVO",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "'0' ",
+          " '1'",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "ReturnEventLogVO[]",
+          "ReturnEventLogVO",
+          "Operator",
+          " 'INIT'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED'\n",
+          " 'RECEIVED'\n",
+          " 'REFUNDED'\n",
+          " 'COMPLETED'\n",
+          " 'REJECT_REFUND'\n",
+          " 'REJECT_RECEIVE'\n",
+          " 'VOID'\n",
+          " 'REFUND_FAILED'",
+          "ReturnItemVO[]",
+          "ReturnItemVO",
+          "ReturnItemVO1[]",
+          "ReturnItemVO1",
+          "ReturnLogisticsVO",
+          "ReturnPointsVO",
+          "ReturnPriceVO"
+        ]
+      },
+      "findByIdUsingOPTIONS": {
+        "responseTs": [
+          "ReturnOrderVO",
+          "BuyerVO",
+          "CompanyVO",
+          "ConsigneeVO",
+          "CustomerAccountVO",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "'0' ",
+          " '1'",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "ReturnEventLogVO[]",
+          "ReturnEventLogVO",
+          "Operator",
+          " 'INIT'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED'\n",
+          " 'RECEIVED'\n",
+          " 'REFUNDED'\n",
+          " 'COMPLETED'\n",
+          " 'REJECT_REFUND'\n",
+          " 'REJECT_RECEIVE'\n",
+          " 'VOID'\n",
+          " 'REFUND_FAILED'",
+          "ReturnItemVO[]",
+          "ReturnItemVO",
+          "ReturnItemVO1[]",
+          "ReturnItemVO1",
+          "ReturnLogisticsVO",
+          "ReturnPointsVO",
+          "ReturnPriceVO"
+        ]
+      },
+      "findByIdUsingPATCH": {
+        "responseTs": [
+          "ReturnOrderVO",
+          "BuyerVO",
+          "CompanyVO",
+          "ConsigneeVO",
+          "CustomerAccountVO",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "'0' ",
+          " '1'",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "ReturnEventLogVO[]",
+          "ReturnEventLogVO",
+          "Operator",
+          " 'INIT'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED'\n",
+          " 'RECEIVED'\n",
+          " 'REFUNDED'\n",
+          " 'COMPLETED'\n",
+          " 'REJECT_REFUND'\n",
+          " 'REJECT_RECEIVE'\n",
+          " 'VOID'\n",
+          " 'REFUND_FAILED'",
+          "ReturnItemVO[]",
+          "ReturnItemVO",
+          "ReturnItemVO1[]",
+          "ReturnItemVO1",
+          "ReturnLogisticsVO",
+          "ReturnPointsVO",
+          "ReturnPriceVO"
+        ]
+      }
+    }
+  },
+  "ReturnOrderController": {
+    "fileName": "ReturnOrderController",
+    "methods": {
+      "create": {
+        "responseTs": []
+      },
+      "createRefund": {
+        "responseTs": []
+      },
+      "transfer": {
+        "responseTs": []
+      },
+      "isReturnable": {
+        "responseTs": []
+      }
+    }
+  },
+  "SearchHistoryBaseController": {
+    "fileName": "SearchHistoryBaseController",
+    "methods": {
+      "queryDistributeGoodsHistory": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "addDistributeGoodsHistory": {
+        "responseTs": []
+      },
+      "clearDistributeGoodsHistory_": {
+        "responseTs": []
+      },
+      "queryDistribute": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "addDistribute": {
+        "responseTs": []
+      },
+      "deleteDistribute_": {
+        "responseTs": []
+      },
+      "queryGrouponHistory": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "addGrouponHistory": {
+        "responseTs": []
+      },
+      "deleteGrouponHistory_": {
+        "responseTs": []
+      },
+      "query": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "queryStore": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "addStore": {
+        "responseTs": []
+      },
+      "deleteStore_": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreBaseController": {
+    "fileName": "StoreBaseController",
+    "methods": {
+      "queryStore": {
+        "responseTs": [
+          "StoreBaseResponse",
+          "StoreEvaluateSumVO2"
+        ]
+      },
+      "queryStoreFront": {
+        "responseTs": [
+          "StoreHomeInfoResponse"
+        ]
+      },
+      "entryCoupons": {
+        "responseTs": [
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse"
+        ]
+      },
+      "queryStoreDocument": {
+        "responseTs": [
+          "StoreDocumentResponse",
+          "StoreEvaluateSumVO"
+        ]
+      },
+      "queryStoreVip": {
+        "responseTs": [
+          "StoreCustSystemResponse",
+          "CustomerLevelVO",
+          "CustomerLevelRightsVO[]",
+          "CustomerLevelRightsVO",
+          "'0' ",
+          " '1'",
+          " '1' ",
+          " '2' ",
+          " '3' ",
+          " '4' ",
+          " '5'",
+          "CustomerLevelVO1[]",
+          "CustomerLevelVO1",
+          "StoreBaseInfoResponse"
+        ]
+      },
+      "queryStoreVipFront": {
+        "responseTs": [
+          "StoreCustSystemResponse",
+          "CustomerLevelVO",
+          "CustomerLevelRightsVO[]",
+          "CustomerLevelRightsVO",
+          "'0' ",
+          " '1'",
+          " '1' ",
+          " '2' ",
+          " '3' ",
+          " '4' ",
+          " '5'",
+          "CustomerLevelVO1[]",
+          "CustomerLevelVO1",
+          "StoreBaseInfoResponse"
+        ]
+      },
+      "queryStoreUnlogin": {
+        "responseTs": [
+          "BossStoreBaseInfoResponse",
+          "StoreEvaluateSumVO3"
+        ]
+      }
+    }
+  },
+  "StoreCateBaseController": {
+    "fileName": "StoreCateBaseController",
+    "methods": {
+      "list": {
+        "responseTs": [
+          "StoreCateResponseVOArray"
+        ]
+      }
+    }
+  },
+  "StoreController": {
+    "fileName": "StoreController",
+    "methods": {
+      "list": {
+        "responseTs": [
+          "PageStoreVO",
+          "StoreVO[]",
+          "StoreVO",
+          "CompanyInfoVO",
+          "EmployeeVO[]",
+          "EmployeeVO",
+          "CompanyInfoVO1",
+          "StoreVO1[]",
+          "StoreVO1",
+          "Pageable",
+          "Sort3",
+          "Sort4"
+        ]
+      }
+    }
+  },
+  "StoreExpressCompanyBaseController": {
+    "fileName": "StoreExpressCompanyBaseController",
+    "methods": {
+      "allExpressCompanyList": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "findCheckedExpressCompanies": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      }
+    }
+  },
+  "StoreFollowBaseController": {
+    "fileName": "StoreFollowBaseController",
+    "methods": {
+      "isGoodsFollow": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      },
+      "storeFollowNum": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreFollowController": {
+    "fileName": "StoreFollowController",
+    "methods": {
+      "info": {
+        "responseTs": [
+          "MicroServicePageStoreCustomerFollowVO",
+          "StoreCustomerFollowVO[]",
+          "StoreCustomerFollowVO",
+          "Sort3"
+        ]
+      }
+    }
+  },
+  "StoreHistoryBaseController": {
+    "fileName": "StoreHistoryBaseController",
+    "methods": {
+      "query": {
+        "responseTs": [
+          "undefinedArray"
+        ]
+      },
+      "add": {
+        "responseTs": []
+      },
+      "delete_": {
+        "responseTs": []
+      }
+    }
+  },
+  "StoreLevelBaseController": {
+    "fileName": "StoreLevelBaseController",
+    "methods": {
+      "queryStoreCustomerLevel": {
+        "responseTs": [
+          "StoreLevelByCustomerIdAndStoreIdResponse",
+          "StoreLevelVO"
+        ]
+      },
+      "queryStoreLevelList": {
+        "responseTs": [
+          "StoreLevelListResponse",
+          "StoreLevelVO2[]",
+          "StoreLevelVO2"
+        ]
+      }
+    }
+  },
+  "StoreTobeEvaluateController": {
+    "fileName": "StoreTobeEvaluateController",
+    "methods": {
+      "getStoreTobeEvaluateNum": {
+        "responseTs": []
+      },
+      "pageStoreTobeEvaluate": {
+        "responseTs": [
+          "StoreTobeEvaluatePageResponse",
+          "MicroServicePageStoreTobeEvaluateVO",
+          "StoreTobeEvaluateVO[]",
+          "StoreTobeEvaluateVO",
+          "Sort3"
+        ]
+      }
+    }
+  },
+  "SystemController": {
+    "fileName": "SystemController",
+    "methods": {
+      "queryAliyun": {
+        "responseTs": []
+      },
+      "findBaseConfig": {
+        "responseTs": [
+          "BaseConfigRopResponse"
+        ]
+      },
+      "findConfig": {
+        "responseTs": [
+          "BusinessConfigRopResponse"
+        ]
+      },
+      "queryServerTime": {
+        "responseTs": []
+      }
+    }
+  },
+  "SystemGrowthValueConfigController": {
+    "fileName": "SystemGrowthValueConfigController",
+    "methods": {
+      "isGrowthValueOpen": {
+        "responseTs": [
+          "SystemGrowthValueOpenResponse"
+        ]
+      }
+    }
+  },
+  "SystemPointsConfigController": {
+    "fileName": "SystemPointsConfigController",
+    "methods": {
+      "query": {
+        "responseTs": [
+          "SystemPointsConfigQueryResponse"
+        ]
+      },
+      "isGoodsEvaluate": {
+        "responseTs": [
+          "BossGoodsEvaluateResponse"
+        ]
+      }
+    }
+  },
+  "ThirdLoginController": {
+    "fileName": "ThirdLoginController",
+    "methods": {
+      "sendCode": {
+        "responseTs": [
+          "ThirdLoginSendCodeResponse"
+        ]
+      },
+      "queryLinkedAccountFlags": {
+        "responseTs": [
+          "\n  LinkedAccountFlagsQueryResponse\n"
+        ]
+      },
+      "removeBind_": {
+        "responseTs": []
+      }
+    }
+  },
+  "TradeBaseController": {
+    "fileName": "TradeBaseController",
+    "methods": {
+      "tradeDeliverRecord": {
+        "responseTs": [
+          "TradeDeliverRecordResponse",
+          "TradeDeliverVO[]",
+          "TradeDeliverVO",
+          "ConsigneeVO",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'"
+        ]
+      },
+      "page": {
+        "responseTs": [
+          "PageTradeVO",
+          "TradeVO[]",
+          "TradeVO",
+          "BuyerVO2",
+          "TradeCommissionVO[]",
+          "TradeCommissionVO",
+          "ConsigneeVO3",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "TradeItemVO2[]",
+          "TradeItemVO2",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "InvoiceVO",
+          "GeneralInvoiceVO",
+          "SpecialInvoiceVO",
+          "'SUPPLIER' ",
+          " 'WECHAT' ",
+          " 'PC' ",
+          " 'APP' ",
+          " 'LITTLEPROGRAM'",
+          "PayInfoVO2",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'NO_LIMIT' ",
+          " 'PAY_FIRST'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "SellerVO2",
+          "SupplierVO2",
+          "TradeCouponVO",
+          "TradeDeliverVO3[]",
+          "TradeDeliverVO3",
+          "ConsigneeVO",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "TradeEventLogVO2[]",
+          "TradeEventLogVO2",
+          "Operator",
+          "TradeGrouponVO",
+          " '2' ",
+          " '3'",
+          "TradeItemVO3[]",
+          "TradeItemVO3",
+          "TradeMarketingVO[]",
+          "TradeMarketingVO",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO",
+          "TradePriceVO2",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO",
+          "TradeStateVO3",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'",
+          "Pageable2",
+          "Sort3",
+          "Sort6"
+        ]
+      },
+      "confirm": {
+        "responseTs": []
+      },
+      "details": {
+        "responseTs": [
+          "TradeVO",
+          "BuyerVO2",
+          "TradeCommissionVO[]",
+          "TradeCommissionVO",
+          "ConsigneeVO3",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "TradeItemVO2[]",
+          "TradeItemVO2",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "InvoiceVO",
+          "GeneralInvoiceVO",
+          "SpecialInvoiceVO",
+          "'SUPPLIER' ",
+          " 'WECHAT' ",
+          " 'PC' ",
+          " 'APP' ",
+          " 'LITTLEPROGRAM'",
+          "PayInfoVO2",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'NO_LIMIT' ",
+          " 'PAY_FIRST'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "SellerVO2",
+          "SupplierVO2",
+          "TradeCouponVO",
+          "TradeDeliverVO3[]",
+          "TradeDeliverVO3",
+          "ConsigneeVO",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "TradeEventLogVO2[]",
+          "TradeEventLogVO2",
+          "Operator",
+          "TradeGrouponVO",
+          " '2' ",
+          " '3'",
+          "TradeItemVO3[]",
+          "TradeItemVO3",
+          "TradeMarketingVO[]",
+          "TradeMarketingVO",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO",
+          "TradePriceVO2",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO",
+          "TradeStateVO3",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'"
+        ]
+      },
+      "cancel": {
+        "responseTs": []
+      },
+      "commit": {
+        "responseTs": [
+          "TradeCommitResultVOArray"
+        ]
+      },
+      "customerOrderPage": {
+        "responseTs": [
+          "PageTradeVO",
+          "TradeVO[]",
+          "TradeVO",
+          "BuyerVO2",
+          "TradeCommissionVO[]",
+          "TradeCommissionVO",
+          "ConsigneeVO3",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "TradeItemVO2[]",
+          "TradeItemVO2",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "InvoiceVO",
+          "GeneralInvoiceVO",
+          "SpecialInvoiceVO",
+          "'SUPPLIER' ",
+          " 'WECHAT' ",
+          " 'PC' ",
+          " 'APP' ",
+          " 'LITTLEPROGRAM'",
+          "PayInfoVO2",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'NO_LIMIT' ",
+          " 'PAY_FIRST'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "SellerVO2",
+          "SupplierVO2",
+          "TradeCouponVO",
+          "TradeDeliverVO3[]",
+          "TradeDeliverVO3",
+          "ConsigneeVO",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "TradeEventLogVO2[]",
+          "TradeEventLogVO2",
+          "Operator",
+          "TradeGrouponVO",
+          " '2' ",
+          " '3'",
+          "TradeItemVO3[]",
+          "TradeItemVO3",
+          "TradeMarketingVO[]",
+          "TradeMarketingVO",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO",
+          "TradePriceVO2",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO",
+          "TradeStateVO3",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'",
+          "Pageable2",
+          "Sort3",
+          "Sort6"
+        ]
+      },
+      "defaultPay": {
+        "responseTs": []
+      },
+      "logistics": {
+        "responseTs": []
+      },
+      "distributeDetails": {
+        "responseTs": [
+          "TradeVO",
+          "BuyerVO2",
+          "TradeCommissionVO[]",
+          "TradeCommissionVO",
+          "ConsigneeVO3",
+          "TradeDistributeItemVO[]",
+          "TradeDistributeItemVO",
+          "TradeDistributeItemCommissionVO[]",
+          "TradeDistributeItemCommissionVO",
+          "TradeItemVO2[]",
+          "TradeItemVO2",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "InvoiceVO",
+          "GeneralInvoiceVO",
+          "SpecialInvoiceVO",
+          "'SUPPLIER' ",
+          " 'WECHAT' ",
+          " 'PC' ",
+          " 'APP' ",
+          " 'LITTLEPROGRAM'",
+          "PayInfoVO2",
+          "",
+          " 'UNIONPAY'\n",
+          " 'WECHAT'\n",
+          " 'ALIPAY'\n",
+          " 'ADVANCE'\n",
+          " 'POINT'\n",
+          " 'CASH'\n",
+          " 'UNIONPAY_B2B'\n",
+          " 'COUPON'\n",
+          " 'BALANCE'",
+          "'NO_LIMIT' ",
+          " 'PAY_FIRST'",
+          "'BOSS' ",
+          " 'CUSTOMER' ",
+          " 'THIRD' ",
+          " 'SUPPLIER' ",
+          " 'PLATFORM'",
+          "SellerVO2",
+          "SupplierVO2",
+          "TradeCouponVO",
+          "TradeDeliverVO3[]",
+          "TradeDeliverVO3",
+          "ConsigneeVO",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "TradeEventLogVO2[]",
+          "TradeEventLogVO2",
+          "Operator",
+          "TradeGrouponVO",
+          " '2' ",
+          " '3'",
+          "TradeItemVO3[]",
+          "TradeItemVO3",
+          "TradeMarketingVO[]",
+          "TradeMarketingVO",
+          "MarketingFullDiscountLevelVO",
+          "MarketingFullGiftLevelVO",
+          "MarketingFullGiftDetailVO[]",
+          "MarketingFullGiftDetailVO",
+          "MarketingFullReductionLevelVO",
+          "TradePriceVO2",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO",
+          "TradeStateVO3",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'"
+        ]
+      },
+      "encloses": {
+        "responseTs": []
+      },
+      "getFreight": {
+        "responseTs": [
+          "TradeGetFreightResponseArray"
+        ]
+      },
+      "tradeItems": {
+        "responseTs": [
+          "TradeItemVOArray"
+        ]
+      },
+      "grouponBuy": {
+        "responseTs": []
+      },
+      "immediateBuy": {
+        "responseTs": []
+      },
+      "invoice": {
+        "responseTs": [
+          "InvoiceVO",
+          "GeneralInvoiceVO",
+          "SpecialInvoiceVO"
+        ]
+      },
+      "grouponPage": {
+        "responseTs": [
+          "PageGrouponTradeVO",
+          "GrouponTradeVO[]",
+          "GrouponTradeVO",
+          "GrouponInstanceVO",
+          "'0' ",
+          " '1' ",
+          " '2' ",
+          " '3'",
+          "SellerVO3",
+          "SupplierVO3",
+          "TradeGrouponVO2",
+          "TradeItemVO5[]",
+          "TradeItemVO5",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          " '2'",
+          "TradePriceVO3",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO",
+          "TradeStateVO4",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          "",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'",
+          "Pageable3",
+          "Sort3",
+          "Sort7"
+        ]
+      },
+      "createPayOrder": {
+        "responseTs": []
+      },
+      "payOrder": {
+        "responseTs": [
+          "FindPayOrderResponse",
+          "'0' ",
+          " '1'"
+        ]
+      },
+      "payOrders": {
+        "responseTs": [
+          "FindPayOrderListResponse",
+          "PayOrderDetailVO[]",
+          "PayOrderDetailVO",
+          "'0' ",
+          " '1'"
+        ]
+      },
+      "getPurchaseItems": {
+        "responseTs": [
+          "TradeConfirmResponse",
+          "CouponCodeVO[]",
+          "CouponCodeVO",
+          "TradeConfirmItemVO[]",
+          "TradeConfirmItemVO",
+          "DiscountsVO[]",
+          "DiscountsVO",
+          "'0' ",
+          " '1' ",
+          " '2'",
+          "TradeItemVO6[]",
+          "TradeItemVO6",
+          "CouponSettlementVO[]",
+          "CouponSettlementVO",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "MarketingSettlementVO[]",
+          "MarketingSettlementVO",
+          "SupplierVO4",
+          "TradeItemVO7[]",
+          "TradeItemVO7",
+          "TradePriceVO4",
+          "DiscountsPriceDetailVO[]",
+          "DiscountsPriceDetailVO"
+        ]
+      },
+      "shippItemsByLogisticsNo": {
+        "responseTs": [
+          "TradeDeliverVO",
+          "ConsigneeVO",
+          "ShippingItemVO[]",
+          "ShippingItemVO",
+          "LogisticsVO",
+          "ShippingItemVO1[]",
+          "ShippingItemVO1",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'"
+        ]
+      },
+      "commitResp": {
+        "responseTs": [
+          "TradeCommitResultVO",
+          "'NO_LIMIT' ",
+          " 'PAY_FIRST'",
+          "TradeStateVO2",
+          "'NON_CHECKED' ",
+          " 'CHECKED' ",
+          " 'REJECTED'",
+          "'NOT_YET_SHIPPED' ",
+          " 'SHIPPED' ",
+          " 'PART_SHIPPED' ",
+          " 'VOID'",
+          "",
+          " 'INIT'\n",
+          " 'REMEDY'\n",
+          " 'REFUND'\n",
+          " 'AUDIT'\n",
+          " 'DELIVERED_PART'\n",
+          " 'DELIVERED'\n",
+          " 'CONFIRMED'\n",
+          " 'COMPLETED'\n",
+          " 'VOID'\n",
+          " 'GROUPON'"
+        ]
+      },
+      "storeBagsBuy": {
+        "responseTs": []
+      }
+    }
+  },
+  "UmengConfigController": {
+    "fileName": "UmengConfigController",
+    "methods": {
+      "add": {
+        "responseTs": [
+          "UmengTokenAddResponse",
+          "UmengTokenVO"
+        ]
+      },
+      "getConfigDetail": {
+        "responseTs": [
+          "PushCustomerEnableByIdResponse",
+          "PushCustomerEnableVO"
+        ]
+      },
+      "getUmengConfig": {
+        "responseTs": [
+          "UmengPushConfigByIdResponse",
+          "UmengPushConfigVO"
+        ]
+      },
+      "modifyConfig": {
+        "responseTs": []
+      }
+    }
+  },
+  "WeChatPublicPlatformController": {
+    "fileName": "WeChatPublicPlatformController",
+    "methods": {
+      "getSign": {
+        "responseTs": [
+          "TicketResponse"
+        ]
+      }
+    }
+  },
+  "WechatLoginController": {
+    "fileName": "WechatLoginController",
+    "methods": {
+      "weChatQuickLogin": {
+        "responseTs": [
+          "ThirdLoginResponse",
+          "WechatBaseInfoResponse",
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "null",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "weChatBind": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "null",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "getDepositUerInfo": {
+        "responseTs": [
+          "WechatBaseInfoResponse"
+        ]
+      },
+      "getWeappLoinInfo": {
+        "responseTs": [
+          "LoginResponse",
+          "GetRegisterOrStoreCouponResponse",
+          "GetCouponGroupResponse[]",
+          "GetCouponGroupResponse",
+          "CustomerDetailVO",
+          "CustomerVO",
+          "null",
+          "DistributeChannel",
+          "StoreCustomerRelaVO[]",
+          "StoreCustomerRelaVO"
+        ]
+      },
+      "getWechatLoginSetDetail": {
+        "responseTs": [
+          "WechatSetDetailResponse"
+        ]
+      },
+      "getWechatServerStatus": {
+        "responseTs": []
+      },
+      "getWeappOpenId": {
+        "responseTs": [
+          "GetWeAppOpenIdResponse"
+        ]
+      }
+    }
+  },
+  "XsiteController": {
+    "fileName": "XsiteController",
+    "methods": {
+      "skuList": {
+        "responseTs": []
+      }
+    }
+  }
+}

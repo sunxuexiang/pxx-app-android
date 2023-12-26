@@ -1,0 +1,367 @@
+{
+  "CustomerLevelWithRightsResponse": {
+    "customerLevelVOList": [
+      {
+        "createPerson": "consectetur elit ex in",
+        "createTime": "1973-07-08T04:01:55.589Z",
+        "customerLevelDiscount": -32737586.41591224,
+        "customerLevelId": -41048384,
+        "customerLevelName": "sit",
+        "customerLevelRightsVOS": [
+          {
+            "activityId": "dolore pariatur",
+            "delFlag": "1",
+            "rightsDescription": "aliqua anim irure amet",
+            "rightsId": 34233628,
+            "rightsLogo": "sed velit",
+            "rightsName": "proident veniam dolore",
+            "rightsRule": "consectetur nostrud enim ",
+            "rightsType": "0",
+            "sort": 54827934,
+            "status": -5406
+          },
+          {
+            "activityId": "esse incididunt cillum",
+            "delFlag": "1",
+            "rightsDescription": "aute qui",
+            "rightsId": 58054961,
+            "rightsLogo": "in ut",
+            "rightsName": "cillum co",
+            "rightsRule": "sed dolor sunt",
+            "rightsType": "3",
+            "sort": -10799969,
+            "status": 5203813
+          },
+          {
+            "activityId": "a",
+            "delFlag": "0",
+            "rightsDescription": "Lorem sint voluptate magna in",
+            "rightsId": -21341575,
+            "rightsLogo": "aliquip Lorem voluptate",
+            "rightsName": "quis dolor commodo consectetur",
+            "rightsRule": "in sit",
+            "rightsType": "3",
+            "sort": 99508189,
+            "status": -4130005
+          },
+          {
+            "activityId": "officia est",
+            "delFlag": "0",
+            "rightsDescription": "nisi ea pariatur",
+            "rightsId": -85988225,
+            "rightsLogo": "officia",
+            "rightsName": "anim eiusmod",
+            "rightsRule": "occaecat pariatur reprehenderit m",
+            "rightsType": "3",
+            "sort": -37772271,
+            "status": -73479204
+          },
+          {
+            "activityId": "dolore",
+            "delFlag": "0",
+            "rightsDescription": "elit",
+            "rightsId": -72813477,
+            "rightsLogo": "Excepteur tempor qui labore fugiat",
+            "rightsName": "sed",
+            "rightsRule": "Ut culpa",
+            "rightsType": "0",
+            "sort": -46518506,
+            "status": 70174365
+          }
+        ],
+        "delFlag": 0,
+        "deletePerson": "consequat",
+        "deleteTime": "1975-05-11T20:57:25.913Z",
+        "growthValue": -1097167,
+        "isDefalt": 0,
+        "rankBadgeImg": "minim adipisicing",
+        "updatePerson": "ex",
+        "updateTime": "1958-11-29T16:49:15.171Z"
+      },
+      {
+        "createPerson": "ullamco adipisicing anim",
+        "createTime": "1978-10-04T23:07:53.709Z",
+        "customerLevelDiscount": -84885817.40598637,
+        "customerLevelId": 26443122,
+        "customerLevelName": "elit sint dolore",
+        "customerLevelRightsVOS": [
+          {
+            "activityId": "dolor est occaecat aute",
+            "delFlag": "1",
+            "rightsDescription": "ad magna Excepteur do",
+            "rightsId": -88225147,
+            "rightsLogo": "laboris anim magna elit culpa",
+            "rightsName": "cupidatat laboris nostrud sit",
+            "rightsRule": "aute ",
+            "rightsType": "5",
+            "sort": 99044937,
+            "status": -81588531
+          },
+          {
+            "activityId": "in aliquip minim magna",
+            "delFlag": "0",
+            "rightsDescription": "Duis",
+            "rightsId": 88032624,
+            "rightsLogo": "est quis nisi elit",
+            "rightsName": "qui eu laboris in",
+            "rightsRule": "in aute",
+            "rightsType": "3",
+            "sort": 68817228,
+            "status": -34335134
+          },
+          {
+            "activityId": "ullamco cillum anim",
+            "delFlag": "1",
+            "rightsDescription": "aute cillum",
+            "rightsId": 26502906,
+            "rightsLogo": "sed quis",
+            "rightsName": "magna nostrud amet",
+            "rightsRule": "Excepteur",
+            "rightsType": "4",
+            "sort": -86023108,
+            "status": -5257981
+          },
+          {
+            "activityId": "minim consectetur ame",
+            "delFlag": "0",
+            "rightsDescription": "dolor eu dolore",
+            "rightsId": -79655679,
+            "rightsLogo": "d",
+            "rightsName": "in dolore ut cillum",
+            "rightsRule": "dolore Ut deserunt",
+            "rightsType": "2",
+            "sort": 61811933,
+            "status": -6423909
+          },
+          {
+            "activityId": "nulla sunt in exerci",
+            "delFlag": "0",
+            "rightsDescription": "vel",
+            "rightsId": -32290344,
+            "rightsLogo": "ali",
+            "rightsName": "dolor Lorem",
+            "rightsRule": "laboris",
+            "rightsType": "2",
+            "sort": 85968989,
+            "status": 71895923
+          }
+        ],
+        "delFlag": 1,
+        "deletePerson": "sint quis ipsum m",
+        "deleteTime": "2012-04-13T18:24:47.228Z",
+        "growthValue": 51355564,
+        "isDefalt": 0,
+        "rankBadgeImg": "i",
+        "updatePerson": "elit minim irure aliqua laboris",
+        "updateTime": "1978-03-06T17:58:00.7Z"
+      },
+      {
+        "createPerson": "laboris incididunt adipisicing",
+        "createTime": "1988-06-09T19:32:00.532Z",
+        "customerLevelDiscount": -79287384.014142,
+        "customerLevelId": 80912562,
+        "customerLevelName": "eiusmod aute",
+        "customerLevelRightsVOS": [
+          {
+            "activityId": "Duis",
+            "delFlag": "1",
+            "rightsDescription": "cillum",
+            "rightsId": -54524052,
+            "rightsLogo": "ea non enim et",
+            "rightsName": "dolor incididunt tempor veniam",
+            "rightsRule": "ex mollit exercitation tempor anim",
+            "rightsType": "1",
+            "sort": -79861275,
+            "status": 22908917
+          },
+          {
+            "activityId": "officia c",
+            "delFlag": "0",
+            "rightsDescription": "sed nulla",
+            "rightsId": 15210339,
+            "rightsLogo": "ut culpa",
+            "rightsName": "occaecat ad dolore in est",
+            "rightsRule": "consequat reprehenderit ad",
+            "rightsType": "2",
+            "sort": 60233427,
+            "status": 10729051
+          },
+          {
+            "activityId": "quis cillum in",
+            "delFlag": "0",
+            "rightsDescription": "sunt ut Ut",
+            "rightsId": -94225697,
+            "rightsLogo": "consequat",
+            "rightsName": "sunt",
+            "rightsRule": "pariatur et",
+            "rightsType": "0",
+            "sort": -45840716,
+            "status": -40554494
+          },
+          {
+            "activityId": "aliqua est tempor",
+            "delFlag": "1",
+            "rightsDescription": "Duis",
+            "rightsId": 96413172,
+            "rightsLogo": "labore exercitation",
+            "rightsName": "voluptate",
+            "rightsRule": "ea dolore",
+            "rightsType": "3",
+            "sort": 38134590,
+            "status": 2841979
+          }
+        ],
+        "delFlag": 0,
+        "deletePerson": "eu ipsum",
+        "deleteTime": "2003-10-27T23:58:54.512Z",
+        "growthValue": -93011975,
+        "isDefalt": 1,
+        "rankBadgeImg": "laborum aliqua voluptate ea elit",
+        "updatePerson": "aliqua",
+        "updateTime": "1970-12-13T15:48:20.391Z"
+      },
+      {
+        "createPerson": "reprehenderit dolor minim fugiat dolore",
+        "createTime": "2017-06-22T23:01:41.917Z",
+        "customerLevelDiscount": -46297681.15519406,
+        "customerLevelId": 29318427,
+        "customerLevelName": "adipisicing eiusmod nulla culpa proident",
+        "customerLevelRightsVOS": [
+          {
+            "activityId": "nostrud ex ea Excepteur",
+            "delFlag": "0",
+            "rightsDescription": "labore in nulla Duis",
+            "rightsId": 88822920,
+            "rightsLogo": "r",
+            "rightsName": "non cillum esse",
+            "rightsRule": "in labore nulla",
+            "rightsType": "0",
+            "sort": 47680848,
+            "status": 98383620
+          },
+          {
+            "activityId": "ut et dolor ipsum amet",
+            "delFlag": "0",
+            "rightsDescription": "nostrud officia dolor velit consequat",
+            "rightsId": 70119901,
+            "rightsLogo": "reprehenderit quis",
+            "rightsName": "consectetur Lorem sed ut mollit",
+            "rightsRule": "labore deserunt",
+            "rightsType": "1",
+            "sort": -69404418,
+            "status": 36293924
+          },
+          {
+            "activityId": "Duis",
+            "delFlag": "1",
+            "rightsDescription": "dolore exercitation sunt",
+            "rightsId": 30327722,
+            "rightsLogo": "do consectetur consequat",
+            "rightsName": "sit Duis ea cillum voluptate",
+            "rightsRule": "eiusmod nisi irure",
+            "rightsType": "4",
+            "sort": -9981729,
+            "status": 3110394
+          },
+          {
+            "activityId": "in ut dolore",
+            "delFlag": "0",
+            "rightsDescription": "nisi Ut",
+            "rightsId": -29745040,
+            "rightsLogo": "exercitation",
+            "rightsName": "dolor cillum",
+            "rightsRule": "tempor",
+            "rightsType": "3",
+            "sort": -4655563,
+            "status": -32868011
+          },
+          {
+            "activityId": "Ut",
+            "delFlag": "1",
+            "rightsDescription": "laborum dolor nulla sint officia",
+            "rightsId": -70910476,
+            "rightsLogo": "ut elit",
+            "rightsName": "velit e",
+            "rightsRule": "quis Ut cillum dolore qui",
+            "rightsType": "0",
+            "sort": -30507528,
+            "status": 31542401
+          }
+        ],
+        "delFlag": 0,
+        "deletePerson": "dolor non",
+        "deleteTime": "1998-01-12T12:07:00.156Z",
+        "growthValue": -89686562,
+        "isDefalt": 0,
+        "rankBadgeImg": "fugiat ex occaecat exercitation minim",
+        "updatePerson": "minim Duis fugiat ea",
+        "updateTime": "1967-09-26T08:18:48.955Z"
+      },
+      {
+        "createPerson": "aliqua",
+        "createTime": "1992-08-07T22:43:31.147Z",
+        "customerLevelDiscount": -86784947.96306229,
+        "customerLevelId": -87609402,
+        "customerLevelName": "elit",
+        "customerLevelRightsVOS": [
+          {
+            "activityId": "nisi",
+            "delFlag": "0",
+            "rightsDescription": "Ut",
+            "rightsId": -89978220,
+            "rightsLogo": "incididunt enim deserunt",
+            "rightsName": "eiusmod sed dolore id sunt",
+            "rightsRule": "reprehenderit exercitation ex",
+            "rightsType": "3",
+            "sort": -51338326,
+            "status": 40674574
+          },
+          {
+            "activityId": "dolore in",
+            "delFlag": "0",
+            "rightsDescription": "id ipsum et",
+            "rightsId": 97195770,
+            "rightsLogo": "est",
+            "rightsName": "eiusmod",
+            "rightsRule": "consectetur labore",
+            "rightsType": "4",
+            "sort": -33142703,
+            "status": 1294372
+          },
+          {
+            "activityId": "",
+            "delFlag": "1",
+            "rightsDescription": "labore commodo",
+            "rightsId": -60587364,
+            "rightsLogo": "consectetur tempor est amet",
+            "rightsName": "elit nulla anim nisi",
+            "rightsRule": "conse",
+            "rightsType": "0",
+            "sort": 51494588,
+            "status": 4892602
+          },
+          {
+            "activityId": "consequat proident eu sed ut",
+            "delFlag": "0",
+            "rightsDescription": "anim reprehenderit non consectetur in",
+            "rightsId": 80956367,
+            "rightsLogo": "nostrud reprehenderit elit",
+            "rightsName": "amet sed",
+            "rightsRule": "fugiat anim",
+            "rightsType": "4",
+            "sort": 97850015,
+            "status": 33828077
+          }
+        ],
+        "delFlag": 0,
+        "deletePerson": "velit consectetur Lorem",
+        "deleteTime": "1977-08-30T04:09:16.215Z",
+        "growthValue": -47057559,
+        "isDefalt": 0,
+        "rankBadgeImg": "esse",
+        "updatePerson": "exercitation irure veniam nostrud",
+        "updateTime": "2000-04-13T14:49:53.774Z"
+      }
+    ]
+  }
+}

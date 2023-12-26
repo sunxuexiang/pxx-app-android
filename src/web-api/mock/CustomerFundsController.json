@@ -1,0 +1,71 @@
+{
+  "MicroServicePageCustomerFundsDetailVO": {
+    "content": [
+      {
+        "accountBalance": -49465209.51454039,
+        "businessId": "elit c",
+        "createTime": "1995-06-15T03:11:31.43Z",
+        "customerFundsDetailId": "do veniam Duis nostrud Lorem",
+        "fundsType": "3",
+        "receiptPaymentAmount": -21734771.87927419,
+        "subType": 3
+      },
+      {
+        "accountBalance": 56836454.955783784,
+        "businessId": "ad Ut eiusmod quis",
+        "createTime": "1973-10-06T08:56:17.193Z",
+        "customerFundsDetailId": "ut proident",
+        "fundsType": "4",
+        "receiptPaymentAmount": -61901760.50667495,
+        "subType": 2
+      },
+      {
+        "accountBalance": 10140821.530951038,
+        "businessId": "ni",
+        "createTime": "1956-04-20T16:50:19.322Z",
+        "customerFundsDetailId": "esse do eu Excepteur in",
+        "fundsType": "4",
+        "receiptPaymentAmount": 29295568.15044965,
+        "subType": 7
+      },
+      {
+        "accountBalance": 38429355.387683004,
+        "businessId": "in ipsum sit amet",
+        "createTime": "1960-12-09T20:19:43.598Z",
+        "customerFundsDetailId": "in minim",
+        "fundsType": "2",
+        "receiptPaymentAmount": 94175120.50231293,
+        "subType": 7
+      },
+      {
+        "accountBalance": 18948473.767203525,
+        "businessId": "in proident laborum sint esse",
+        "createTime": "1955-07-31T08:11:32.748Z",
+        "customerFundsDetailId": "Excepteur deserunt ad id",
+        "fundsType": "3",
+        "receiptPaymentAmount": 9438126.332638681,
+        "subType": 0
+      }
+    ],
+    "empty": true,
+    "first": false,
+    "last": false,
+    "number": -16520023,
+    "numberOfElements": 25695635,
+    "size": -73099512,
+    "sort": {
+      "empty": true,
+      "sorted": true,
+      "unsorted": true
+    },
+    "total": 84244870,
+    "totalElements": 37344355,
+    "totalPages": -63623543
+  },
+  "CustomerFundsStatisticsResponse": {
+    "accountBalanceTotal": 78187325.51343733,
+    "alreadyDrawAmount": 69028923.16906968,
+    "blockedBalanceTotal": 48294487.715240926,
+    "withdrawAmountTotal": 2563201.2054554075
+  }
+}

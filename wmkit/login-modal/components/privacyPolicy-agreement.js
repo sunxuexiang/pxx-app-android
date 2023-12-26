@@ -1,0 +1,110 @@
+import React from 'react';
+import {
+  View,
+  ScrollView,
+  Platform,
+  TouchableOpacity,
+  Image,
+  StyleSheet,
+  Text
+} from 'react-native';
+
+import AutoHeightWebView from 'react-native-autoheight-webview';
+import { Relax } from 'plume2';
+import { isAndroid } from 'wmkit/styles/index';
+import * as _ from '../../common/util';
+import { Header } from '@/wmkit';
+
+const styleHtml = ` 
+ <style type="text/css">
+	img {width: 100%; padding: 0; margin: 0; border: 0}
+	p,li,ul { padding:0 3px; margin: 0; }
+ </style> 
+ <meta name="format-detection" content="telephone=no" />
+ <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+`;
+
+/**
+ * 隐私政策
+ */
+@Relax
+export default class PrivacyPolicyAgreement extends React.Component {
+  static relaxProps = {
+    toggleShowPrivacyPolicyAgreement: () => {},
+    privacyPolicyContent: 'privacyPolicyContent'
+  };
+
+  componentDidMount() {}
+
+  render() {
+    const { toggleShowPrivacyPolicyAgreement, privacyPolicyContent } = this.props.relaxProps;
+    return (
+      <View style={styles.agreeContent}>
+          {/*关闭注册协议，保留注册弹窗*/}
+          <Header
+            title="隐私政策"
+            onLeftMenuPress={() => {
+              toggleShowPrivacyPolicyAgreement();
+            }}
+          />
+        <ScrollView>
+          <AutoHeightWebView
+            enableBaseUrl={true}
+            source={{
+              html: styleHtml + privacyPolicyContent
+            }}
+            scalesPageToFit={Platform.OS === 'android' ? true : false}
+          />
+        </ScrollView>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  agreeContent: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    backgroundColor: '#fff'
+  },
+  leftImgBox: {
+    position: 'absolute',
+    left:0
+  },
+  container: {
+    ..._.ifIphoneX(
+      {
+        paddingTop: 35,
+        height: 80
+      },
+      {
+        height: isAndroid ? 50 : 60,
+        paddingTop: isAndroid ? 0 : 15
+      },
+    ),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent:'center',
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: '#ececec'
+  },
+  titleText: {
+    color: '#ffffff',
+    fontSize: 18,
+    fontWeight: '400'
+  },
+  img: {
+    tintColor: '#000',
+    width: 10,
+    height: 18
+  },
+  textContent: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+
+});

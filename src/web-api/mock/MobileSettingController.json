@@ -1,0 +1,21 @@
+{
+  "noneName": {},
+  "AppShareSettingGetResponse": {
+    "androidUrl": "ad qui deserunt",
+    "desc": "Excepteur in consequat cupidatat",
+    "downloadImg": "cillum in",
+    "downloadUrl": "nostrud",
+    "enabled": true,
+    "icon": "quis eu esse",
+    "iosUrl": "pariatur",
+    "shareImg": "officia cupidatat",
+    "title": "culpa nisi quis laboris dolor"
+  },
+  "AppUpgradeGetResponse": {
+    "androidAddress": "exercitation non",
+    "appAddress": "Lorem ullamco",
+    "forceUpdateFlag": 56891133,
+    "latestVersion": "Lorem",
+    "upgradeDesc": "cupidatat officia amet"
+  }
+}
